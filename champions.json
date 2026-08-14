@@ -1,0 +1,870 @@
+window.GOLDEN_ROAD_CHAMPIONS =   {
+  "version": "1.8",
+  "updated": "2026-08-14",
+  "description": "冠军战队与冠军选手数据（score = 总人数 - 排名 + 1，与 players.json 计分规则一致）",
+  "championTeams": [
+    {
+      "id": "EDG-2026第一赛段",
+      "year": "2026",
+      "event": "2026第一赛段",
+      "team": "EDG",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 62
+        },
+        {
+          "name": "Smoggy",
+          "score": 57
+        },
+        {
+          "name": "CHICHOO",
+          "score": 42
+        },
+        {
+          "name": "Jieni7",
+          "score": 21
+        },
+        {
+          "name": "nobody",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "EDG-2025启点赛",
+      "year": "2025",
+      "event": "2025启点赛",
+      "team": "EDG",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 61
+        },
+        {
+          "name": "Smoggy",
+          "score": 46
+        },
+        {
+          "name": "CHICHOO",
+          "score": 42
+        },
+        {
+          "name": "nobody",
+          "score": 39
+        },
+        {
+          "name": "S1Mon",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "T1-曼谷大师赛",
+      "year": "2025",
+      "event": "曼谷大师赛",
+      "team": "T1",
+      "players": [
+        {
+          "name": "BuZz",
+          "score": 39
+        },
+        {
+          "name": "Meteor",
+          "score": 34
+        },
+        {
+          "name": "iZu",
+          "score": 25
+        },
+        {
+          "name": "Sylvan",
+          "score": 15
+        },
+        {
+          "name": "stax",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "XLG-2025第一赛段",
+      "year": "2025",
+      "event": "2025第一赛段",
+      "team": "XLG",
+      "players": [
+        {
+          "name": "Rarga",
+          "score": 64
+        },
+        {
+          "name": "happywei",
+          "score": 56
+        },
+        {
+          "name": "YOU",
+          "score": 26
+        },
+        {
+          "name": "Viva",
+          "score": 21
+        },
+        {
+          "name": "coconut",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "id": "PRX-多伦多大师赛",
+      "year": "2025",
+      "event": "多伦多大师赛",
+      "team": "PRX",
+      "players": [
+        {
+          "name": "Jinggg",
+          "score": 54
+        },
+        {
+          "name": "f0rsakeN",
+          "score": 44
+        },
+        {
+          "name": "PatMen",
+          "score": 38
+        },
+        {
+          "name": "something",
+          "score": 37
+        },
+        {
+          "name": "d4v41",
+          "score": 34
+        }
+      ]
+    },
+    {
+      "id": "BLG-2025第二赛段",
+      "year": "2025",
+      "event": "2025第二赛段",
+      "team": "BLG",
+      "players": [
+        {
+          "name": "whzy",
+          "score": 61
+        },
+        {
+          "name": "Rushia",
+          "score": 51
+        },
+        {
+          "name": "Knight",
+          "score": 49
+        },
+        {
+          "name": "Nephh",
+          "score": 38
+        },
+        {
+          "name": "Levius",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "id": "NRG-巴黎全球冠军赛",
+      "year": "2025",
+      "event": "巴黎全球冠军赛",
+      "team": "NRG",
+      "players": [
+        {
+          "name": "brawk",
+          "score": 74
+        },
+        {
+          "name": "mada",
+          "score": 65
+        },
+        {
+          "name": "s0m",
+          "score": 50
+        },
+        {
+          "name": "skuba",
+          "score": 40
+        },
+        {
+          "name": "Ethan",
+          "score": 31
+        }
+      ]
+    },
+    {
+      "id": "LEV-伦敦大师赛",
+      "year": "2026",
+      "event": "伦敦大师赛",
+      "team": "LEV",
+      "players": [
+        {
+          "name": "spike",
+          "score": 56
+        },
+        {
+          "name": "Sato",
+          "score": 54
+        },
+        {
+          "name": "Neon",
+          "score": 50
+        },
+        {
+          "name": "blowz",
+          "score": 22
+        },
+        {
+          "name": "kiNgg",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": "EDG-2024启点赛",
+      "year": "2024",
+      "event": "2024启点赛",
+      "team": "EDG",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 55
+        },
+        {
+          "name": "nobody",
+          "score": 38
+        },
+        {
+          "name": "CHICHOO",
+          "score": 37
+        },
+        {
+          "name": "Smoggy",
+          "score": 19
+        },
+        {
+          "name": "Haodong",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "SEN-马德里大师赛",
+      "year": "2024",
+      "event": "马德里大师赛",
+      "team": "SEN",
+      "players": [
+        {
+          "name": "zekken",
+          "score": 40
+        },
+        {
+          "name": "TenZ",
+          "score": 25
+        },
+        {
+          "name": "johnqt",
+          "score": 21
+        },
+        {
+          "name": "Zellsis",
+          "score": 18
+        },
+        {
+          "name": "Sacy",
+          "score": 12
+        }
+      ]
+    },
+    {
+      "id": "EDG-2024第一赛段",
+      "year": "2024",
+      "event": "2024第一赛段",
+      "team": "EDG",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 58
+        },
+        {
+          "name": "nobody",
+          "score": 36
+        },
+        {
+          "name": "Smoggy",
+          "score": 35
+        },
+        {
+          "name": "CHICHOO",
+          "score": 24
+        },
+        {
+          "name": "Haodong",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "GEN-上海大师赛",
+      "year": "2024",
+      "event": "上海大师赛",
+      "team": "GEN",
+      "players": [
+        {
+          "name": "t3xture",
+          "score": 57
+        },
+        {
+          "name": "Meteor",
+          "score": 52
+        },
+        {
+          "name": "Karon",
+          "score": 28
+        },
+        {
+          "name": "Lakia",
+          "score": 23
+        },
+        {
+          "name": "Munchkin",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": "EDG-2024第二赛段",
+      "year": "2024",
+      "event": "2024第二赛段",
+      "team": "EDG",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 58
+        },
+        {
+          "name": "nobody",
+          "score": 39
+        },
+        {
+          "name": "Smoggy",
+          "score": 36
+        },
+        {
+          "name": "CHICHOO",
+          "score": 33
+        },
+        {
+          "name": "S1Mon",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "id": "EDG-首尔全球冠军赛",
+      "year": "2024",
+      "event": "首尔全球冠军赛",
+      "team": "EDG",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 78
+        },
+        {
+          "name": "CHICHOO",
+          "score": 67
+        },
+        {
+          "name": "Smoggy",
+          "score": 62
+        },
+        {
+          "name": "nobody",
+          "score": 23
+        },
+        {
+          "name": "S1Mon",
+          "score": 10
+        }
+      ]
+    }
+  ],
+  "championPlayers": [
+    "ZmjjKK",
+    "Smoggy",
+    "CHICHOO",
+    "Jieni7",
+    "nobody",
+    "S1Mon",
+    "BuZz",
+    "Meteor",
+    "iZu",
+    "Sylvan",
+    "stax",
+    "Carpe",
+    "Rarga",
+    "happywei",
+    "YOU",
+    "Viva",
+    "coconut",
+    "Jinggg",
+    "f0rsakeN",
+    "PatMen",
+    "something",
+    "d4v41",
+    "whzy",
+    "Rushia",
+    "Knight",
+    "Nephh",
+    "Levius",
+    "brawk",
+    "mada",
+    "s0m",
+    "skuba",
+    "Ethan",
+    "spike",
+    "Sato",
+    "Neon",
+    "blowz",
+    "kiNgg",
+    "Haodong",
+    "zekken",
+    "TenZ",
+    "johnqt",
+    "Zellsis",
+    "Sacy",
+    "t3xture",
+    "Karon",
+    "Lakia",
+    "Munchkin"
+  ],
+  "bosses": [
+    {
+      "floor": 1,
+      "year": "2024",
+      "event": "马德里大师赛",
+      "team": "SEN",
+      "title": "马德里王座",
+      "desc": "2024 马德里大师赛冠军 • 破晓之师",
+      "players": [
+        {
+          "name": "zekken",
+          "score": 40
+        },
+        {
+          "name": "TenZ",
+          "score": 25
+        },
+        {
+          "name": "johnqt",
+          "score": 21
+        },
+        {
+          "name": "Zellsis",
+          "score": 18
+        },
+        {
+          "name": "Sacy",
+          "score": 12
+        }
+      ]
+    },
+    {
+      "floor": 2,
+      "year": "2025",
+      "event": "曼谷大师赛",
+      "team": "T1",
+      "title": "曼谷王座",
+      "desc": "2025 曼谷大师赛冠军 • 加冕之师",
+      "players": [
+        {
+          "name": "BuZz",
+          "score": 39
+        },
+        {
+          "name": "Meteor",
+          "score": 34
+        },
+        {
+          "name": "iZu",
+          "score": 25
+        },
+        {
+          "name": "Sylvan",
+          "score": 15
+        },
+        {
+          "name": "stax",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "floor": 3,
+      "year": "2024",
+      "event": "2024启点赛",
+      "team": "EDG",
+      "title": "启点王座",
+      "desc": "2024 启点赛冠军 • 王朝起点",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 55
+        },
+        {
+          "name": "nobody",
+          "score": 38
+        },
+        {
+          "name": "CHICHOO",
+          "score": 37
+        },
+        {
+          "name": "Smoggy",
+          "score": 19
+        },
+        {
+          "name": "Haodong",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "floor": 4,
+      "year": "2024",
+      "event": "2024第一赛段",
+      "team": "EDG",
+      "title": "赛季王座",
+      "desc": "2024 第一赛段冠军 • 卫冕之师",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 58
+        },
+        {
+          "name": "nobody",
+          "score": 36
+        },
+        {
+          "name": "Smoggy",
+          "score": 35
+        },
+        {
+          "name": "CHICHOO",
+          "score": 24
+        },
+        {
+          "name": "Haodong",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "floor": 5,
+      "year": "2024",
+      "event": "上海大师赛",
+      "team": "GEN",
+      "title": "上海王座",
+      "desc": "2024 上海大师赛冠军 • 主场加冕",
+      "players": [
+        {
+          "name": "t3xture",
+          "score": 57
+        },
+        {
+          "name": "Meteor",
+          "score": 52
+        },
+        {
+          "name": "Karon",
+          "score": 28
+        },
+        {
+          "name": "Lakia",
+          "score": 23
+        },
+        {
+          "name": "Munchkin",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "floor": 6,
+      "year": "2024",
+      "event": "2024第二赛段",
+      "team": "EDG",
+      "title": "赛段王座",
+      "desc": "2024 第二赛段冠军",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 58
+        },
+        {
+          "name": "nobody",
+          "score": 39
+        },
+        {
+          "name": "Smoggy",
+          "score": 36
+        },
+        {
+          "name": "CHICHOO",
+          "score": 33
+        },
+        {
+          "name": "S1Mon",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "floor": 7,
+      "year": "2025",
+      "event": "2025第一赛段",
+      "team": "XLG",
+      "title": "新锐王座",
+      "desc": "2025 第一赛段冠军 • 五虎守关",
+      "players": [
+        {
+          "name": "Rarga",
+          "score": 64
+        },
+        {
+          "name": "happywei",
+          "score": 56
+        },
+        {
+          "name": "YOU",
+          "score": 26
+        },
+        {
+          "name": "Viva",
+          "score": 21
+        },
+        {
+          "name": "coconut",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "floor": 8,
+      "year": "2026",
+      "event": "2026第一赛段",
+      "team": "EDG",
+      "title": "联赛王座",
+      "desc": "第一赛段冠军 • 五虎守关",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 62
+        },
+        {
+          "name": "Smoggy",
+          "score": 57
+        },
+        {
+          "name": "CHICHOO",
+          "score": 42
+        },
+        {
+          "name": "Jieni7",
+          "score": 21
+        },
+        {
+          "name": "nobody",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "floor": 9,
+      "year": "2025",
+      "event": "2025启点赛",
+      "team": "EDG",
+      "title": "启点王座",
+      "desc": "2025 CN启点赛冠军 • 五虎守关",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 61
+        },
+        {
+          "name": "Smoggy",
+          "score": 46
+        },
+        {
+          "name": "CHICHOO",
+          "score": 42
+        },
+        {
+          "name": "nobody",
+          "score": 39
+        },
+        {
+          "name": "S1Mon",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "floor": 10,
+      "year": "2026",
+      "event": "伦敦大师赛",
+      "team": "LEV",
+      "title": "伦敦王座",
+      "desc": "2026 伦敦大师赛冠军 • 王座新主",
+      "players": [
+        {
+          "name": "spike",
+          "score": 56
+        },
+        {
+          "name": "Sato",
+          "score": 54
+        },
+        {
+          "name": "Neon",
+          "score": 50
+        },
+        {
+          "name": "blowz",
+          "score": 22
+        },
+        {
+          "name": "kiNgg",
+          "score": 11
+        }
+      ]
+    },
+    {
+      "floor": 11,
+      "year": "2025",
+      "event": "多伦多大师赛",
+      "team": "PRX",
+      "title": "多伦多王座",
+      "desc": "2025 多伦多大师赛冠军 • 加冕之师",
+      "players": [
+        {
+          "name": "Jinggg",
+          "score": 54
+        },
+        {
+          "name": "f0rsakeN",
+          "score": 44
+        },
+        {
+          "name": "PatMen",
+          "score": 38
+        },
+        {
+          "name": "something",
+          "score": 37
+        },
+        {
+          "name": "d4v41",
+          "score": 34
+        }
+      ]
+    },
+    {
+      "floor": 12,
+      "year": "2025",
+      "event": "2025第二赛段",
+      "team": "BLG",
+      "title": "争锋王座",
+      "desc": "2025 第二赛段冠军 • 五虎守关",
+      "players": [
+        {
+          "name": "whzy",
+          "score": 61
+        },
+        {
+          "name": "Rushia",
+          "score": 51
+        },
+        {
+          "name": "Knight",
+          "score": 49
+        },
+        {
+          "name": "Nephh",
+          "score": 38
+        },
+        {
+          "name": "Levius",
+          "score": 17
+        }
+      ]
+    },
+    {
+      "floor": 13,
+      "year": "2024",
+      "event": "首尔全球冠军赛",
+      "team": "EDG",
+      "title": "首尔王座",
+      "desc": "2024 首尔全球冠军赛冠军 • 登顶之师",
+      "players": [
+        {
+          "name": "ZmjjKK",
+          "score": 78
+        },
+        {
+          "name": "CHICHOO",
+          "score": 67
+        },
+        {
+          "name": "Smoggy",
+          "score": 62
+        },
+        {
+          "name": "nobody",
+          "score": 23
+        },
+        {
+          "name": "S1Mon",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "floor": 14,
+      "year": "2025",
+      "event": "巴黎全球冠军赛",
+      "team": "NRG",
+      "title": "巴黎王座",
+      "desc": "2025 巴黎全球冠军赛冠军 • 王座之巅",
+      "players": [
+        {
+          "name": "brawk",
+          "score": 74
+        },
+        {
+          "name": "mada",
+          "score": 65
+        },
+        {
+          "name": "s0m",
+          "score": 50
+        },
+        {
+          "name": "skuba",
+          "score": 40
+        },
+        {
+          "name": "Ethan",
+          "score": 31
+        }
+      ]
+    }
+  ]
+};

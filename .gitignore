@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 临时文件
+_*.py
+_*.png
+_*.txt
+
+# 系统文件
+Thumbs.db
+Desktop.ini

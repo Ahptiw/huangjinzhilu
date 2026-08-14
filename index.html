@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>金光大道 · GOLDEN ROAD | VALORANT</title>
+  <link rel="icon" type="image/jpeg" href="logo.jpg" />
+  <link rel="shortcut icon" type="image/jpeg" href="logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 背景层：神殿光束 + 晶石纹理 + 网格 -->
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-beam"></div>
+    <div class="bg-crystal"></div>
+    <div class="bg-vignette"></div>
+  </div>
+
+  <main class="page">
+
+    <!-- ============ 顶栏 ============ -->
+    <header class="topbar">
+      <div class="brand">
+        <img class="brand-logo" src="logo.jpg" alt="金光大道" />
+        <span class="brand-name">金光大道</span>
+        <span class="brand-en">GOLDEN ROAD</span>
+      </div>
+      <span class="topbar-tag">VALORANT · 2026 赛季</span>
+    </header>
+
+    <div class="layout">
+      <div class="panel-left">
+
+        <!-- ============ 模块 1：顶部标题区 ============ -->
+        <header class="hero">
+      <p class="hero-eyebrow">GOLDEN ROAD&nbsp;·&nbsp;VALORANT</p>
+      <h1 class="hero-title">金光大道</h1>
+      <div class="hero-divider">
+        <span class="divider-line"></span>
+        <span class="divider-diamond"></span>
+        <span class="divider-line"></span>
+      </div>
+      <p class="hero-slogan">选择你的玩法,组建阵容</p>
+    </header>
+
+    <!-- ============ 模块 2：征程节点进度条 ============ -->
+    <section class="journey" aria-label="段位征程节点">
+      <div class="journey-line"></div>
+      <div class="journey-nodes">
+        <div class="node reached" style="--i:0">
+          <div class="hex"><div class="hex-inner">01</div></div>
+          <span class="node-en">KICK-OFF</span>
+          <span class="node-label">启点赛</span>
+        </div>
+        <div class="node reached" style="--i:1">
+          <div class="hex"><div class="hex-inner">02</div></div>
+          <span class="node-en">SANTIAGO</span>
+          <span class="node-label">圣地亚哥大师赛</span>
+        </div>
+        <div class="node reached" style="--i:2">
+          <div class="hex"><div class="hex-inner">03</div></div>
+          <span class="node-en">STAGE 1</span>
+          <span class="node-label">第一赛段</span>
+        </div>
+        <div class="node reached" style="--i:3">
+          <div class="hex"><div class="hex-inner">04</div></div>
+          <span class="node-en">LONDON</span>
+          <span class="node-label">伦敦大师赛</span>
+        </div>
+        <div class="node upcoming" style="--i:4">
+          <div class="hex"><div class="hex-inner">05</div></div>
+          <span class="node-en">STAGE 2</span>
+          <span class="node-label">第二赛段</span>
+        </div>
+        <div class="node upcoming" style="--i:5">
+          <div class="hex"><div class="hex-inner">06</div></div>
+          <span class="node-en">CHAMPIONS</span>
+          <span class="node-label">全球冠军赛</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 模块 3：引导副标题 ============ -->
+    <section class="guide">
+      <p>选择你的<span class="gold-text">契约模式</span>，召唤各赛段<span class="gold-text">职业选手</span>组建五人阵容</p>
+    </section>
+
+      </div>
+
+      <div class="panel-right">
+
+    <!-- ============ 模块 4：可选模式区 ============ -->
+    <section class="modes" aria-label="模式选择">
+      <div class="section-head">
+        <h2>选择玩法模式</h2>
+        <span>CHOOSE YOUR MODE</span>
+      </div>
+      <div class="mode-list">
+
+        <!-- 卡 1：成神试炼 -->
+        <button class="mode-card selected" data-mode="ascension" data-name="成神试炼" style="--i:0" type="button">
+          <span class="mode-icon">
+            <img src="one.jpg" alt="成神试炼" />
+          </span>
+          <span class="mode-info">
+            <span class="card-tag">ASCENSION</span>
+            <span class="card-title">成神试炼</span>
+          </span>
+          <span class="card-state">已选择</span>
+        </button>
+
+        <!-- 卡 2：圆梦模式（禁用） -->
+        <button class="mode-card disabled" style="--i:1" type="button" disabled aria-disabled="true">
+          <span class="mode-icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 5v38M5 24h38" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 24l13-13M24 24 37 37M24 24 11 37M24 24 11 11" stroke="currentColor" stroke-width="2"/>
+              <circle cx="24" cy="24" r="3.5" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="mode-info">
+            <span class="card-tag">DREAM</span>
+            <span class="card-title">圆梦模式</span>
+          </span>
+          <span class="card-state">敬请期待</span>
+        </button>
+
+        <!-- 卡 3：经典模式（禁用） -->
+        <button class="mode-card disabled" style="--i:2" type="button" disabled aria-disabled="true">
+          <span class="mode-icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M24 4c2 10 8 16 20 20-12 4-18 10-20 20-2-10-8-16-20-20C16 20 22 14 24 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="mode-info">
+            <span class="card-tag">CLASSIC</span>
+            <span class="card-title">经典模式</span>
+          </span>
+          <span class="card-state">敬请期待</span>
+        </button>
+
+        <!-- 卡 4：大核模式（禁用） -->
+        <button class="mode-card disabled" style="--i:3" type="button" disabled aria-disabled="true">
+          <span class="mode-icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M8 42h8l18-26a2.8 2.8 0 1 0-4-4L6 34v8h2Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="26" cy="14" r="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M4 46h40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="mode-info">
+            <span class="card-tag">CORE</span>
+            <span class="card-title">大核模式</span>
+          </span>
+          <span class="card-state">敬请期待</span>
+        </button>
+
+        <!-- 卡 5：王朝模式（禁用） -->
+        <button class="mode-card disabled" style="--i:4" type="button" disabled aria-disabled="true">
+          <span class="mode-icon">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <path d="M24 5 42 17l-6 24H12L6 17 24 5Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M24 14v14" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M12 29h24" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </span>
+          <span class="mode-info">
+            <span class="card-tag">DYNASTY</span>
+            <span class="card-title">王朝模式</span>
+          </span>
+          <span class="card-state">敬请期待</span>
+        </button>
+
+      </div>
+    </section>
+
+    <!-- ============ 模块 5：出品署名 ============ -->
+    <section class="credit">
+      <p>金光大道团队 呈现 · 玩家专属</p>
+    </section>
+
+    <!-- ============ 模块 6：规则提示条（文字随所选模式切换） ============ -->
+    <section class="rules-bar">
+      <div class="rules-text">
+        <h4 id="rules-title">九冠王者 巅峰连战</h4>
+        <p id="rules-desc">集结强者，让阵容所向披靡</p>
+      </div>
+      <button class="rules-btn" id="rules-btn" type="button">完整规则</button>
+    </section>
+
+    <!-- ============ 模块 7：底部主行动按钮 ============ -->
+    <section class="cta-section">
+      <button class="cta-btn" id="cta-btn" type="button">
+        <span class="cta-text" id="cta-text">开始成神试炼</span>
+        <span class="cta-arrow">➤</span>
+      </button>
+      <p class="cta-hint">点击选择上方模式 · 阵容将沿金光大道出征</p>
+    </section>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ============ 规则弹窗（随所选模式切换第三条规则） ============ -->
+  <div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" type="button" aria-label="关闭">✕</button>
+      <p class="modal-eyebrow" id="modal-eyebrow">GOLDEN ROAD · SUMMON RULES</p>
+      <h3 class="modal-title" id="modal-title">召唤规则</h3>
+
+      <!-- 召唤规则：第 1、2 条通用，第 3 条随模式变化 -->
+      <div class="modal-body" id="modal-rules">
+        <div class="summon-rule">
+          <span class="rule-num">1</span>
+          <p>总计 <span class="rule-em">5 次召唤</span>：时空裂隙将随机降临一支「<span class="rule-em">年份 × 战队</span>」，从该战队当年名单锁定一名选手入队，点击即可完成锁定。</p>
+        </div>
+        <div class="summon-rule">
+          <span class="rule-num">2</span>
+          <p>全程可使用 <span class="rule-em">1 次同年换队</span>（当前年份重新抽取其他战队）与 <span class="rule-em">1 次同队换年</span>（将该战队回溯至其他年份）；同一名选手无法重复签约。</p>
+        </div>
+        <div class="summon-rule">
+          <span class="rule-num">3</span>
+          <p id="rule-three">5 次召唤完成初始阵容，逐层挑战<span class="rule-em">九层冠军 Boss</span>。获胜后可招降选手、觉醒选手或保留原阵继续闯关；前七层战败，可触发「<span class="rule-em">地狱归来</span>」，强化状态重新挑战当前 Boss。</p>
+        </div>
+        <button class="modal-confirm" type="button" data-confirm>明白了</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ============ 成神试炼：召唤流程弹层 ============ -->
+  <div class="summon-overlay" id="summon-overlay" aria-hidden="true">
+    <div class="summon-screen" role="dialog" aria-modal="true" aria-labelledby="summon-title">
+
+      <!-- 顶部：标题 + 轮次 -->
+      <p class="summon-eyebrow">GOLDEN ROAD · ASCENSION</p>
+      <div class="summon-head-row">
+        <h3 class="summon-title" id="summon-title">正在召唤</h3>
+        <span class="summon-round" id="summon-round">第1/5次召唤</span>
+      </div>
+
+      <!-- 五个召唤席位（无位置之分，依次入队） -->
+      <div class="role-row" id="role-row">
+        <div class="role-slot" data-slot="1">
+          <div class="role-hex"><span class="role-hex-text">1</span></div>
+          <span class="role-status">待召唤</span>
+        </div>
+        <div class="role-slot" data-slot="2">
+          <div class="role-hex"><span class="role-hex-text">2</span></div>
+          <span class="role-status">待召唤</span>
+        </div>
+        <div class="role-slot" data-slot="3">
+          <div class="role-hex"><span class="role-hex-text">3</span></div>
+          <span class="role-status">待召唤</span>
+        </div>
+        <div class="role-slot" data-slot="4">
+          <div class="role-hex"><span class="role-hex-text">4</span></div>
+          <span class="role-status">待召唤</span>
+        </div>
+        <div class="role-slot" data-slot="5">
+          <div class="role-hex"><span class="role-hex-text">5</span></div>
+          <span class="role-status">待召唤</span>
+        </div>
+      </div>
+
+      <!-- 时空裂隙面板 -->
+      <div class="rift-panel">
+        <p class="rift-label">时 空 裂 隙</p>
+        <p class="rift-result" id="rift-result">?? • ???</p>
+        <p class="rift-hint" id="rift-hint">点击下方按钮，召唤一支战队</p>
+        <div class="reroll-row">
+          <button class="reroll-btn" id="reroll-year" type="button">同年换队 ×1</button>
+          <button class="reroll-btn" id="reroll-team" type="button">同队换年 ×1</button>
+        </div>
+        <button class="summon-cta" id="summon-cta" type="button">召唤</button>
+      </div>
+
+      <!-- 战队名单（锁定阶段显示） -->
+      <div class="roster-panel" id="roster-panel" hidden>
+        <div class="roster-head">
+          <h4 id="roster-title">S9 FPX 名单</h4>
+          <span>点击即锁定</span>
+        </div>
+        <ul class="roster-list" id="roster-list"></ul>
+      </div>
+
+      <button class="summon-exit" id="summon-exit" type="button">〈 退出本局</button>
+    </div>
+  </div>
+
+  <!-- ============ 成神试炼：九层 Boss 连战弹层 ============ -->
+  <div class="summon-overlay" id="boss-overlay" aria-hidden="true">
+    <div class="boss-screen" role="dialog" aria-modal="true" aria-labelledby="boss-title">
+      <!-- 各阶段内容由 script.js 渲染到 #boss-body -->
+      <div id="boss-body"></div>
+    </div>
+  </div>
+
+  <!-- 选手数据：仅存于这两个 JSON 文件（script 标签加载，file:// 双击也能用） -->
+  <script src="players.json"></script>
+  <script src="champions.json"></script>
+  <script src="script.js"></script>
+</body>
+</html>

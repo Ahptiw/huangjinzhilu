@@ -1,0 +1,5209 @@
+window.GOLDEN_ROAD_PLAYERS =   {
+  "version": "2.0",
+  "updated": "2026-08-14",
+  "description": "全部战队与选手数据；同一赛季归入同一 year，以 event 区分赛事（score = 总人数 - 排名 + 1）",
+  "tournaments": [
+    {
+      "year": "2026",
+      "teams": [
+        {
+          "id": "AG-2026启点赛",
+          "event": "2026启点赛",
+          "team": "AG",
+          "players": [
+            {
+              "name": "f4ngeer",
+              "score": 57
+            },
+            {
+              "name": "K1ra",
+              "score": 49
+            },
+            {
+              "name": "Shr1mp",
+              "score": 43
+            },
+            {
+              "name": "iamgrq",
+              "score": 31
+            },
+            {
+              "name": "Au1",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "XLG-2026启点赛",
+          "event": "2026启点赛",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "happywei",
+              "score": 60
+            },
+            {
+              "name": "Rarga",
+              "score": 59
+            },
+            {
+              "name": "NoMan",
+              "score": 25
+            },
+            {
+              "name": "lysoar",
+              "score": 24
+            },
+            {
+              "name": "WsLeo",
+              "score": 21
+            }
+          ]
+        },
+        {
+          "id": "EDG-2026启点赛",
+          "event": "2026启点赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 56
+            },
+            {
+              "name": "CHICHOO",
+              "score": 40
+            },
+            {
+              "name": "cb",
+              "score": 36
+            },
+            {
+              "name": "Smoggy",
+              "score": 26
+            },
+            {
+              "name": "nobody",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "BLG-2026启点赛",
+          "event": "2026启点赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 58
+            },
+            {
+              "name": "Rushia",
+              "score": 39
+            },
+            {
+              "name": "Nephh",
+              "score": 35
+            },
+            {
+              "name": "Knight",
+              "score": 17
+            },
+            {
+              "name": "bud",
+              "score": 5
+            },
+            {
+              "name": "Biank",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "DRG-2026启点赛",
+          "event": "2026启点赛",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 55
+            },
+            {
+              "name": "SpiritZ1",
+              "score": 45
+            },
+            {
+              "name": "Akeman",
+              "score": 23
+            },
+            {
+              "name": "Nicc",
+              "score": 19
+            },
+            {
+              "name": "Flex1n",
+              "score": 14
+            }
+          ]
+        },
+        {
+          "id": "TYL-2026启点赛",
+          "event": "2026启点赛",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "Splash",
+              "score": 61
+            },
+            {
+              "name": "SLOWLY",
+              "score": 54
+            },
+            {
+              "name": "Erv",
+              "score": 41
+            },
+            {
+              "name": "Scales",
+              "score": 34
+            },
+            {
+              "name": "sword9",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "TE-2026启点赛",
+          "event": "2026启点赛",
+          "team": "TE",
+          "players": [
+            {
+              "name": "DeLb",
+              "score": 53
+            },
+            {
+              "name": "Kai",
+              "score": 47
+            },
+            {
+              "name": "FengF",
+              "score": 33
+            },
+            {
+              "name": "Viva",
+              "score": 11
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "JDG-2026启点赛",
+          "event": "2026启点赛",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "stew",
+              "score": 51
+            },
+            {
+              "name": "Yuicaw",
+              "score": 48
+            },
+            {
+              "name": "jkuro",
+              "score": 29
+            },
+            {
+              "name": "zhe",
+              "score": 28
+            },
+            {
+              "name": "coconut",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "WOL-2026启点赛",
+          "event": "2026启点赛",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Yosemite",
+              "score": 52
+            },
+            {
+              "name": "jowa",
+              "score": 46
+            },
+            {
+              "name": "qiutiaN",
+              "score": 27
+            },
+            {
+              "name": "Spring",
+              "score": 20
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "TEC-2026启点赛",
+          "event": "2026启点赛",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "lucas",
+              "score": 42
+            },
+            {
+              "name": "Coco",
+              "score": 37
+            },
+            {
+              "name": "Dynamite",
+              "score": 32
+            },
+            {
+              "name": "Abo",
+              "score": 30
+            },
+            {
+              "name": "Haodong",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2026启点赛",
+          "event": "2026启点赛",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "Green",
+              "score": 50
+            },
+            {
+              "name": "GuanG",
+              "score": 44
+            },
+            {
+              "name": "OBONE",
+              "score": 12
+            },
+            {
+              "name": "Ezeir",
+              "score": 7
+            },
+            {
+              "name": "heybay",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "FPX-2026启点赛",
+          "event": "2026启点赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "AAAAY",
+              "score": 38
+            },
+            {
+              "name": "Setrod",
+              "score": 22
+            },
+            {
+              "name": "sScary",
+              "score": 13
+            },
+            {
+              "name": "BerLIN",
+              "score": 9
+            },
+            {
+              "name": "Life",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "NS-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "NS",
+          "players": [
+            {
+              "name": "Dambi",
+              "score": 58
+            },
+            {
+              "name": "Francis",
+              "score": 54
+            },
+            {
+              "name": "xross",
+              "score": 46
+            },
+            {
+              "name": "Ivy",
+              "score": 45
+            },
+            {
+              "name": "Rb",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "PRX-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 51
+            },
+            {
+              "name": "d4v41",
+              "score": 42
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 40
+            },
+            {
+              "name": "invy",
+              "score": 38
+            },
+            {
+              "name": "something",
+              "score": 35
+            }
+          ]
+        },
+        {
+          "id": "NRG-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "NRG",
+          "players": [
+            {
+              "name": "Keiko",
+              "score": 52
+            },
+            {
+              "name": "mada",
+              "score": 49
+            },
+            {
+              "name": "skuba",
+              "score": 48
+            },
+            {
+              "name": "brawk",
+              "score": 17
+            },
+            {
+              "name": "Ethan",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "G2-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "jawgemo",
+              "score": 56
+            },
+            {
+              "name": "leaf",
+              "score": 43
+            },
+            {
+              "name": "trent",
+              "score": 31
+            },
+            {
+              "name": "valyn",
+              "score": 27
+            },
+            {
+              "name": "babybay",
+              "score": 14
+            }
+          ]
+        },
+        {
+          "id": "BBL-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "BBL",
+          "players": [
+            {
+              "name": "Lar0k",
+              "score": 53
+            },
+            {
+              "name": "loversrock",
+              "score": 36
+            },
+            {
+              "name": "Crewen",
+              "score": 26
+            },
+            {
+              "name": "Loita",
+              "score": 25
+            },
+            {
+              "name": "Rosé",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "AG-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "AG",
+          "players": [
+            {
+              "name": "f4ngeer",
+              "score": 41
+            },
+            {
+              "name": "K1ra",
+              "score": 33
+            },
+            {
+              "name": "Au1",
+              "score": 32
+            },
+            {
+              "name": "iamgrq",
+              "score": 18
+            },
+            {
+              "name": "Shr1mp",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "FUR-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "FUR",
+          "players": [
+            {
+              "name": "eeiu",
+              "score": 59
+            },
+            {
+              "name": "koalanoob",
+              "score": 30
+            },
+            {
+              "name": "artzin",
+              "score": 21
+            },
+            {
+              "name": "alym",
+              "score": 20
+            },
+            {
+              "name": "nerve",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "M8-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "M8",
+          "players": [
+            {
+              "name": "marteen",
+              "score": 60
+            },
+            {
+              "name": "starxo",
+              "score": 24
+            },
+            {
+              "name": "Minny",
+              "score": 23
+            },
+            {
+              "name": "GLYPH",
+              "score": 13
+            },
+            {
+              "name": "bipo",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "TL-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "kamo",
+              "score": 37
+            },
+            {
+              "name": "nAts",
+              "score": 29
+            },
+            {
+              "name": "MiniBoo",
+              "score": 28
+            },
+            {
+              "name": "wayne",
+              "score": 22
+            },
+            {
+              "name": "purp0",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "T1-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "T1",
+          "players": [
+            {
+              "name": "BuZz",
+              "score": 57
+            },
+            {
+              "name": "iZu",
+              "score": 55
+            },
+            {
+              "name": "Munchkin",
+              "score": 39
+            },
+            {
+              "name": "stax",
+              "score": 34
+            },
+            {
+              "name": "Meteor",
+              "score": 19
+            }
+          ]
+        },
+        {
+          "id": "EDG-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 44
+            },
+            {
+              "name": "CHICHOO",
+              "score": 16
+            },
+            {
+              "name": "cb",
+              "score": 9
+            },
+            {
+              "name": "Smoggy",
+              "score": 3
+            },
+            {
+              "name": "nobody",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "XLG-圣地亚哥大师赛",
+          "event": "圣地亚哥大师赛",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "happywei",
+              "score": 50
+            },
+            {
+              "name": "Rarga",
+              "score": 47
+            },
+            {
+              "name": "lysoar",
+              "score": 15
+            },
+            {
+              "name": "NoMan",
+              "score": 4
+            },
+            {
+              "name": "WsLeo",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "EDG-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 62
+            },
+            {
+              "name": "Smoggy",
+              "score": 57
+            },
+            {
+              "name": "CHICHOO",
+              "score": 42
+            },
+            {
+              "name": "Jieni7",
+              "score": 21
+            },
+            {
+              "name": "nobody",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "TYL-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "Splash",
+              "score": 61
+            },
+            {
+              "name": "Erv",
+              "score": 50
+            },
+            {
+              "name": "SLOWLY",
+              "score": 48
+            },
+            {
+              "name": "Scales",
+              "score": 29
+            },
+            {
+              "name": "sword9",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "AG-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "AG",
+          "players": [
+            {
+              "name": "f4ngeer",
+              "score": 60
+            },
+            {
+              "name": "K1ra",
+              "score": 37
+            },
+            {
+              "name": "iamgrq",
+              "score": 27
+            },
+            {
+              "name": "Shr1mp",
+              "score": 26
+            },
+            {
+              "name": "Bai",
+              "score": 14
+            },
+            {
+              "name": "Youze",
+              "score": 12
+            },
+            {
+              "name": "Septem7",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "JDG-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "zhe",
+              "score": 59
+            },
+            {
+              "name": "stew",
+              "score": 35
+            },
+            {
+              "name": "Yuicaw",
+              "score": 25
+            },
+            {
+              "name": "coconut",
+              "score": 17
+            },
+            {
+              "name": "jkuro",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "XLG-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "happywei",
+              "score": 58
+            },
+            {
+              "name": "Rarga",
+              "score": 53
+            },
+            {
+              "name": "WsLeo",
+              "score": 34
+            },
+            {
+              "name": "lysoar",
+              "score": 33
+            },
+            {
+              "name": "NoMan",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "id": "DRG-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "SpiritZ1",
+              "score": 56
+            },
+            {
+              "name": "vo0kashu",
+              "score": 52
+            },
+            {
+              "name": "Life",
+              "score": 36
+            },
+            {
+              "name": "Nicc",
+              "score": 22
+            },
+            {
+              "name": "Flex1n",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "FPX-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "AAAAY",
+              "score": 55
+            },
+            {
+              "name": "Setrod",
+              "score": 28
+            },
+            {
+              "name": "Ben1Ley",
+              "score": 20
+            },
+            {
+              "name": "kovaQ",
+              "score": 19
+            },
+            {
+              "name": "BerLIN",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "BLG-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 54
+            },
+            {
+              "name": "yilai",
+              "score": 47
+            },
+            {
+              "name": "Nephh",
+              "score": 46
+            },
+            {
+              "name": "Rushia",
+              "score": 31
+            },
+            {
+              "name": "Knight",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "TE-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "TE",
+          "players": [
+            {
+              "name": "Kai",
+              "score": 51
+            },
+            {
+              "name": "DeLb",
+              "score": 44
+            },
+            {
+              "name": "Xlele",
+              "score": 43
+            },
+            {
+              "name": "Abo",
+              "score": 13
+            },
+            {
+              "name": "Viva",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "WOL-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Spring",
+              "score": 49
+            },
+            {
+              "name": "glacier",
+              "score": 39
+            },
+            {
+              "name": "Yosemite",
+              "score": 32
+            },
+            {
+              "name": "jowa",
+              "score": 5
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "TEC-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Dynamite",
+              "score": 41
+            },
+            {
+              "name": "Coco",
+              "score": 40
+            },
+            {
+              "name": "lucas",
+              "score": 38
+            },
+            {
+              "name": "Spitfires",
+              "score": 30
+            },
+            {
+              "name": "Haodong",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2026第一赛段",
+          "event": "2026第一赛段",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "swagzor",
+              "score": 45
+            },
+            {
+              "name": "Ezeir",
+              "score": 24
+            },
+            {
+              "name": "qiutiaN",
+              "score": 23
+            },
+            {
+              "name": "GuanG",
+              "score": 8
+            },
+            {
+              "name": "Green",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "FS-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "FS",
+          "players": [
+            {
+              "name": "Primmie",
+              "score": 60
+            },
+            {
+              "name": "Crws",
+              "score": 8
+            },
+            {
+              "name": "JitboyS",
+              "score": 5
+            },
+            {
+              "name": "killua",
+              "score": 4
+            },
+            {
+              "name": "Leviathan",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "VIT-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "VIT",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 59
+            },
+            {
+              "name": "Chronicle",
+              "score": 42
+            },
+            {
+              "name": "Sayonara",
+              "score": 41
+            },
+            {
+              "name": "PROFEK",
+              "score": 26
+            },
+            {
+              "name": "Jamppi",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "DRG-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 58
+            },
+            {
+              "name": "SpiritZ1",
+              "score": 35
+            },
+            {
+              "name": "Nicc",
+              "score": 34
+            },
+            {
+              "name": "Life",
+              "score": 13
+            },
+            {
+              "name": "Flex1n",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "NRG-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "NRG",
+          "players": [
+            {
+              "name": "Keiko",
+              "score": 57
+            },
+            {
+              "name": "brawk",
+              "score": 31
+            },
+            {
+              "name": "Ethan",
+              "score": 30
+            },
+            {
+              "name": "mada",
+              "score": 29
+            },
+            {
+              "name": "skuba",
+              "score": 24
+            }
+          ]
+        },
+        {
+          "id": "LEV-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "LEV",
+          "players": [
+            {
+              "name": "spike",
+              "score": 56
+            },
+            {
+              "name": "Sato",
+              "score": 54
+            },
+            {
+              "name": "Neon",
+              "score": 50
+            },
+            {
+              "name": "blowz",
+              "score": 22
+            },
+            {
+              "name": "kiNgg",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "GE-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "GE",
+          "players": [
+            {
+              "name": "UdoTan",
+              "score": 55
+            },
+            {
+              "name": "Kr1stal",
+              "score": 44
+            },
+            {
+              "name": "Autumn",
+              "score": 28
+            },
+            {
+              "name": "PatMen",
+              "score": 16
+            },
+            {
+              "name": "xavi8k",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "PRX-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "something",
+              "score": 53
+            },
+            {
+              "name": "Jinggg",
+              "score": 52
+            },
+            {
+              "name": "invy",
+              "score": 48
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 37
+            },
+            {
+              "name": "d4v41",
+              "score": 32
+            }
+          ]
+        },
+        {
+          "id": "FUT-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "FUT",
+          "players": [
+            {
+              "name": "s0pp",
+              "score": 51
+            },
+            {
+              "name": "xeus",
+              "score": 46
+            },
+            {
+              "name": "yetujey",
+              "score": 36
+            },
+            {
+              "name": "sociablEE",
+              "score": 27
+            },
+            {
+              "name": "KROSTALY",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "G2-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "leaf",
+              "score": 49
+            },
+            {
+              "name": "babybay",
+              "score": 43
+            },
+            {
+              "name": "trent",
+              "score": 40
+            },
+            {
+              "name": "valyn",
+              "score": 21
+            },
+            {
+              "name": "jawgemo",
+              "score": 19
+            }
+          ]
+        },
+        {
+          "id": "EDG-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 47
+            },
+            {
+              "name": "Smoggy",
+              "score": 38
+            },
+            {
+              "name": "nobody",
+              "score": 25
+            },
+            {
+              "name": "Jieni7",
+              "score": 18
+            },
+            {
+              "name": "CHICHOO",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "XLG-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "happywei",
+              "score": 45
+            },
+            {
+              "name": "Rarga",
+              "score": 33
+            },
+            {
+              "name": "lysoar",
+              "score": 23
+            },
+            {
+              "name": "NoMan",
+              "score": 12
+            },
+            {
+              "name": "WsLeo",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "TH-伦敦大师赛",
+          "event": "伦敦大师赛",
+          "team": "TH",
+          "players": [
+            {
+              "name": "Koshmaras",
+              "score": 39
+            },
+            {
+              "name": "benjyfishy",
+              "score": 20
+            },
+            {
+              "name": "RieNs",
+              "score": 14
+            },
+            {
+              "name": "Wo0t",
+              "score": 7
+            },
+            {
+              "name": "Boo",
+              "score": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "teams": [
+        {
+          "id": "EDG-2025启点赛",
+          "event": "2025启点赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 61
+            },
+            {
+              "name": "Smoggy",
+              "score": 46
+            },
+            {
+              "name": "CHICHOO",
+              "score": 42
+            },
+            {
+              "name": "nobody",
+              "score": 39
+            },
+            {
+              "name": "S1Mon",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "JDG-2025启点赛",
+          "event": "2025启点赛",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "stew",
+              "score": 60
+            },
+            {
+              "name": "Z1Yan",
+              "score": 51
+            },
+            {
+              "name": "jkuro",
+              "score": 36
+            },
+            {
+              "name": "Babyblue",
+              "score": 20
+            },
+            {
+              "name": "MrCANI",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "FPX-2025启点赛",
+          "event": "2025启点赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Life",
+              "score": 59
+            },
+            {
+              "name": "Yosemite",
+              "score": 48
+            },
+            {
+              "name": "Autumn",
+              "score": 38
+            },
+            {
+              "name": "AAAAY",
+              "score": 25
+            },
+            {
+              "name": "BerLIN",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "XLG-2025启点赛",
+          "event": "2025启点赛",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "Rarga",
+              "score": 58
+            },
+            {
+              "name": "happywei",
+              "score": 57
+            },
+            {
+              "name": "coconut",
+              "score": 27
+            },
+            {
+              "name": "YOU",
+              "score": 13
+            },
+            {
+              "name": "Viva",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "BLG-2025启点赛",
+          "event": "2025启点赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "Nephh",
+              "score": 56
+            },
+            {
+              "name": "whzy",
+              "score": 40
+            },
+            {
+              "name": "Knight",
+              "score": 24
+            },
+            {
+              "name": "Levius",
+              "score": 15
+            },
+            {
+              "name": "Rushia",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "WOL-2025启点赛",
+          "event": "2025启点赛",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Spring",
+              "score": 55
+            },
+            {
+              "name": "lysoar",
+              "score": 34
+            },
+            {
+              "name": "juicy",
+              "score": 21
+            },
+            {
+              "name": "Yuicaw",
+              "score": 18
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "TYL-2025启点赛",
+          "event": "2025启点赛",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "SLOWLY",
+              "score": 54
+            },
+            {
+              "name": "hfmi0dzjc...",
+              "score": 37
+            },
+            {
+              "name": "Ninebody",
+              "score": 28
+            },
+            {
+              "name": "Eren",
+              "score": 12
+            },
+            {
+              "name": "5CM",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "TE-2025启点赛",
+          "event": "2025启点赛",
+          "team": "TE",
+          "players": [
+            {
+              "name": "FengF",
+              "score": 53
+            },
+            {
+              "name": "Biank",
+              "score": 45
+            },
+            {
+              "name": "Kai",
+              "score": 41
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 35
+            },
+            {
+              "name": "heybay",
+              "score": 32
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2025启点赛",
+          "event": "2025启点赛",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "GuanG",
+              "score": 52
+            },
+            {
+              "name": "Ezeir",
+              "score": 50
+            },
+            {
+              "name": "Swerl",
+              "score": 49
+            },
+            {
+              "name": "cb",
+              "score": 47
+            },
+            {
+              "name": "o0o0o",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "AG-2025启点赛",
+          "event": "2025启点赛",
+          "team": "AG",
+          "players": [
+            {
+              "name": "DeLb",
+              "score": 44
+            },
+            {
+              "name": "K1ra",
+              "score": 19
+            },
+            {
+              "name": "Monk",
+              "score": 14
+            },
+            {
+              "name": "Lsn",
+              "score": 11
+            },
+            {
+              "name": "nizhaoTZH",
+              "score": 2
+            },
+            {
+              "name": "Bunt",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "DRG-2025启点赛",
+          "event": "2025启点赛",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 43
+            },
+            {
+              "name": "Flex1n",
+              "score": 31
+            },
+            {
+              "name": "Nicc",
+              "score": 29
+            },
+            {
+              "name": "Tvirusluke",
+              "score": 26
+            },
+            {
+              "name": "SpiritZ1",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "id": "TEC-2025启点赛",
+          "event": "2025启点赛",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Haodong",
+              "score": 33
+            },
+            {
+              "name": "Rb",
+              "score": 30
+            },
+            {
+              "name": "B1ack",
+              "score": 23
+            },
+            {
+              "name": "Abo",
+              "score": 22
+            },
+            {
+              "name": "Dynamite",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "TL-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "nAts",
+              "score": 41
+            },
+            {
+              "name": "kamo",
+              "score": 32
+            },
+            {
+              "name": "Keiko",
+              "score": 26
+            },
+            {
+              "name": "kamyk",
+              "score": 17
+            },
+            {
+              "name": "paTiTek",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "VIT-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "VIT",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 40
+            },
+            {
+              "name": "trexx",
+              "score": 30
+            },
+            {
+              "name": "Less",
+              "score": 24
+            },
+            {
+              "name": "Kicks",
+              "score": 14
+            },
+            {
+              "name": "Sayf",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "T1-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "T1",
+          "players": [
+            {
+              "name": "BuZz",
+              "score": 39
+            },
+            {
+              "name": "Meteor",
+              "score": 34
+            },
+            {
+              "name": "iZu",
+              "score": 25
+            },
+            {
+              "name": "Sylvan",
+              "score": 15
+            },
+            {
+              "name": "stax",
+              "score": 10
+            },
+            {
+              "name": "Carpe",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "KRX-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "KRX",
+          "players": [
+            {
+              "name": "free1ng",
+              "score": 38
+            },
+            {
+              "name": "HYUNMIN",
+              "score": 29
+            },
+            {
+              "name": "BeYN",
+              "score": 19
+            },
+            {
+              "name": "Flashback",
+              "score": 18
+            },
+            {
+              "name": "MaKo",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "EDG-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 37
+            },
+            {
+              "name": "CHICHOO",
+              "score": 35
+            },
+            {
+              "name": "Smoggy",
+              "score": 16
+            },
+            {
+              "name": "nobody",
+              "score": 12
+            },
+            {
+              "name": "S1Mon",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "G2-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "trent",
+              "score": 36
+            },
+            {
+              "name": "jawgemo",
+              "score": 33
+            },
+            {
+              "name": "leaf",
+              "score": 31
+            },
+            {
+              "name": "JonahP",
+              "score": 22
+            },
+            {
+              "name": "valyn",
+              "score": 21
+            }
+          ]
+        },
+        {
+          "id": "SEN-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "SEN",
+          "players": [
+            {
+              "name": "N4RRATE",
+              "score": 28
+            },
+            {
+              "name": "zekken",
+              "score": 23
+            },
+            {
+              "name": "bang",
+              "score": 20
+            },
+            {
+              "name": "johnqt",
+              "score": 9
+            },
+            {
+              "name": "Zellsis",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "TE-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "TE",
+          "players": [
+            {
+              "name": "Kai",
+              "score": 27
+            },
+            {
+              "name": "Biank",
+              "score": 11
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 6
+            },
+            {
+              "name": "FengF",
+              "score": 5
+            },
+            {
+              "name": "heybay",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "BLG-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 65
+            },
+            {
+              "name": "Rushia",
+              "score": 38
+            },
+            {
+              "name": "Knight",
+              "score": 35
+            },
+            {
+              "name": "Nephh",
+              "score": 29
+            },
+            {
+              "name": "Levius",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "XLG-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "Rarga",
+              "score": 64
+            },
+            {
+              "name": "happywei",
+              "score": 56
+            },
+            {
+              "name": "YOU",
+              "score": 26
+            },
+            {
+              "name": "Viva",
+              "score": 21
+            },
+            {
+              "name": "coconut",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "id": "EDG-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 63
+            },
+            {
+              "name": "CHICHOO",
+              "score": 46
+            },
+            {
+              "name": "Smoggy",
+              "score": 41
+            },
+            {
+              "name": "S1Mon",
+              "score": 23
+            },
+            {
+              "name": "nobody",
+              "score": 18
+            },
+            {
+              "name": "Jieni7",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "TYL-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "SLOWLY",
+              "score": 62
+            },
+            {
+              "name": "Scales",
+              "score": 48
+            },
+            {
+              "name": "Ninebody",
+              "score": 44
+            },
+            {
+              "name": "hfmi0dzjc...",
+              "score": 14
+            },
+            {
+              "name": "waituu",
+              "score": 9
+            },
+            {
+              "name": "5CM",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "TE-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "TE",
+          "players": [
+            {
+              "name": "Kai",
+              "score": 61
+            },
+            {
+              "name": "heybay",
+              "score": 50
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 47
+            },
+            {
+              "name": "FengF",
+              "score": 19
+            },
+            {
+              "name": "Biank",
+              "score": 13
+            },
+            {
+              "name": "Midi",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "DRG-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 60
+            },
+            {
+              "name": "Flex1n",
+              "score": 53
+            },
+            {
+              "name": "SpiritZ1",
+              "score": 49
+            },
+            {
+              "name": "Nicc",
+              "score": 20
+            },
+            {
+              "name": "Cangshu",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "FPX-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Yosemite",
+              "score": 59
+            },
+            {
+              "name": "Life",
+              "score": 37
+            },
+            {
+              "name": "AAAAY",
+              "score": 36
+            },
+            {
+              "name": "Autumn",
+              "score": 33
+            },
+            {
+              "name": "XII",
+              "score": 32
+            },
+            {
+              "name": "Shr1mp",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "TEC-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Tvirusluke",
+              "score": 58
+            },
+            {
+              "name": "Coco",
+              "score": 43
+            },
+            {
+              "name": "Rb",
+              "score": 40
+            },
+            {
+              "name": "Abo",
+              "score": 28
+            },
+            {
+              "name": "Haodong",
+              "score": 24
+            }
+          ]
+        },
+        {
+          "id": "WOL-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "juicy",
+              "score": 57
+            },
+            {
+              "name": "Spring",
+              "score": 52
+            },
+            {
+              "name": "Yuicaw",
+              "score": 39
+            },
+            {
+              "name": "lysoar",
+              "score": 30
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "JDG-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "stew",
+              "score": 55
+            },
+            {
+              "name": "Babyblue",
+              "score": 45
+            },
+            {
+              "name": "Z1Yan",
+              "score": 27
+            },
+            {
+              "name": "jkuro",
+              "score": 25
+            },
+            {
+              "name": "MrCANI",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "AG-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "AG",
+          "players": [
+            {
+              "name": "K1ra",
+              "score": 54
+            },
+            {
+              "name": "Bai",
+              "score": 34
+            },
+            {
+              "name": "DeLb",
+              "score": 22
+            },
+            {
+              "name": "player",
+              "score": 12
+            },
+            {
+              "name": "Lsn",
+              "score": 10
+            },
+            {
+              "name": "Hanche",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2025第一赛段",
+          "event": "2025第一赛段",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "Ezeir",
+              "score": 51
+            },
+            {
+              "name": "cb",
+              "score": 42
+            },
+            {
+              "name": "GuanG",
+              "score": 31
+            },
+            {
+              "name": "OBONE",
+              "score": 8
+            },
+            {
+              "name": "o0o0o",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "GEN-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "GEN",
+          "players": [
+            {
+              "name": "t3xture",
+              "score": 61
+            },
+            {
+              "name": "Munchkin",
+              "score": 43
+            },
+            {
+              "name": "Karon",
+              "score": 33
+            },
+            {
+              "name": "Foxy9",
+              "score": 27
+            },
+            {
+              "name": "Ash",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "id": "FNC-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Alfajer",
+              "score": 60
+            },
+            {
+              "name": "kaajak",
+              "score": 52
+            },
+            {
+              "name": "Chronicle",
+              "score": 45
+            },
+            {
+              "name": "crashies",
+              "score": 23
+            },
+            {
+              "name": "Boaster",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "BLG-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 59
+            },
+            {
+              "name": "Rushia",
+              "score": 42
+            },
+            {
+              "name": "Nephh",
+              "score": 24
+            },
+            {
+              "name": "Levius",
+              "score": 13
+            },
+            {
+              "name": "Knight",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "WOL-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Spring",
+              "score": 58
+            },
+            {
+              "name": "juicy",
+              "score": 51
+            },
+            {
+              "name": "Yuicaw",
+              "score": 35
+            },
+            {
+              "name": "lysoar",
+              "score": 17
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "SEN-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "SEN",
+          "players": [
+            {
+              "name": "zekken",
+              "score": 57
+            },
+            {
+              "name": "N4RRATE",
+              "score": 50
+            },
+            {
+              "name": "bang",
+              "score": 31
+            },
+            {
+              "name": "Zellsis",
+              "score": 19
+            },
+            {
+              "name": "johnqt",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "MIBR-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "MIBR",
+          "players": [
+            {
+              "name": "Verno",
+              "score": 56
+            },
+            {
+              "name": "cortezia",
+              "score": 14
+            },
+            {
+              "name": "xenom",
+              "score": 9
+            },
+            {
+              "name": "aspas",
+              "score": 3
+            },
+            {
+              "name": "artzin",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "G2-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "leaf",
+              "score": 55
+            },
+            {
+              "name": "jawgemo",
+              "score": 49
+            },
+            {
+              "name": "trent",
+              "score": 47
+            },
+            {
+              "name": "JonahP",
+              "score": 26
+            },
+            {
+              "name": "valyn",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "PRX-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 54
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 44
+            },
+            {
+              "name": "PatMen",
+              "score": 38
+            },
+            {
+              "name": "something",
+              "score": 37
+            },
+            {
+              "name": "d4v41",
+              "score": 34
+            }
+          ]
+        },
+        {
+          "id": "XLG-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "happywei",
+              "score": 53
+            },
+            {
+              "name": "Rarga",
+              "score": 48
+            },
+            {
+              "name": "Viva",
+              "score": 8
+            },
+            {
+              "name": "Midi",
+              "score": 4
+            },
+            {
+              "name": "coconut",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "TL-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "kamo",
+              "score": 46
+            },
+            {
+              "name": "Keiko",
+              "score": 41
+            },
+            {
+              "name": "penny",
+              "score": 32
+            },
+            {
+              "name": "nAts",
+              "score": 30
+            },
+            {
+              "name": "paTiTek",
+              "score": 29
+            },
+            {
+              "name": "Serial",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "RRQ-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "RRQ",
+          "players": [
+            {
+              "name": "Jemkin",
+              "score": 40
+            },
+            {
+              "name": "Monyet",
+              "score": 39
+            },
+            {
+              "name": "xffero",
+              "score": 22
+            },
+            {
+              "name": "Kushy",
+              "score": 21
+            },
+            {
+              "name": "crazyguy",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "TH-多伦多大师赛",
+          "event": "多伦多大师赛",
+          "team": "TH",
+          "players": [
+            {
+              "name": "RieNs",
+              "score": 36
+            },
+            {
+              "name": "Wo0t",
+              "score": 28
+            },
+            {
+              "name": "benjyfishy",
+              "score": 25
+            },
+            {
+              "name": "MiniBoo",
+              "score": 16
+            },
+            {
+              "name": "Boo",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "JDG-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "stew",
+              "score": 63
+            },
+            {
+              "name": "jkuro",
+              "score": 22
+            },
+            {
+              "name": "Z1Yan",
+              "score": 20
+            },
+            {
+              "name": "kklin",
+              "score": 8
+            },
+            {
+              "name": "Babyblue",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "TE-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "TE",
+          "players": [
+            {
+              "name": "Kai",
+              "score": 62
+            },
+            {
+              "name": "MarT1n",
+              "score": 35
+            },
+            {
+              "name": "FengF",
+              "score": 24
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 13
+            },
+            {
+              "name": "Biank",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "BLG-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 61
+            },
+            {
+              "name": "Rushia",
+              "score": 51
+            },
+            {
+              "name": "Knight",
+              "score": 49
+            },
+            {
+              "name": "Nephh",
+              "score": 38
+            },
+            {
+              "name": "Levius",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "XLG-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "happywei",
+              "score": 60
+            },
+            {
+              "name": "Rarga",
+              "score": 56
+            },
+            {
+              "name": "NoMan",
+              "score": 29
+            },
+            {
+              "name": "Viva",
+              "score": 16
+            },
+            {
+              "name": "coconut",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "EDG-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 59
+            },
+            {
+              "name": "Jieni7",
+              "score": 48
+            },
+            {
+              "name": "nobody",
+              "score": 43
+            },
+            {
+              "name": "Smoggy",
+              "score": 33
+            },
+            {
+              "name": "CHICHOO",
+              "score": 18
+            },
+            {
+              "name": "zjc",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "TYL-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "SLOWLY",
+              "score": 58
+            },
+            {
+              "name": "Scales",
+              "score": 52
+            },
+            {
+              "name": "Ninebody",
+              "score": 41
+            },
+            {
+              "name": "Yoyo",
+              "score": 26
+            },
+            {
+              "name": "sword9",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "FPX-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Life",
+              "score": 57
+            },
+            {
+              "name": "Autumn",
+              "score": 37
+            },
+            {
+              "name": "Yosemite",
+              "score": 36
+            },
+            {
+              "name": "AAAAY",
+              "score": 23
+            },
+            {
+              "name": "BerLIN",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "AG-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "AG",
+          "players": [
+            {
+              "name": "Spitfires",
+              "score": 55
+            },
+            {
+              "name": "K1ra",
+              "score": 47
+            },
+            {
+              "name": "Shr1mp",
+              "score": 45
+            },
+            {
+              "name": "DeLb",
+              "score": 19
+            },
+            {
+              "name": "Hanche",
+              "score": 14
+            },
+            {
+              "name": "XiYiJi",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "Ezeir",
+              "score": 54
+            },
+            {
+              "name": "GuanG",
+              "score": 44
+            },
+            {
+              "name": "Swerl",
+              "score": 39
+            },
+            {
+              "name": "cb",
+              "score": 28
+            },
+            {
+              "name": "Monk",
+              "score": 11
+            },
+            {
+              "name": "o0o0o",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "DRG-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "SpiritZ1",
+              "score": 53
+            },
+            {
+              "name": "vo0kashu",
+              "score": 50
+            },
+            {
+              "name": "Akeman",
+              "score": 34
+            },
+            {
+              "name": "Nicc",
+              "score": 32
+            },
+            {
+              "name": "Flex1n",
+              "score": 30
+            }
+          ]
+        },
+        {
+          "id": "WOL-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Spring",
+              "score": 46
+            },
+            {
+              "name": "lysoar",
+              "score": 42
+            },
+            {
+              "name": "juicy",
+              "score": 15
+            },
+            {
+              "name": "Yuicaw",
+              "score": 5
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "TEC-2025第二赛段",
+          "event": "2025第二赛段",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Coco",
+              "score": 40
+            },
+            {
+              "name": "Abo",
+              "score": 31
+            },
+            {
+              "name": "Haodong",
+              "score": 27
+            },
+            {
+              "name": "Tvirusluke",
+              "score": 25
+            },
+            {
+              "name": "lucas",
+              "score": 21
+            }
+          ]
+        },
+        {
+          "id": "MIBR-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "MIBR",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 81
+            },
+            {
+              "name": "artzin",
+              "score": 54
+            },
+            {
+              "name": "Verno",
+              "score": 52
+            },
+            {
+              "name": "cortezia",
+              "score": 47
+            },
+            {
+              "name": "xenom",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "EDG-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 80
+            },
+            {
+              "name": "Smoggy",
+              "score": 58
+            },
+            {
+              "name": "Jieni7",
+              "score": 44
+            },
+            {
+              "name": "nobody",
+              "score": 21
+            },
+            {
+              "name": "CHICHOO",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "DRG-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "SpiritZ1",
+              "score": 79
+            },
+            {
+              "name": "Akeman",
+              "score": 48
+            },
+            {
+              "name": "Flex1n",
+              "score": 34
+            },
+            {
+              "name": "Demon1",
+              "score": 28
+            },
+            {
+              "name": "Nicc",
+              "score": 25
+            }
+          ]
+        },
+        {
+          "id": "G2-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "jawgemo",
+              "score": 78
+            },
+            {
+              "name": "leaf",
+              "score": 71
+            },
+            {
+              "name": "valyn",
+              "score": 45
+            },
+            {
+              "name": "trent",
+              "score": 26
+            },
+            {
+              "name": "JonahP",
+              "score": 24
+            }
+          ]
+        },
+        {
+          "id": "SEN-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "SEN",
+          "players": [
+            {
+              "name": "zekken",
+              "score": 77
+            },
+            {
+              "name": "N4RRATE",
+              "score": 41
+            },
+            {
+              "name": "johnqt",
+              "score": 37
+            },
+            {
+              "name": "Zellsis",
+              "score": 8
+            },
+            {
+              "name": "bang",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "FNC-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "kaajak",
+              "score": 76
+            },
+            {
+              "name": "Alfajer",
+              "score": 61
+            },
+            {
+              "name": "Chronicle",
+              "score": 56
+            },
+            {
+              "name": "crashies",
+              "score": 33
+            },
+            {
+              "name": "Doma",
+              "score": 18
+            },
+            {
+              "name": "Boaster",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "TH-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "TH",
+          "players": [
+            {
+              "name": "RieNs",
+              "score": 75
+            },
+            {
+              "name": "Wo0t",
+              "score": 60
+            },
+            {
+              "name": "MiniBoo",
+              "score": 57
+            },
+            {
+              "name": "benjyfishy",
+              "score": 30
+            },
+            {
+              "name": "Boo",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "NRG-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "NRG",
+          "players": [
+            {
+              "name": "brawk",
+              "score": 74
+            },
+            {
+              "name": "mada",
+              "score": 65
+            },
+            {
+              "name": "s0m",
+              "score": 50
+            },
+            {
+              "name": "skuba",
+              "score": 40
+            },
+            {
+              "name": "Ethan",
+              "score": 31
+            }
+          ]
+        },
+        {
+          "id": "PRX-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 73
+            },
+            {
+              "name": "something",
+              "score": 69
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 64
+            },
+            {
+              "name": "d4v41",
+              "score": 36
+            },
+            {
+              "name": "PatMen",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "KRX-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "KRX",
+          "players": [
+            {
+              "name": "Flashback",
+              "score": 72
+            },
+            {
+              "name": "HYUNMIN",
+              "score": 63
+            },
+            {
+              "name": "MaKo",
+              "score": 22
+            },
+            {
+              "name": "BeYN",
+              "score": 20
+            },
+            {
+              "name": "free1ng",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "XLG-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "XLG",
+          "players": [
+            {
+              "name": "NoMan",
+              "score": 70
+            },
+            {
+              "name": "happywei",
+              "score": 67
+            },
+            {
+              "name": "Rarga",
+              "score": 59
+            },
+            {
+              "name": "Viva",
+              "score": 17
+            },
+            {
+              "name": "coconut",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "T1-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "T1",
+          "players": [
+            {
+              "name": "Meteor",
+              "score": 68
+            },
+            {
+              "name": "iZu",
+              "score": 62
+            },
+            {
+              "name": "BuZz",
+              "score": 43
+            },
+            {
+              "name": "DH",
+              "score": 35
+            },
+            {
+              "name": "stax",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "RRQ-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "RRQ",
+          "players": [
+            {
+              "name": "Jemkin",
+              "score": 66
+            },
+            {
+              "name": "Kushy",
+              "score": 32
+            },
+            {
+              "name": "Monyet",
+              "score": 29
+            },
+            {
+              "name": "xffero",
+              "score": 23
+            },
+            {
+              "name": "crazyguy",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "GX-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "GX",
+          "players": [
+            {
+              "name": "Cloud",
+              "score": 55
+            },
+            {
+              "name": "ara",
+              "score": 51
+            },
+            {
+              "name": "westside",
+              "score": 38
+            },
+            {
+              "name": "Flickless",
+              "score": 27
+            },
+            {
+              "name": "GRUBINHO",
+              "score": 19
+            }
+          ]
+        },
+        {
+          "id": "TL-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "Keiko",
+              "score": 53
+            },
+            {
+              "name": "nAts",
+              "score": 46
+            },
+            {
+              "name": "kamo",
+              "score": 42
+            },
+            {
+              "name": "trexx",
+              "score": 14
+            },
+            {
+              "name": "paTiTek",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "BLG-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "Knight",
+              "score": 49
+            },
+            {
+              "name": "Levius",
+              "score": 39
+            },
+            {
+              "name": "Nephh",
+              "score": 16
+            },
+            {
+              "name": "whzy",
+              "score": 9
+            },
+            {
+              "name": "Rushia",
+              "score": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "teams": [
+        {
+          "id": "EDG-2024启点赛",
+          "event": "2024启点赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 55
+            },
+            {
+              "name": "nobody",
+              "score": 38
+            },
+            {
+              "name": "CHICHOO",
+              "score": 37
+            },
+            {
+              "name": "Smoggy",
+              "score": 19
+            },
+            {
+              "name": "Haodong",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "JDG-2024启点赛",
+          "event": "2024启点赛",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "stew",
+              "score": 54
+            },
+            {
+              "name": "Viva",
+              "score": 39
+            },
+            {
+              "name": "MarT1n",
+              "score": 30
+            },
+            {
+              "name": "jkuro",
+              "score": 14
+            },
+            {
+              "name": "YiHao",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "TE-2024启点赛",
+          "event": "2024启点赛",
+          "team": "TE",
+          "players": [
+            {
+              "name": "FengF",
+              "score": 53
+            },
+            {
+              "name": "Kai",
+              "score": 43
+            },
+            {
+              "name": "Flex1n",
+              "score": 32
+            },
+            {
+              "name": "HeiB",
+              "score": 24
+            },
+            {
+              "name": "YOU",
+              "score": 23
+            }
+          ]
+        },
+        {
+          "id": "DRG-2024启点赛",
+          "event": "2024启点赛",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 52
+            },
+            {
+              "name": "Tvirusluke",
+              "score": 33
+            },
+            {
+              "name": "Nicc",
+              "score": 28
+            },
+            {
+              "name": "nizhaoTZH",
+              "score": 26
+            },
+            {
+              "name": "dingwei",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "BLG-2024启点赛",
+          "event": "2024启点赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 51
+            },
+            {
+              "name": "Knight",
+              "score": 45
+            },
+            {
+              "name": "Yosemite",
+              "score": 44
+            },
+            {
+              "name": "Biank",
+              "score": 25
+            },
+            {
+              "name": "B3Ar",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2024启点赛",
+          "event": "2024启点赛",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "GuanG",
+              "score": 50
+            },
+            {
+              "name": "o0o0o",
+              "score": 18
+            },
+            {
+              "name": "cb",
+              "score": 12
+            },
+            {
+              "name": "OBONE",
+              "score": 8
+            },
+            {
+              "name": "PangH",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "AG-2024启点赛",
+          "event": "2024启点赛",
+          "team": "AG",
+          "players": [
+            {
+              "name": "Bunt",
+              "score": 49
+            },
+            {
+              "name": "Monk",
+              "score": 22
+            },
+            {
+              "name": "DeLb",
+              "score": 20
+            },
+            {
+              "name": "Spitfires",
+              "score": 13
+            },
+            {
+              "name": "sword9",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "FPX-2024启点赛",
+          "event": "2024启点赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Life",
+              "score": 48
+            },
+            {
+              "name": "AAAAY",
+              "score": 42
+            },
+            {
+              "name": "Autumn",
+              "score": 40
+            },
+            {
+              "name": "BerLIN",
+              "score": 17
+            },
+            {
+              "name": "lysoar",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "TEC-2024启点赛",
+          "event": "2024启点赛",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Rb",
+              "score": 47
+            },
+            {
+              "name": "Abo",
+              "score": 29
+            },
+            {
+              "name": "kawaii",
+              "score": 27
+            },
+            {
+              "name": "LockM",
+              "score": 15
+            },
+            {
+              "name": "Qiuye",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "TYL-2024启点赛",
+          "event": "2024启点赛",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "Ninebody",
+              "score": 46
+            },
+            {
+              "name": "ICEKING",
+              "score": 35
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 34
+            },
+            {
+              "name": "AAK",
+              "score": 11
+            },
+            {
+              "name": "hfmi0dzjc9z7",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "WOL-2024启点赛",
+          "event": "2024启点赛",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "pl1xx",
+              "score": 41
+            },
+            {
+              "name": "Yuicaw",
+              "score": 36
+            },
+            {
+              "name": "Spring",
+              "score": 31
+            },
+            {
+              "name": "aluba",
+              "score": 21
+            },
+            {
+              "name": "ColdFish",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "id": "SEN-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "SEN",
+          "players": [
+            {
+              "name": "zekken",
+              "score": 40
+            },
+            {
+              "name": "TenZ",
+              "score": 25
+            },
+            {
+              "name": "johnqt",
+              "score": 21
+            },
+            {
+              "name": "Zellsis",
+              "score": 18
+            },
+            {
+              "name": "Sacy",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "EDG-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 39
+            },
+            {
+              "name": "Smoggy",
+              "score": 19
+            },
+            {
+              "name": "nobody",
+              "score": 11
+            },
+            {
+              "name": "CHICHOO",
+              "score": 10
+            },
+            {
+              "name": "Haodong",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "KC-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "KC",
+          "players": [
+            {
+              "name": "N4RRATE",
+              "score": 38
+            },
+            {
+              "name": "marteen",
+              "score": 27
+            },
+            {
+              "name": "Magnum",
+              "score": 20
+            },
+            {
+              "name": "sh1n",
+              "score": 13
+            },
+            {
+              "name": "tomaszy",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "TH-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "TH",
+          "players": [
+            {
+              "name": "MiniBoo",
+              "score": 37
+            },
+            {
+              "name": "RieNs",
+              "score": 33
+            },
+            {
+              "name": "benjyfishy",
+              "score": 30
+            },
+            {
+              "name": "Boo",
+              "score": 9
+            },
+            {
+              "name": "paTiTek",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "FPX-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Autumn",
+              "score": 36
+            },
+            {
+              "name": "Life",
+              "score": 35
+            },
+            {
+              "name": "AAAAY",
+              "score": 7
+            },
+            {
+              "name": "lysoar",
+              "score": 5
+            },
+            {
+              "name": "BerLIN",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "LOUD-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "LOUD",
+          "players": [
+            {
+              "name": "cauanzin",
+              "score": 34
+            },
+            {
+              "name": "qck",
+              "score": 28
+            },
+            {
+              "name": "Less",
+              "score": 23
+            },
+            {
+              "name": "tuyz",
+              "score": 17
+            },
+            {
+              "name": "Saadhak",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "GEN-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "GEN",
+          "players": [
+            {
+              "name": "Meteor",
+              "score": 32
+            },
+            {
+              "name": "t3xture",
+              "score": 31
+            },
+            {
+              "name": "Karon",
+              "score": 24
+            },
+            {
+              "name": "Munchkin",
+              "score": 16
+            },
+            {
+              "name": "Lakia",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "PRX-马德里大师赛",
+          "event": "马德里大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "f0rsakeN",
+              "score": 29
+            },
+            {
+              "name": "something",
+              "score": 26
+            },
+            {
+              "name": "Monyet",
+              "score": 22
+            },
+            {
+              "name": "d4v41",
+              "score": 14
+            },
+            {
+              "name": "mindfreak",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "EDG-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 58
+            },
+            {
+              "name": "nobody",
+              "score": 36
+            },
+            {
+              "name": "Smoggy",
+              "score": 35
+            },
+            {
+              "name": "CHICHOO",
+              "score": 24
+            },
+            {
+              "name": "Haodong",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "BLG-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 57
+            },
+            {
+              "name": "Yosemite",
+              "score": 41
+            },
+            {
+              "name": "Knight",
+              "score": 30
+            },
+            {
+              "name": "Biank",
+              "score": 11
+            },
+            {
+              "name": "Levius",
+              "score": 2
+            },
+            {
+              "name": "B3Ar",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "FPX-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Life",
+              "score": 56
+            },
+            {
+              "name": "lysoar",
+              "score": 45
+            },
+            {
+              "name": "Autumn",
+              "score": 44
+            },
+            {
+              "name": "AAAAY",
+              "score": 29
+            },
+            {
+              "name": "BerLIN",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "TE-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "TE",
+          "players": [
+            {
+              "name": "FengF",
+              "score": 55
+            },
+            {
+              "name": "Kai",
+              "score": 40
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 26
+            },
+            {
+              "name": "HeiB",
+              "score": 21
+            },
+            {
+              "name": "YOU",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "Swerl",
+              "score": 54
+            },
+            {
+              "name": "cb",
+              "score": 33
+            },
+            {
+              "name": "GuanG",
+              "score": 28
+            },
+            {
+              "name": "PangH",
+              "score": 14
+            },
+            {
+              "name": "OBONE",
+              "score": 10
+            },
+            {
+              "name": "o0o0o",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "DRG-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 53
+            },
+            {
+              "name": "Tvirusluke",
+              "score": 42
+            },
+            {
+              "name": "Nicc",
+              "score": 22
+            },
+            {
+              "name": "shion7",
+              "score": 16
+            },
+            {
+              "name": "nizhaoTZH",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "TEC-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Rb",
+              "score": 52
+            },
+            {
+              "name": "Abo",
+              "score": 34
+            },
+            {
+              "name": "AC",
+              "score": 25
+            },
+            {
+              "name": "kawaii",
+              "score": 12
+            },
+            {
+              "name": "LockM",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "TYL-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "AAK",
+              "score": 51
+            },
+            {
+              "name": "hfmi0dzjc9z7",
+              "score": 48
+            },
+            {
+              "name": "Eren",
+              "score": 37
+            },
+            {
+              "name": "Flex1n",
+              "score": 31
+            },
+            {
+              "name": "ICEKING",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "AG-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "AG",
+          "players": [
+            {
+              "name": "DeLb",
+              "score": 50
+            },
+            {
+              "name": "Spitfires",
+              "score": 46
+            },
+            {
+              "name": "Monk",
+              "score": 20
+            },
+            {
+              "name": "Bunt",
+              "score": 19
+            },
+            {
+              "name": "sword9",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "JDG-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "jkuro",
+              "score": 49
+            },
+            {
+              "name": "Viva",
+              "score": 47
+            },
+            {
+              "name": "stew",
+              "score": 39
+            },
+            {
+              "name": "MarT1n",
+              "score": 27
+            },
+            {
+              "name": "YHchen",
+              "score": 15
+            },
+            {
+              "name": "YiHao",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "WOL-2024第一赛段",
+          "event": "2024第一赛段",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Yuicaw",
+              "score": 43
+            },
+            {
+              "name": "Spring",
+              "score": 38
+            },
+            {
+              "name": "aluba",
+              "score": 32
+            },
+            {
+              "name": "ColdFish",
+              "score": 23
+            },
+            {
+              "name": "pl1xx",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "FNC-上海大师赛",
+          "event": "上海大师赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 60
+            },
+            {
+              "name": "Alfajer",
+              "score": 50
+            },
+            {
+              "name": "Leo",
+              "score": 20
+            },
+            {
+              "name": "Chronicle",
+              "score": 7
+            },
+            {
+              "name": "Boaster",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "TH-上海大师赛",
+          "event": "上海大师赛",
+          "team": "TH",
+          "players": [
+            {
+              "name": "Wo0t",
+              "score": 59
+            },
+            {
+              "name": "RieNs",
+              "score": 39
+            },
+            {
+              "name": "paTiTek",
+              "score": 33
+            },
+            {
+              "name": "benjyfishy",
+              "score": 30
+            },
+            {
+              "name": "Boo",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "EDG-上海大师赛",
+          "event": "上海大师赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 58
+            },
+            {
+              "name": "Smoggy",
+              "score": 53
+            },
+            {
+              "name": "CHICHOO",
+              "score": 21
+            },
+            {
+              "name": "nobody",
+              "score": 6
+            },
+            {
+              "name": "Haodong",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "GEN-上海大师赛",
+          "event": "上海大师赛",
+          "team": "GEN",
+          "players": [
+            {
+              "name": "t3xture",
+              "score": 57
+            },
+            {
+              "name": "Meteor",
+              "score": 52
+            },
+            {
+              "name": "Karon",
+              "score": 28
+            },
+            {
+              "name": "Lakia",
+              "score": 23
+            },
+            {
+              "name": "Munchkin",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "FPX-上海大师赛",
+          "event": "上海大师赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Life",
+              "score": 56
+            },
+            {
+              "name": "BerLIN",
+              "score": 44
+            },
+            {
+              "name": "Autumn",
+              "score": 29
+            },
+            {
+              "name": "AAAAY",
+              "score": 26
+            },
+            {
+              "name": "lysoar",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "LEV-上海大师赛",
+          "event": "上海大师赛",
+          "team": "LEV",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 55
+            },
+            {
+              "name": "tex",
+              "score": 49
+            },
+            {
+              "name": "kiNgg",
+              "score": 42
+            },
+            {
+              "name": "Mazino",
+              "score": 34
+            },
+            {
+              "name": "C0M",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "PRX-上海大师赛",
+          "event": "上海大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "something",
+              "score": 54
+            },
+            {
+              "name": "Jinggg",
+              "score": 46
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 24
+            },
+            {
+              "name": "d4v41",
+              "score": 16
+            },
+            {
+              "name": "mindfreak",
+              "score": 14
+            }
+          ]
+        },
+        {
+          "id": "DRG-上海大师赛",
+          "event": "上海大师赛",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 51
+            },
+            {
+              "name": "nizhaoTZH",
+              "score": 41
+            },
+            {
+              "name": "Tvirusluke",
+              "score": 36
+            },
+            {
+              "name": "Nicc",
+              "score": 17
+            },
+            {
+              "name": "shion7",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "100T-上海大师赛",
+          "event": "上海大师赛",
+          "team": "100T",
+          "players": [
+            {
+              "name": "Cryocells",
+              "score": 48
+            },
+            {
+              "name": "Asuna",
+              "score": 37
+            },
+            {
+              "name": "bang",
+              "score": 35
+            },
+            {
+              "name": "eeiu",
+              "score": 22
+            },
+            {
+              "name": "Boostio",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "T1-上海大师赛",
+          "event": "上海大师赛",
+          "team": "T1",
+          "players": [
+            {
+              "name": "Rossy",
+              "score": 47
+            },
+            {
+              "name": "iZu",
+              "score": 43
+            },
+            {
+              "name": "Carpe",
+              "score": 32
+            },
+            {
+              "name": "xccurate",
+              "score": 13
+            },
+            {
+              "name": "Sayaplayer",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "FUT-上海大师赛",
+          "event": "上海大师赛",
+          "team": "FUT",
+          "players": [
+            {
+              "name": "cNed",
+              "score": 45
+            },
+            {
+              "name": "AtaKaptan",
+              "score": 27
+            },
+            {
+              "name": "yetujey",
+              "score": 25
+            },
+            {
+              "name": "qRaxs",
+              "score": 15
+            },
+            {
+              "name": "MrFaliN",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "G2-上海大师赛",
+          "event": "上海大师赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "leaf",
+              "score": 40
+            },
+            {
+              "name": "JonahP",
+              "score": 38
+            },
+            {
+              "name": "icy",
+              "score": 31
+            },
+            {
+              "name": "trent",
+              "score": 19
+            },
+            {
+              "name": "valyn",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "EDG-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 58
+            },
+            {
+              "name": "nobody",
+              "score": 39
+            },
+            {
+              "name": "Smoggy",
+              "score": 36
+            },
+            {
+              "name": "CHICHOO",
+              "score": 33
+            },
+            {
+              "name": "S1Mon",
+              "score": 8
+            },
+            {
+              "name": "Haodong",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "WOL-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "WOL",
+          "players": [
+            {
+              "name": "Yuicaw",
+              "score": 57
+            },
+            {
+              "name": "Spring",
+              "score": 54
+            },
+            {
+              "name": "pl1xx",
+              "score": 28
+            },
+            {
+              "name": "aluba",
+              "score": 23
+            },
+            {
+              "name": "SiuFatBB",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "DRG-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "DRG",
+          "players": [
+            {
+              "name": "vo0kashu",
+              "score": 56
+            },
+            {
+              "name": "Tvirusluke",
+              "score": 49
+            },
+            {
+              "name": "shion7",
+              "score": 15
+            },
+            {
+              "name": "Nicc",
+              "score": 9
+            },
+            {
+              "name": "nizhaoTZH",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "TYL-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "TYL",
+          "players": [
+            {
+              "name": "Ninebody",
+              "score": 55
+            },
+            {
+              "name": "Eren",
+              "score": 30
+            },
+            {
+              "name": "hfmi0dzjc9z7",
+              "score": 24
+            },
+            {
+              "name": "ColdFish",
+              "score": 13
+            },
+            {
+              "name": "AAK",
+              "score": 11
+            },
+            {
+              "name": "Scales",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "AG-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "AG",
+          "players": [
+            {
+              "name": "Spitfires",
+              "score": 53
+            },
+            {
+              "name": "Monk",
+              "score": 27
+            },
+            {
+              "name": "sword9",
+              "score": 20
+            },
+            {
+              "name": "DeLb",
+              "score": 16
+            },
+            {
+              "name": "Bunt",
+              "score": 14
+            }
+          ]
+        },
+        {
+          "id": "JDG-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "JDG",
+          "players": [
+            {
+              "name": "stew",
+              "score": 52
+            },
+            {
+              "name": "Viva",
+              "score": 46
+            },
+            {
+              "name": "Z1Yan",
+              "score": 43
+            },
+            {
+              "name": "YHchen",
+              "score": 37
+            },
+            {
+              "name": "jkuro",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "TEC-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "TEC",
+          "players": [
+            {
+              "name": "Rb",
+              "score": 51
+            },
+            {
+              "name": "Abo",
+              "score": 42
+            },
+            {
+              "name": "AC",
+              "score": 41
+            },
+            {
+              "name": "B1ack",
+              "score": 26
+            },
+            {
+              "name": "kawaii",
+              "score": 10
+            },
+            {
+              "name": "LockM",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "BLG-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 50
+            },
+            {
+              "name": "Yosemite",
+              "score": 38
+            },
+            {
+              "name": "Nephh",
+              "score": 34
+            },
+            {
+              "name": "Knight",
+              "score": 31
+            },
+            {
+              "name": "Flex1n",
+              "score": 19
+            }
+          ]
+        },
+        {
+          "id": "NOVA-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "NOVA",
+          "players": [
+            {
+              "name": "Swerl",
+              "score": 48
+            },
+            {
+              "name": "GuanG",
+              "score": 40
+            },
+            {
+              "name": "cb",
+              "score": 22
+            },
+            {
+              "name": "Ezeir",
+              "score": 18
+            },
+            {
+              "name": "o0o0o",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "TE-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "TE",
+          "players": [
+            {
+              "name": "Kai",
+              "score": 47
+            },
+            {
+              "name": "FengF",
+              "score": 44
+            },
+            {
+              "name": "Biank",
+              "score": 32
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 17
+            },
+            {
+              "name": "heybay",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "FPX-2024第二赛段",
+          "event": "2024第二赛段",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Life",
+              "score": 45
+            },
+            {
+              "name": "Autumn",
+              "score": 35
+            },
+            {
+              "name": "lysoar",
+              "score": 29
+            },
+            {
+              "name": "AAAAY",
+              "score": 25
+            },
+            {
+              "name": "BerLIN",
+              "score": 21
+            }
+          ]
+        },
+        {
+          "id": "FNC-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 80
+            },
+            {
+              "name": "Chronicle",
+              "score": 69
+            },
+            {
+              "name": "Alfajer",
+              "score": 57
+            },
+            {
+              "name": "hiro",
+              "score": 37
+            },
+            {
+              "name": "Boaster",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "SEN-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "SEN",
+          "players": [
+            {
+              "name": "zekken",
+              "score": 79
+            },
+            {
+              "name": "TenZ",
+              "score": 64
+            },
+            {
+              "name": "Sacy",
+              "score": 27
+            },
+            {
+              "name": "Zellsis",
+              "score": 15
+            },
+            {
+              "name": "johnqt",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "EDG-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 78
+            },
+            {
+              "name": "CHICHOO",
+              "score": 67
+            },
+            {
+              "name": "Smoggy",
+              "score": 62
+            },
+            {
+              "name": "nobody",
+              "score": 23
+            },
+            {
+              "name": "S1Mon",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "keznit",
+              "score": 77
+            },
+            {
+              "name": "Shyy",
+              "score": 60
+            },
+            {
+              "name": "heat",
+              "score": 42
+            },
+            {
+              "name": "Melser",
+              "score": 21
+            },
+            {
+              "name": "mta",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "BLG-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 76
+            },
+            {
+              "name": "Flex1n",
+              "score": 31
+            },
+            {
+              "name": "Nephh",
+              "score": 13
+            },
+            {
+              "name": "Knight",
+              "score": 5
+            },
+            {
+              "name": "Yosemite",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "TLN-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "TLN",
+          "players": [
+            {
+              "name": "Primmie",
+              "score": 75
+            },
+            {
+              "name": "ban",
+              "score": 35
+            },
+            {
+              "name": "Governor",
+              "score": 33
+            },
+            {
+              "name": "JitboyS",
+              "score": 28
+            },
+            {
+              "name": "Crws",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "GEN-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "GEN",
+          "players": [
+            {
+              "name": "t3xture",
+              "score": 74
+            },
+            {
+              "name": "Meteor",
+              "score": 72
+            },
+            {
+              "name": "Munchkin",
+              "score": 43
+            },
+            {
+              "name": "Karon",
+              "score": 25
+            },
+            {
+              "name": "Lakia",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "KRX-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "KRX",
+          "players": [
+            {
+              "name": "BuZz",
+              "score": 73
+            },
+            {
+              "name": "Flashback",
+              "score": 50
+            },
+            {
+              "name": "MaKo",
+              "score": 44
+            },
+            {
+              "name": "Foxy9",
+              "score": 24
+            },
+            {
+              "name": "BeYN",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "FUT-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "FUT",
+          "players": [
+            {
+              "name": "yetujey",
+              "score": 71
+            },
+            {
+              "name": "cNed",
+              "score": 68
+            },
+            {
+              "name": "MrFaliN",
+              "score": 16
+            },
+            {
+              "name": "AtaKaptan",
+              "score": 8
+            },
+            {
+              "name": "qRaxs",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "VIT-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "VIT",
+          "players": [
+            {
+              "name": "trexx",
+              "score": 70
+            },
+            {
+              "name": "Sayf",
+              "score": 58
+            },
+            {
+              "name": "runneR",
+              "score": 54
+            },
+            {
+              "name": "Kicks",
+              "score": 38
+            },
+            {
+              "name": "ceNder",
+              "score": 14
+            }
+          ]
+        },
+        {
+          "id": "LEV-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "LEV",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 66
+            },
+            {
+              "name": "Mazino",
+              "score": 47
+            },
+            {
+              "name": "tex",
+              "score": 46
+            },
+            {
+              "name": "C0M",
+              "score": 45
+            },
+            {
+              "name": "kiNgg",
+              "score": 36
+            }
+          ]
+        },
+        {
+          "id": "TH-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "TH",
+          "players": [
+            {
+              "name": "RieNs",
+              "score": 65
+            },
+            {
+              "name": "MiniBoo",
+              "score": 55
+            },
+            {
+              "name": "benjyfishy",
+              "score": 40
+            },
+            {
+              "name": "Wo0t",
+              "score": 39
+            },
+            {
+              "name": "Boo",
+              "score": 22
+            }
+          ]
+        },
+        {
+          "id": "TE-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "TE",
+          "players": [
+            {
+              "name": "Kai",
+              "score": 63
+            },
+            {
+              "name": "FengF",
+              "score": 52
+            },
+            {
+              "name": "LuoK1ng",
+              "score": 49
+            },
+            {
+              "name": "Biank",
+              "score": 11
+            },
+            {
+              "name": "heybay",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "FPX-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "Autumn",
+              "score": 61
+            },
+            {
+              "name": "AAAAY",
+              "score": 29
+            },
+            {
+              "name": "BerLIN",
+              "score": 20
+            },
+            {
+              "name": "Life",
+              "score": 19
+            },
+            {
+              "name": "lysoar",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "PRX-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "mindfreak",
+              "score": 59
+            },
+            {
+              "name": "Jinggg",
+              "score": 56
+            },
+            {
+              "name": "something",
+              "score": 53
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 30
+            },
+            {
+              "name": "d4v41",
+              "score": 26
+            }
+          ]
+        },
+        {
+          "id": "G2-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "leaf",
+              "score": 51
+            },
+            {
+              "name": "trent",
+              "score": 48
+            },
+            {
+              "name": "valyn",
+              "score": 41
+            },
+            {
+              "name": "JonahP",
+              "score": 34
+            },
+            {
+              "name": "icy",
+              "score": 32
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
