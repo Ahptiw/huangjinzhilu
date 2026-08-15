@@ -1,6 +1,6 @@
-window.GOLDEN_ROAD_PLAYERS =   {
-  "version": "2.0",
-  "updated": "2026-08-14",
+window.GOLDEN_ROAD_PLAYERS = {
+  "version": "2.3",
+  "updated": "2026-08-15",
   "description": "全部战队与选手数据；同一赛季归入同一 year，以 event 区分赛事（score = 总人数 - 排名 + 1）",
   "tournaments": [
     {
@@ -1733,9 +1733,20 @@ window.GOLDEN_ROAD_PLAYERS =   {
           ]
         },
         {
-          "id": "KRX-曼谷大师赛",
+          "id": "DRX-曼谷大师赛",
           "event": "曼谷大师赛",
-          "team": "KRX",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "MaKo",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-曼谷大师赛",
+          "event": "曼谷大师赛",
+          "team": "KRÜ",
           "players": [
             {
               "name": "free1ng",
@@ -1752,10 +1763,6 @@ window.GOLDEN_ROAD_PLAYERS =   {
             {
               "name": "Flashback",
               "score": 18
-            },
-            {
-              "name": "MaKo",
-              "score": 13
             }
           ]
         },
@@ -3123,9 +3130,20 @@ window.GOLDEN_ROAD_PLAYERS =   {
           ]
         },
         {
-          "id": "KRX-巴黎全球冠军赛",
+          "id": "DRX-巴黎全球冠军赛",
           "event": "巴黎全球冠军赛",
-          "team": "KRX",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "MaKo",
+              "score": 22
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-巴黎全球冠军赛",
+          "event": "巴黎全球冠军赛",
+          "team": "KRÜ",
           "players": [
             {
               "name": "Flashback",
@@ -3134,10 +3152,6 @@ window.GOLDEN_ROAD_PLAYERS =   {
             {
               "name": "HYUNMIN",
               "score": 63
-            },
-            {
-              "name": "MaKo",
-              "score": 22
             },
             {
               "name": "BeYN",
@@ -4961,21 +4975,28 @@ window.GOLDEN_ROAD_PLAYERS =   {
           ]
         },
         {
-          "id": "KRX-首尔全球冠军赛",
+          "id": "DRX-首尔全球冠军赛",
           "event": "首尔全球冠军赛",
-          "team": "KRX",
+          "team": "DRX",
           "players": [
             {
               "name": "BuZz",
               "score": 73
             },
             {
-              "name": "Flashback",
-              "score": 50
-            },
-            {
               "name": "MaKo",
               "score": 44
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-首尔全球冠军赛",
+          "event": "首尔全球冠军赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "Flashback",
+              "score": 50
             },
             {
               "name": "Foxy9",
@@ -5200,6 +5221,2316 @@ window.GOLDEN_ROAD_PLAYERS =   {
             {
               "name": "icy",
               "score": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "teams": [
+        {
+          "id": "EDG-东京大师赛",
+          "event": "东京大师赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 61
+            },
+            {
+              "name": "Smoggy",
+              "score": 31
+            },
+            {
+              "name": "nobody",
+              "score": 30
+            },
+            {
+              "name": "CHICHOO",
+              "score": 29
+            },
+            {
+              "name": "Haodong",
+              "score": 25
+            }
+          ]
+        },
+        {
+          "id": "PRX-东京大师赛",
+          "event": "东京大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 60
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 45
+            },
+            {
+              "name": "d4v41",
+              "score": 26
+            },
+            {
+              "name": "mindfreak",
+              "score": 16
+            },
+            {
+              "name": "CigaretteS",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "LOUD-东京大师赛",
+          "event": "东京大师赛",
+          "team": "LOUD",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 59
+            },
+            {
+              "name": "Less",
+              "score": 33
+            },
+            {
+              "name": "cauanzin",
+              "score": 12
+            },
+            {
+              "name": "tuyz",
+              "score": 9
+            },
+            {
+              "name": "Saadhak",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "NAVI-东京大师赛",
+          "event": "东京大师赛",
+          "team": "NAVI",
+          "players": [
+            {
+              "name": "cNed",
+              "score": 58
+            },
+            {
+              "name": "SUYGETSU",
+              "score": 35
+            },
+            {
+              "name": "Shao",
+              "score": 28
+            },
+            {
+              "name": "Zyppan",
+              "score": 10
+            },
+            {
+              "name": "ANGE1",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "FNC-东京大师赛",
+          "event": "东京大师赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 57
+            },
+            {
+              "name": "Chronicle",
+              "score": 55
+            },
+            {
+              "name": "Alfajer",
+              "score": 53
+            },
+            {
+              "name": "Leo",
+              "score": 34
+            },
+            {
+              "name": "Boaster",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "TL-东京大师赛",
+          "event": "东京大师赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "Sayf",
+              "score": 56
+            },
+            {
+              "name": "nAts",
+              "score": 44
+            },
+            {
+              "name": "Jamppi",
+              "score": 19
+            },
+            {
+              "name": "soulcas",
+              "score": 18
+            },
+            {
+              "name": "Redgar",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "DRX-东京大师赛",
+          "event": "东京大师赛",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "Rb",
+              "score": 54
+            },
+            {
+              "name": "BuZz",
+              "score": 49
+            },
+            {
+              "name": "MaKo",
+              "score": 32
+            },
+            {
+              "name": "stax",
+              "score": 7
+            },
+            {
+              "name": "Zest",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-东京大师赛",
+          "event": "东京大师赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "Foxy9",
+              "score": 46
+            }
+          ]
+        },
+        {
+          "id": "FUT-东京大师赛",
+          "event": "东京大师赛",
+          "team": "FUT",
+          "players": [
+            {
+              "name": "qw1",
+              "score": 52
+            },
+            {
+              "name": "qRaxs",
+              "score": 37
+            },
+            {
+              "name": "MOJJ",
+              "score": 24
+            },
+            {
+              "name": "AtaKaptan",
+              "score": 22
+            },
+            {
+              "name": "MrFaliN",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "ASE-东京大师赛",
+          "event": "东京大师赛",
+          "team": "ASE",
+          "players": [
+            {
+              "name": "Life",
+              "score": 51
+            },
+            {
+              "name": "Monk",
+              "score": 47
+            },
+            {
+              "name": "YHchen",
+              "score": 36
+            },
+            {
+              "name": "Bunt",
+              "score": 20
+            },
+            {
+              "name": "hfmi0dzjc...",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "EG-东京大师赛",
+          "event": "东京大师赛",
+          "team": "EG",
+          "players": [
+            {
+              "name": "Boostio",
+              "score": 50
+            },
+            {
+              "name": "jawgemo",
+              "score": 42
+            },
+            {
+              "name": "Demon1",
+              "score": 40
+            },
+            {
+              "name": "Ethan",
+              "score": 27
+            },
+            {
+              "name": "C0M",
+              "score": 23
+            }
+          ]
+        },
+        {
+          "id": "NRG-东京大师赛",
+          "event": "东京大师赛",
+          "team": "NRG",
+          "players": [
+            {
+              "name": "Victor",
+              "score": 48
+            },
+            {
+              "name": "ardiis",
+              "score": 41
+            },
+            {
+              "name": "s0m",
+              "score": 38
+            },
+            {
+              "name": "FNS",
+              "score": 14
+            },
+            {
+              "name": "crashies",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "T1-东京大师赛",
+          "event": "东京大师赛",
+          "team": "T1",
+          "players": [
+            {
+              "name": "Sayaplayer",
+              "score": 43
+            },
+            {
+              "name": "Munchkin",
+              "score": 39
+            },
+            {
+              "name": "ban",
+              "score": 21
+            },
+            {
+              "name": "Carpe",
+              "score": 17
+            },
+            {
+              "name": "xeta",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "keznit",
+              "score": 80
+            },
+            {
+              "name": "Daveeys",
+              "score": 29
+            },
+            {
+              "name": "Klaus",
+              "score": 14
+            },
+            {
+              "name": "NagZ",
+              "score": 9
+            },
+            {
+              "name": "Melser",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "BLG-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "BLG",
+          "players": [
+            {
+              "name": "whzy",
+              "score": 79
+            },
+            {
+              "name": "Yosemite",
+              "score": 57
+            },
+            {
+              "name": "Knight",
+              "score": 35
+            },
+            {
+              "name": "Biank",
+              "score": 34
+            },
+            {
+              "name": "rin",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "EG-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "EG",
+          "players": [
+            {
+              "name": "Demon1",
+              "score": 78
+            },
+            {
+              "name": "jawgemo",
+              "score": 72
+            },
+            {
+              "name": "C0M",
+              "score": 46
+            },
+            {
+              "name": "Ethan",
+              "score": 44
+            },
+            {
+              "name": "Boostio",
+              "score": 33
+            }
+          ]
+        },
+        {
+          "id": "LOUD-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "LOUD",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 77
+            },
+            {
+              "name": "Less",
+              "score": 70
+            },
+            {
+              "name": "cauanzin",
+              "score": 64
+            },
+            {
+              "name": "Saadhak",
+              "score": 30
+            },
+            {
+              "name": "tuyz",
+              "score": 19
+            }
+          ]
+        },
+        {
+          "id": "PRX-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 76
+            },
+            {
+              "name": "something",
+              "score": 60
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 54
+            },
+            {
+              "name": "d4v41",
+              "score": 41
+            },
+            {
+              "name": "mindfreak",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "id": "FNC-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Alfajer",
+              "score": 75
+            },
+            {
+              "name": "Derke",
+              "score": 65
+            },
+            {
+              "name": "Leo",
+              "score": 55
+            },
+            {
+              "name": "Boaster",
+              "score": 28
+            },
+            {
+              "name": "Chronicle",
+              "score": 23
+            }
+          ]
+        },
+        {
+          "id": "FPX-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "AAAAY",
+              "score": 74
+            },
+            {
+              "name": "lysoar",
+              "score": 58
+            },
+            {
+              "name": "Yuicaw",
+              "score": 56
+            },
+            {
+              "name": "BerLIN",
+              "score": 13
+            },
+            {
+              "name": "nizhaoTZH",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "T1-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "T1",
+          "players": [
+            {
+              "name": "Sayaplayer",
+              "score": 73
+            },
+            {
+              "name": "Munchkin",
+              "score": 62
+            },
+            {
+              "name": "xeta",
+              "score": 32
+            },
+            {
+              "name": "ban",
+              "score": 26
+            },
+            {
+              "name": "Carpe",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "DRX-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "BuZz",
+              "score": 71
+            },
+            {
+              "name": "Zest",
+              "score": 51
+            },
+            {
+              "name": "MaKo",
+              "score": 37
+            },
+            {
+              "name": "stax",
+              "score": 25
+            },
+            {
+              "name": "Rb",
+              "score": 18
+            }
+          ]
+        },
+        {
+          "id": "GIA-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "GIA",
+          "players": [
+            {
+              "name": "Fit1nho",
+              "score": 69
+            },
+            {
+              "name": "Cloud",
+              "score": 63
+            },
+            {
+              "name": "hoody",
+              "score": 53
+            },
+            {
+              "name": "nukkye",
+              "score": 31
+            },
+            {
+              "name": "rhyme",
+              "score": 24
+            }
+          ]
+        },
+        {
+          "id": "EDG-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 68
+            },
+            {
+              "name": "Smoggy",
+              "score": 52
+            },
+            {
+              "name": "nobody",
+              "score": 50
+            },
+            {
+              "name": "CHICHOO",
+              "score": 48
+            },
+            {
+              "name": "Haodong",
+              "score": 22
+            }
+          ]
+        },
+        {
+          "id": "TL-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "Sayf",
+              "score": 67
+            },
+            {
+              "name": "nAts",
+              "score": 61
+            },
+            {
+              "name": "Redgar",
+              "score": 17
+            },
+            {
+              "name": "Jamppi",
+              "score": 16
+            },
+            {
+              "name": "soulcas",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "NAVI-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "NAVI",
+          "players": [
+            {
+              "name": "cNed",
+              "score": 66
+            },
+            {
+              "name": "Zyppan",
+              "score": 49
+            },
+            {
+              "name": "SUYGETSU",
+              "score": 43
+            },
+            {
+              "name": "ANGE1",
+              "score": 27
+            },
+            {
+              "name": "Shao",
+              "score": 21
+            }
+          ]
+        },
+        {
+          "id": "FUT-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "FUT",
+          "players": [
+            {
+              "name": "MrFaliN",
+              "score": 59
+            },
+            {
+              "name": "AtaKaptan",
+              "score": 47
+            },
+            {
+              "name": "qRaxs",
+              "score": 42
+            },
+            {
+              "name": "MOJJ",
+              "score": 40
+            },
+            {
+              "name": "qw1",
+              "score": 38
+            }
+          ]
+        },
+        {
+          "id": "NRG-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "NRG",
+          "players": [
+            {
+              "name": "ardiis",
+              "score": 45
+            },
+            {
+              "name": "Victor",
+              "score": 39
+            },
+            {
+              "name": "crashies",
+              "score": 15
+            },
+            {
+              "name": "FNS",
+              "score": 12
+            },
+            {
+              "name": "s0m",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "ZETA-洛杉矶全球冠军赛",
+          "event": "洛杉矶全球冠军赛",
+          "team": "ZETA",
+          "players": [
+            {
+              "name": "Dep",
+              "score": 36
+            },
+            {
+              "name": "TENNN",
+              "score": 4
+            },
+            {
+              "name": "Laz",
+              "score": 3
+            },
+            {
+              "name": "SugarZ3ro",
+              "score": 2
+            },
+            {
+              "name": "crow",
+              "score": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "teams": [
+        {
+          "id": "TL-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "ScreaM",
+              "score": 60
+            },
+            {
+              "name": "Jamppi",
+              "score": 49
+            },
+            {
+              "name": "soulcas",
+              "score": 32
+            },
+            {
+              "name": "Nivera",
+              "score": 31
+            },
+            {
+              "name": "L1NK",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "FNC-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "H1ber",
+              "score": 59
+            },
+            {
+              "name": "Enzo",
+              "score": 51
+            },
+            {
+              "name": "Mistic",
+              "score": 28
+            },
+            {
+              "name": "Magnum",
+              "score": 12
+            },
+            {
+              "name": "Boaster",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "OPTC-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "OPTC",
+          "players": [
+            {
+              "name": "yay",
+              "score": 58
+            },
+            {
+              "name": "Marved",
+              "score": 48
+            },
+            {
+              "name": "Victor",
+              "score": 42
+            },
+            {
+              "name": "crashies",
+              "score": 27
+            },
+            {
+              "name": "FiNESSE",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "TGRD-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "TGRD",
+          "players": [
+            {
+              "name": "Sayaplayer",
+              "score": 57
+            },
+            {
+              "name": "JonahP",
+              "score": 30
+            },
+            {
+              "name": "neT",
+              "score": 15
+            },
+            {
+              "name": "valyn",
+              "score": 14
+            },
+            {
+              "name": "trent",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "PRX-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 56
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 53
+            },
+            {
+              "name": "Benkai",
+              "score": 21
+            },
+            {
+              "name": "d4v41",
+              "score": 18
+            },
+            {
+              "name": "mindfreak",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "LOUD-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "LOUD",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 55
+            },
+            {
+              "name": "Sacy",
+              "score": 35
+            },
+            {
+              "name": "Less",
+              "score": 34
+            },
+            {
+              "name": "pANcada",
+              "score": 17
+            },
+            {
+              "name": "Saadhak",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "G2-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "G2",
+          "players": [
+            {
+              "name": "hoody",
+              "score": 54
+            },
+            {
+              "name": "Mixwell",
+              "score": 44
+            },
+            {
+              "name": "nukkye",
+              "score": 40
+            },
+            {
+              "name": "AvovA",
+              "score": 11
+            },
+            {
+              "name": "Meddo",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "NIP-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "NIP",
+          "players": [
+            {
+              "name": "xand",
+              "score": 52
+            },
+            {
+              "name": "cauanzin",
+              "score": 38
+            },
+            {
+              "name": "bezn1",
+              "score": 24
+            },
+            {
+              "name": "Jonn",
+              "score": 22
+            },
+            {
+              "name": "bnj",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "DRX-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "MaKo",
+              "score": 50
+            },
+            {
+              "name": "stax",
+              "score": 39
+            },
+            {
+              "name": "BuZz",
+              "score": 37
+            },
+            {
+              "name": "Zest",
+              "score": 33
+            },
+            {
+              "name": "Rb",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "id": "ZETA-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "ZETA",
+          "players": [
+            {
+              "name": "TENNN",
+              "score": 47
+            },
+            {
+              "name": "SugarZ3ro",
+              "score": 46
+            },
+            {
+              "name": "Laz",
+              "score": 45
+            },
+            {
+              "name": "Dep",
+              "score": 29
+            },
+            {
+              "name": "crow",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "XERXIA-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "XERXIA",
+          "players": [
+            {
+              "name": "sScary",
+              "score": 43
+            },
+            {
+              "name": "Surf",
+              "score": 41
+            },
+            {
+              "name": "sushiboys",
+              "score": 26
+            },
+            {
+              "name": "foxz",
+              "score": 23
+            },
+            {
+              "name": "Crws",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-雷克雅未克大师赛",
+          "event": "雷克雅未克大师赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "keznit",
+              "score": 36
+            },
+            {
+              "name": "NagZ",
+              "score": 25
+            },
+            {
+              "name": "Klaus",
+              "score": 19
+            },
+            {
+              "name": "delz1k",
+              "score": 16
+            },
+            {
+              "name": "Mazino",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "PRX-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 61
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 51
+            },
+            {
+              "name": "mindfreak",
+              "score": 29
+            },
+            {
+              "name": "d4v41",
+              "score": 28
+            },
+            {
+              "name": "Benkai",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "GLD-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "GLD",
+          "players": [
+            {
+              "name": "Sayf",
+              "score": 60
+            },
+            {
+              "name": "trexx",
+              "score": 55
+            },
+            {
+              "name": "Leo",
+              "score": 38
+            },
+            {
+              "name": "koldamenta",
+              "score": 26
+            },
+            {
+              "name": "Russ",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "XSET-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "XSET",
+          "players": [
+            {
+              "name": "Cryocells",
+              "score": 59
+            },
+            {
+              "name": "zekken",
+              "score": 56
+            },
+            {
+              "name": "BcJ",
+              "score": 19
+            },
+            {
+              "name": "dephh",
+              "score": 8
+            },
+            {
+              "name": "AYRIN",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "FNC-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 58
+            },
+            {
+              "name": "Alfajer",
+              "score": 53
+            },
+            {
+              "name": "Boaster",
+              "score": 30
+            },
+            {
+              "name": "Enzo",
+              "score": 12
+            },
+            {
+              "name": "Mistic",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "OPTC-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "OPTC",
+          "players": [
+            {
+              "name": "yay",
+              "score": 57
+            },
+            {
+              "name": "Marved",
+              "score": 45
+            },
+            {
+              "name": "Victor",
+              "score": 37
+            },
+            {
+              "name": "crashies",
+              "score": 22
+            },
+            {
+              "name": "FiNESSE",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "keznit",
+              "score": 54
+            },
+            {
+              "name": "Mazino",
+              "score": 39
+            },
+            {
+              "name": "NagZ",
+              "score": 18
+            },
+            {
+              "name": "Klaus",
+              "score": 13
+            },
+            {
+              "name": "delz1k",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "LOUD-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "LOUD",
+          "players": [
+            {
+              "name": "aspas",
+              "score": 52
+            },
+            {
+              "name": "Saadhak",
+              "score": 48
+            },
+            {
+              "name": "pANcada",
+              "score": 32
+            },
+            {
+              "name": "Less",
+              "score": 15
+            },
+            {
+              "name": "Sacy",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "FPX-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "ardiis",
+              "score": 50
+            },
+            {
+              "name": "Shao",
+              "score": 46
+            },
+            {
+              "name": "SUYGETSU",
+              "score": 44
+            },
+            {
+              "name": "Zyppan",
+              "score": 42
+            },
+            {
+              "name": "ANGE1",
+              "score": 14
+            },
+            {
+              "name": "SEIDER",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "NTH-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "NTH",
+          "players": [
+            {
+              "name": "Meteor",
+              "score": 49
+            },
+            {
+              "name": "JoXJo",
+              "score": 23
+            },
+            {
+              "name": "xnfri",
+              "score": 16
+            },
+            {
+              "name": "Derialy",
+              "score": 11
+            },
+            {
+              "name": "BlackWiz",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "XERXIA-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "XERXIA",
+          "players": [
+            {
+              "name": "Surf",
+              "score": 47
+            },
+            {
+              "name": "sScary",
+              "score": 34
+            },
+            {
+              "name": "foxz",
+              "score": 31
+            },
+            {
+              "name": "Crws",
+              "score": 21
+            },
+            {
+              "name": "sushiboys",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "id": "DRX-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "Rb",
+              "score": 43
+            },
+            {
+              "name": "MaKo",
+              "score": 41
+            },
+            {
+              "name": "stax",
+              "score": 36
+            },
+            {
+              "name": "BuZz",
+              "score": 33
+            },
+            {
+              "name": "Zest",
+              "score": 27
+            }
+          ]
+        },
+        {
+          "id": "LEV-哥本哈根大师赛",
+          "event": "哥本哈根大师赛",
+          "team": "LEV",
+          "players": [
+            {
+              "name": "adverso",
+              "score": 40
+            },
+            {
+              "name": "Tacolilla",
+              "score": 35
+            },
+            {
+              "name": "kiNgg",
+              "score": 25
+            },
+            {
+              "name": "Melser",
+              "score": 24
+            },
+            {
+              "name": "Shyy",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "LEV-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "LEV",
+          "players": [
+            {
+              "name": "kiNgg",
+              "score": 81
+            },
+            {
+              "name": "Tacolilla",
+              "score": 46
+            },
+            {
+              "name": "adverso",
+              "score": 38
+            },
+            {
+              "name": "Melser",
+              "score": 35
+            },
+            {
+              "name": "Shyy",
+              "score": 28
+            }
+          ]
+        },
+        {
+          "id": "OPTC-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "OPTC",
+          "players": [
+            {
+              "name": "yay",
+              "score": 80
+            },
+            {
+              "name": "Victor",
+              "score": 54
+            },
+            {
+              "name": "crashies",
+              "score": 47
+            },
+            {
+              "name": "Marved",
+              "score": 34
+            },
+            {
+              "name": "FiNESSE",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "FNC-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 79
+            },
+            {
+              "name": "Alfajer",
+              "score": 75
+            },
+            {
+              "name": "Mistic",
+              "score": 48
+            },
+            {
+              "name": "Boaster",
+              "score": 30
+            },
+            {
+              "name": "Enzo",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "id": "EDG-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "EDG",
+          "players": [
+            {
+              "name": "ZmjjKK",
+              "score": 78
+            },
+            {
+              "name": "Smoggy",
+              "score": 64
+            },
+            {
+              "name": "CHICHOO",
+              "score": 25
+            },
+            {
+              "name": "Haodong",
+              "score": 24
+            },
+            {
+              "name": "Life",
+              "score": 18
+            },
+            {
+              "name": "nobody",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "100T-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "100T",
+          "players": [
+            {
+              "name": "Will",
+              "score": 77
+            },
+            {
+              "name": "bang",
+              "score": 40
+            },
+            {
+              "name": "Asuna",
+              "score": 31
+            },
+            {
+              "name": "Derrek",
+              "score": 14
+            },
+            {
+              "name": "stellar",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "ZETA-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "ZETA",
+          "players": [
+            {
+              "name": "Laz",
+              "score": 76
+            },
+            {
+              "name": "Dep",
+              "score": 66
+            },
+            {
+              "name": "TENNN",
+              "score": 39
+            },
+            {
+              "name": "SugarZ3ro",
+              "score": 37
+            },
+            {
+              "name": "crow",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "keznit",
+              "score": 74
+            },
+            {
+              "name": "Mazino",
+              "score": 67
+            },
+            {
+              "name": "NagZ",
+              "score": 58
+            },
+            {
+              "name": "delz1k",
+              "score": 22
+            },
+            {
+              "name": "Klaus",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "PRX-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "PRX",
+          "players": [
+            {
+              "name": "Jinggg",
+              "score": 73
+            },
+            {
+              "name": "f0rsakeN",
+              "score": 60
+            },
+            {
+              "name": "d4v41",
+              "score": 43
+            },
+            {
+              "name": "Benkai",
+              "score": 11
+            },
+            {
+              "name": "mindfreak",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "FPX-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "FPX",
+          "players": [
+            {
+              "name": "ardiis",
+              "score": 72
+            },
+            {
+              "name": "Zyppan",
+              "score": 69
+            },
+            {
+              "name": "SUYGETSU",
+              "score": 56
+            },
+            {
+              "name": "Shao",
+              "score": 45
+            },
+            {
+              "name": "ANGE1",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "DRX-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "DRX",
+          "players": [
+            {
+              "name": "BuZz",
+              "score": 71
+            },
+            {
+              "name": "MaKo",
+              "score": 55
+            },
+            {
+              "name": "Rb",
+              "score": 41
+            },
+            {
+              "name": "Zest",
+              "score": 23
+            },
+            {
+              "name": "stax",
+              "score": 20
+            }
+          ]
+        },
+        {
+          "id": "XSET-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "XSET",
+          "players": [
+            {
+              "name": "Cryocells",
+              "score": 70
+            },
+            {
+              "name": "zekken",
+              "score": 62
+            },
+            {
+              "name": "BcJ",
+              "score": 52
+            },
+            {
+              "name": "dephh",
+              "score": 21
+            },
+            {
+              "name": "AYRIN",
+              "score": 17
+            }
+          ]
+        },
+        {
+          "id": "FUR-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "FUR",
+          "players": [
+            {
+              "name": "dgzin",
+              "score": 68
+            },
+            {
+              "name": "qck",
+              "score": 42
+            },
+            {
+              "name": "Nozwerr",
+              "score": 32
+            },
+            {
+              "name": "Khalil",
+              "score": 3
+            },
+            {
+              "name": "Mazin",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "TL-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "ScreaM",
+              "score": 65
+            },
+            {
+              "name": "Jamppi",
+              "score": 61
+            },
+            {
+              "name": "Nivera",
+              "score": 29
+            },
+            {
+              "name": "soulcas",
+              "score": 16
+            },
+            {
+              "name": "dimasick",
+              "score": 13
+            }
+          ]
+        },
+        {
+          "id": "LOUD-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "LOUD",
+          "players": [
+            {
+              "name": "Less",
+              "score": 63
+            },
+            {
+              "name": "aspas",
+              "score": 59
+            },
+            {
+              "name": "pANcada",
+              "score": 57
+            },
+            {
+              "name": "Saadhak",
+              "score": 50
+            },
+            {
+              "name": "Sacy",
+              "score": 44
+            }
+          ]
+        },
+        {
+          "id": "XERXIA-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "XERXIA",
+          "players": [
+            {
+              "name": "Crws",
+              "score": 53
+            },
+            {
+              "name": "foxz",
+              "score": 49
+            },
+            {
+              "name": "sScary",
+              "score": 36
+            },
+            {
+              "name": "Surf",
+              "score": 26
+            },
+            {
+              "name": "sushiboys",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "BME-伊斯坦布尔全球冠军赛",
+          "event": "伊斯坦布尔全球冠军赛",
+          "team": "BME",
+          "players": [
+            {
+              "name": "xffero",
+              "score": 51
+            },
+            {
+              "name": "fl1pzjder",
+              "score": 33
+            },
+            {
+              "name": "blaZek1ng",
+              "score": 27
+            },
+            {
+              "name": "famouz",
+              "score": 19
+            },
+            {
+              "name": "BerserX",
+              "score": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "teams": [
+        {
+          "id": "FNC-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "FNC",
+          "players": [
+            {
+              "name": "Derke",
+              "score": 82
+            },
+            {
+              "name": "Doma",
+              "score": 52
+            },
+            {
+              "name": "Magnum",
+              "score": 34
+            },
+            {
+              "name": "Boaster",
+              "score": 17
+            },
+            {
+              "name": "Mistic",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "id": "C9-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "C9",
+          "players": [
+            {
+              "name": "leaf",
+              "score": 81
+            },
+            {
+              "name": "Xeppaa",
+              "score": 44
+            },
+            {
+              "name": "Mitch",
+              "score": 30
+            },
+            {
+              "name": "xeta",
+              "score": 26
+            },
+            {
+              "name": "vanity",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "id": "VKS-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "VKS",
+          "players": [
+            {
+              "name": "Sacy",
+              "score": 80
+            },
+            {
+              "name": "Saadhak",
+              "score": 70
+            },
+            {
+              "name": "gtnziN",
+              "score": 38
+            },
+            {
+              "name": "sutecas",
+              "score": 28
+            },
+            {
+              "name": "frz",
+              "score": 19
+            }
+          ]
+        },
+        {
+          "id": "TL-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "TL",
+          "players": [
+            {
+              "name": "ScreaM",
+              "score": 79
+            },
+            {
+              "name": "Nivera",
+              "score": 48
+            },
+            {
+              "name": "Jamppi",
+              "score": 33
+            },
+            {
+              "name": "soulcas",
+              "score": 32
+            },
+            {
+              "name": "L1NK",
+              "score": 27
+            }
+          ]
+        },
+        {
+          "id": "KS-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "KS",
+          "players": [
+            {
+              "name": "heat",
+              "score": 78
+            },
+            {
+              "name": "mwzera",
+              "score": 36
+            },
+            {
+              "name": "murizzz",
+              "score": 14
+            },
+            {
+              "name": "JhoW",
+              "score": 5
+            },
+            {
+              "name": "v1xen",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "KRÜ-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "KRÜ",
+          "players": [
+            {
+              "name": "keznit",
+              "score": 77
+            },
+            {
+              "name": "Mazino",
+              "score": 63
+            },
+            {
+              "name": "NagZ",
+              "score": 40
+            },
+            {
+              "name": "Klaus",
+              "score": 22
+            },
+            {
+              "name": "delz1k",
+              "score": 9
+            }
+          ]
+        },
+        {
+          "id": "NV-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "NV",
+          "players": [
+            {
+              "name": "yay",
+              "score": 76
+            },
+            {
+              "name": "crashies",
+              "score": 57
+            },
+            {
+              "name": "Marved",
+              "score": 50
+            },
+            {
+              "name": "FiNESSE",
+              "score": 37
+            },
+            {
+              "name": "Victor",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "id": "TS-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "TS",
+          "players": [
+            {
+              "name": "DubsteP",
+              "score": 75
+            },
+            {
+              "name": "Dispenser",
+              "score": 61
+            },
+            {
+              "name": "witz",
+              "score": 55
+            },
+            {
+              "name": "JessieVash",
+              "score": 51
+            },
+            {
+              "name": "BORKUM",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "id": "VS-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "VS",
+          "players": [
+            {
+              "name": "BuZz",
+              "score": 74
+            },
+            {
+              "name": "Lakia",
+              "score": 53
+            },
+            {
+              "name": "stax",
+              "score": 42
+            },
+            {
+              "name": "MaKo",
+              "score": 31
+            },
+            {
+              "name": "k1Ng",
+              "score": 24
+            },
+            {
+              "name": "Rb",
+              "score": 21
+            }
+          ]
+        },
+        {
+          "id": "X10-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "X10",
+          "players": [
+            {
+              "name": "patt",
+              "score": 73
+            },
+            {
+              "name": "sushiboys",
+              "score": 64
+            },
+            {
+              "name": "foxz",
+              "score": 49
+            },
+            {
+              "name": "Crws",
+              "score": 20
+            },
+            {
+              "name": "sScary",
+              "score": 15
+            }
+          ]
+        },
+        {
+          "id": "GMB-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "GMB",
+          "players": [
+            {
+              "name": "Chronicle",
+              "score": 72
+            },
+            {
+              "name": "d3ffo",
+              "score": 69
+            },
+            {
+              "name": "nAts",
+              "score": 60
+            },
+            {
+              "name": "Sheydos",
+              "score": 39
+            },
+            {
+              "name": "Redgar",
+              "score": 11
+            }
+          ]
+        },
+        {
+          "id": "FUR-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "FUR",
+          "players": [
+            {
+              "name": "xand",
+              "score": 71
+            },
+            {
+              "name": "Nozwerr",
+              "score": 58
+            },
+            {
+              "name": "Khalil",
+              "score": 47
+            },
+            {
+              "name": "qck",
+              "score": 35
+            },
+            {
+              "name": "Mazin",
+              "score": 10
+            }
+          ]
+        },
+        {
+          "id": "SEN-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "SEN",
+          "players": [
+            {
+              "name": "ShahZaM",
+              "score": 68
+            },
+            {
+              "name": "TenZ",
+              "score": 66
+            },
+            {
+              "name": "SicK",
+              "score": 54
+            },
+            {
+              "name": "dapr",
+              "score": 46
+            },
+            {
+              "name": "zombs",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "id": "ACE-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "ACE",
+          "players": [
+            {
+              "name": "cNed",
+              "score": 67
+            },
+            {
+              "name": "zeek",
+              "score": 65
+            },
+            {
+              "name": "starxo",
+              "score": 45
+            },
+            {
+              "name": "BONECOLD",
+              "score": 23
+            },
+            {
+              "name": "Kiles",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "id": "FS-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "FS",
+          "players": [
+            {
+              "name": "LAMMYSNAX",
+              "score": 62
+            },
+            {
+              "name": "JohnOlsen",
+              "score": 41
+            },
+            {
+              "name": "SuperBusS",
+              "score": 25
+            },
+            {
+              "name": "PTC",
+              "score": 18
+            },
+            {
+              "name": "ChAlalala",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "id": "CR-柏林全球冠军赛",
+          "event": "柏林全球冠军赛",
+          "team": "CR",
+          "players": [
+            {
+              "name": "Fisker",
+              "score": 59
+            },
+            {
+              "name": "Bazzi",
+              "score": 56
+            },
+            {
+              "name": "Medusa",
+              "score": 43
+            },
+            {
+              "name": "Munchkin",
+              "score": 29
+            },
+            {
+              "name": "neth",
+              "score": 13
+            },
+            {
+              "name": "ade",
+              "score": 1
             }
           ]
         }

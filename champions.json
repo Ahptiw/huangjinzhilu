@@ -1,6 +1,6 @@
-window.GOLDEN_ROAD_CHAMPIONS =   {
-  "version": "1.8",
-  "updated": "2026-08-14",
+window.GOLDEN_ROAD_CHAMPIONS = {
+  "version": "2.2",
+  "updated": "2026-08-15",
   "description": "冠军战队与冠军选手数据（score = 总人数 - 排名 + 1，与 players.json 计分规则一致）",
   "championTeams": [
     {
@@ -394,6 +394,230 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
           "score": 10
         }
       ]
+    },
+    {
+      "id": "FNC-东京大师赛",
+      "year": "2023",
+      "event": "东京大师赛",
+      "team": "FNC",
+      "players": [
+        {
+          "name": "Derke",
+          "score": 57
+        },
+        {
+          "name": "Chronicle",
+          "score": 55
+        },
+        {
+          "name": "Alfajer",
+          "score": 53
+        },
+        {
+          "name": "Leo",
+          "score": 34
+        },
+        {
+          "name": "Boaster",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "id": "EG-洛杉矶全球冠军赛",
+      "year": "2023",
+      "event": "洛杉矶全球冠军赛",
+      "team": "EG",
+      "players": [
+        {
+          "name": "Demon1",
+          "score": 78
+        },
+        {
+          "name": "jawgemo",
+          "score": 72
+        },
+        {
+          "name": "C0M",
+          "score": 46
+        },
+        {
+          "name": "Ethan",
+          "score": 44
+        },
+        {
+          "name": "Boostio",
+          "score": 33
+        }
+      ]
+    },
+    {
+      "id": "AG-2026启点赛",
+      "year": "2026",
+      "event": "2026启点赛",
+      "team": "AG",
+      "players": [
+        {
+          "name": "f4ngeer",
+          "score": 57
+        },
+        {
+          "name": "K1ra",
+          "score": 49
+        },
+        {
+          "name": "Shr1mp",
+          "score": 43
+        },
+        {
+          "name": "iamgrq",
+          "score": 30
+        },
+        {
+          "name": "Au1",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "id": "NS-圣地亚哥大师赛",
+      "year": "2026",
+      "event": "圣地亚哥大师赛",
+      "team": "NS",
+      "players": [
+        {
+          "name": "Dambi",
+          "score": 58
+        },
+        {
+          "name": "Francis",
+          "score": 54
+        },
+        {
+          "name": "xross",
+          "score": 46
+        },
+        {
+          "name": "Ivy",
+          "score": 45
+        },
+        {
+          "name": "Rb",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "id": "OPTC-雷克雅未克大师赛",
+      "year": "2022",
+      "event": "雷克雅未克大师赛",
+      "team": "OPTC",
+      "players": [
+        {
+          "name": "yay",
+          "score": 58
+        },
+        {
+          "name": "Marved",
+          "score": 48
+        },
+        {
+          "name": "Victor",
+          "score": 42
+        },
+        {
+          "name": "crashies",
+          "score": 27
+        },
+        {
+          "name": "FiNESSE",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "FPX-哥本哈根大师赛",
+      "year": "2022",
+      "event": "哥本哈根大师赛",
+      "team": "FPX",
+      "players": [
+        {
+          "name": "ardiis",
+          "score": 50
+        },
+        {
+          "name": "Shao",
+          "score": 46
+        },
+        {
+          "name": "SUYGETSU",
+          "score": 44
+        },
+        {
+          "name": "Zyppan",
+          "score": 42
+        },
+        {
+          "name": "ANGE1",
+          "score": 14
+        }
+      ]
+    },
+    {
+      "id": "LOUD-伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "event": "伊斯坦布尔全球冠军赛",
+      "team": "LOUD",
+      "players": [
+        {
+          "name": "Less",
+          "score": 63
+        },
+        {
+          "name": "aspas",
+          "score": 59
+        },
+        {
+          "name": "pANcada",
+          "score": 57
+        },
+        {
+          "name": "Saadhak",
+          "score": 50
+        },
+        {
+          "name": "Sacy",
+          "score": 44
+        }
+      ]
+    },
+    {
+      "id": "ACE-柏林全球冠军赛",
+      "year": "2021",
+      "event": "柏林全球冠军赛",
+      "team": "ACE",
+      "players": [
+        {
+          "name": "cNed",
+          "score": 67
+        },
+        {
+          "name": "zeek",
+          "score": 65
+        },
+        {
+          "name": "starxo",
+          "score": 45
+        },
+        {
+          "name": "BONECOLD",
+          "score": 23
+        },
+        {
+          "name": "Kiles",
+          "score": 6
+        }
+      ]
     }
   ],
   "championPlayers": [
@@ -443,7 +667,45 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
     "t3xture",
     "Karon",
     "Lakia",
-    "Munchkin"
+    "Munchkin",
+    "Derke",
+    "Chronicle",
+    "Alfajer",
+    "Leo",
+    "Boaster",
+    "Demon1",
+    "jawgemo",
+    "C0M",
+    "Boostio",
+    "f4ngeer",
+    "K1ra",
+    "Shr1mp",
+    "iamgrq",
+    "Au1",
+    "Dambi",
+    "Francis",
+    "xross",
+    "Ivy",
+    "Rb",
+    "yay",
+    "Marved",
+    "Victor",
+    "crashies",
+    "FiNESSE",
+    "ardiis",
+    "Shao",
+    "SUYGETSU",
+    "Zyppan",
+    "ANGE1",
+    "Less",
+    "aspas",
+    "pANcada",
+    "Saadhak",
+    "cNed",
+    "zeek",
+    "starxo",
+    "BONECOLD",
+    "Kiles"
   ],
   "bosses": [
     {
@@ -628,6 +890,36 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
     },
     {
       "floor": 7,
+      "year": "2022",
+      "event": "雷克雅未克大师赛",
+      "team": "OPTC",
+      "title": "雷克雅未克王座",
+      "desc": "2022 雷克雅未克大师赛冠军 • 冰岛之光",
+      "players": [
+        {
+          "name": "yay",
+          "score": 58
+        },
+        {
+          "name": "Marved",
+          "score": 48
+        },
+        {
+          "name": "Victor",
+          "score": 42
+        },
+        {
+          "name": "crashies",
+          "score": 27
+        },
+        {
+          "name": "FiNESSE",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "floor": 8,
       "year": "2025",
       "event": "2025第一赛段",
       "team": "XLG",
@@ -657,7 +949,7 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 8,
+      "floor": 9,
       "year": "2026",
       "event": "2026第一赛段",
       "team": "EDG",
@@ -687,7 +979,7 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 9,
+      "floor": 10,
       "year": "2025",
       "event": "2025启点赛",
       "team": "EDG",
@@ -717,7 +1009,7 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 10,
+      "floor": 11,
       "year": "2026",
       "event": "伦敦大师赛",
       "team": "LEV",
@@ -747,7 +1039,97 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 11,
+      "floor": 12,
+      "year": "2026",
+      "event": "2026启点赛",
+      "team": "AG",
+      "title": "启点王座",
+      "desc": "2026 启点赛冠军 • 黑马加冕",
+      "players": [
+        {
+          "name": "f4ngeer",
+          "score": 57
+        },
+        {
+          "name": "K1ra",
+          "score": 49
+        },
+        {
+          "name": "Shr1mp",
+          "score": 43
+        },
+        {
+          "name": "iamgrq",
+          "score": 30
+        },
+        {
+          "name": "Au1",
+          "score": 15
+        }
+      ]
+    },
+    {
+      "floor": 13,
+      "year": "2022",
+      "event": "哥本哈根大师赛",
+      "team": "FPX",
+      "title": "哥本哈根王座",
+      "desc": "2022 哥本哈根大师赛冠军 • 凤凰涅槃",
+      "players": [
+        {
+          "name": "ardiis",
+          "score": 50
+        },
+        {
+          "name": "Shao",
+          "score": 46
+        },
+        {
+          "name": "SUYGETSU",
+          "score": 44
+        },
+        {
+          "name": "Zyppan",
+          "score": 42
+        },
+        {
+          "name": "ANGE1",
+          "score": 14
+        }
+      ]
+    },
+    {
+      "floor": 14,
+      "year": "2021",
+      "event": "柏林全球冠军赛",
+      "team": "ACE",
+      "title": "柏林王座",
+      "desc": "2021 柏林全球冠军赛冠军 • 欧陆之王",
+      "players": [
+        {
+          "name": "cNed",
+          "score": 67
+        },
+        {
+          "name": "zeek",
+          "score": 65
+        },
+        {
+          "name": "starxo",
+          "score": 45
+        },
+        {
+          "name": "BONECOLD",
+          "score": 23
+        },
+        {
+          "name": "Kiles",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "floor": 15,
       "year": "2025",
       "event": "多伦多大师赛",
       "team": "PRX",
@@ -777,7 +1159,67 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 12,
+      "floor": 16,
+      "year": "2026",
+      "event": "圣地亚哥大师赛",
+      "team": "NS",
+      "title": "圣地亚哥王座",
+      "desc": "2026 圣地亚哥大师赛冠军 • 新王登基",
+      "players": [
+        {
+          "name": "Dambi",
+          "score": 58
+        },
+        {
+          "name": "Francis",
+          "score": 54
+        },
+        {
+          "name": "xross",
+          "score": 46
+        },
+        {
+          "name": "Ivy",
+          "score": 45
+        },
+        {
+          "name": "Rb",
+          "score": 8
+        }
+      ]
+    },
+    {
+      "floor": 17,
+      "year": "2023",
+      "event": "东京大师赛",
+      "team": "FNC",
+      "title": "东京王座",
+      "desc": "2023 东京大师赛冠军 • 王者连冠",
+      "players": [
+        {
+          "name": "Derke",
+          "score": 57
+        },
+        {
+          "name": "Chronicle",
+          "score": 55
+        },
+        {
+          "name": "Alfajer",
+          "score": 53
+        },
+        {
+          "name": "Leo",
+          "score": 34
+        },
+        {
+          "name": "Boaster",
+          "score": 13
+        }
+      ]
+    },
+    {
+      "floor": 18,
       "year": "2025",
       "event": "2025第二赛段",
       "team": "BLG",
@@ -807,7 +1249,7 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 13,
+      "floor": 19,
       "year": "2024",
       "event": "首尔全球冠军赛",
       "team": "EDG",
@@ -837,7 +1279,7 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
       ]
     },
     {
-      "floor": 14,
+      "floor": 20,
       "year": "2025",
       "event": "巴黎全球冠军赛",
       "team": "NRG",
@@ -863,6 +1305,66 @@ window.GOLDEN_ROAD_CHAMPIONS =   {
         {
           "name": "Ethan",
           "score": 31
+        }
+      ]
+    },
+    {
+      "floor": 21,
+      "year": "2023",
+      "event": "洛杉矶全球冠军赛",
+      "team": "EG",
+      "title": "洛杉矶王座",
+      "desc": "2023 洛杉矶全球冠军赛冠军 • 逆袭加冕",
+      "players": [
+        {
+          "name": "Demon1",
+          "score": 78
+        },
+        {
+          "name": "jawgemo",
+          "score": 72
+        },
+        {
+          "name": "C0M",
+          "score": 46
+        },
+        {
+          "name": "Ethan",
+          "score": 44
+        },
+        {
+          "name": "Boostio",
+          "score": 33
+        }
+      ]
+    },
+    {
+      "floor": 22,
+      "year": "2022",
+      "event": "伊斯坦布尔全球冠军赛",
+      "team": "LOUD",
+      "title": "伊斯坦布尔王座",
+      "desc": "2022 伊斯坦布尔全球冠军赛冠军 • 桑巴王朝",
+      "players": [
+        {
+          "name": "Less",
+          "score": 63
+        },
+        {
+          "name": "aspas",
+          "score": 59
+        },
+        {
+          "name": "pANcada",
+          "score": 57
+        },
+        {
+          "name": "Saadhak",
+          "score": 50
+        },
+        {
+          "name": "Sacy",
+          "score": 44
         }
       ]
     }

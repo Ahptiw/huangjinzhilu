@@ -1,0 +1,2548 @@
+window.GOLDEN_ROAD_NO_CHAMPIONS = {
+  "version": "1.3",
+  "updated": "2026-08-15",
+  "description": "从未拿下冠军赛冠军的选手(大师赛冠军、联赛冠军仍保留;逐梦模式候选人,score 为该选手历史最高分)",
+  "players": [
+    {
+      "name": "Derke",
+      "team": "FNC",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 82
+    },
+    {
+      "name": "kiNgg",
+      "team": "LEV",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 81
+    },
+    {
+      "name": "leaf",
+      "team": "C9",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 81
+    },
+    {
+      "name": "keznit",
+      "team": "KRÜ",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 80
+    },
+    {
+      "name": "yay",
+      "team": "OPTC",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 80
+    },
+    {
+      "name": "ScreaM",
+      "team": "TL",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 79
+    },
+    {
+      "name": "SpiritZ1",
+      "team": "DRG",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 79
+    },
+    {
+      "name": "whzy",
+      "team": "BLG",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 79
+    },
+    {
+      "name": "zekken",
+      "team": "SEN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 79
+    },
+    {
+      "name": "heat",
+      "team": "KS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 78
+    },
+    {
+      "name": "Will",
+      "team": "100T",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 77
+    },
+    {
+      "name": "Jinggg",
+      "team": "PRX",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 76
+    },
+    {
+      "name": "Laz",
+      "team": "ZETA",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 76
+    },
+    {
+      "name": "kaajak",
+      "team": "FNC",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 76
+    },
+    {
+      "name": "Alfajer",
+      "team": "FNC",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 75
+    },
+    {
+      "name": "DubsteP",
+      "team": "TS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 75
+    },
+    {
+      "name": "Primmie",
+      "team": "TLN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 75
+    },
+    {
+      "name": "RieNs",
+      "team": "TH",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 75
+    },
+    {
+      "name": "AAAAY",
+      "team": "FPX",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 74
+    },
+    {
+      "name": "BuZz",
+      "team": "VS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 74
+    },
+    {
+      "name": "t3xture",
+      "team": "GEN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 74
+    },
+    {
+      "name": "Sayaplayer",
+      "team": "T1",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 73
+    },
+    {
+      "name": "patt",
+      "team": "X10",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 73
+    },
+    {
+      "name": "Chronicle",
+      "team": "GMB",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 72
+    },
+    {
+      "name": "Flashback",
+      "team": "KRÜ",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 72
+    },
+    {
+      "name": "Meteor",
+      "team": "GEN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 72
+    },
+    {
+      "name": "ardiis",
+      "team": "FPX",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 72
+    },
+    {
+      "name": "xand",
+      "team": "FUR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 71
+    },
+    {
+      "name": "yetujey",
+      "team": "FUT",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 71
+    },
+    {
+      "name": "Cryocells",
+      "team": "XSET",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 70
+    },
+    {
+      "name": "NoMan",
+      "team": "XLG",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 70
+    },
+    {
+      "name": "trexx",
+      "team": "VIT",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 70
+    },
+    {
+      "name": "Fit1nho",
+      "team": "GIA",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 69
+    },
+    {
+      "name": "Zyppan",
+      "team": "FPX",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 69
+    },
+    {
+      "name": "d3ffo",
+      "team": "GMB",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 69
+    },
+    {
+      "name": "something",
+      "team": "PRX",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 69
+    },
+    {
+      "name": "ShahZaM",
+      "team": "SEN",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 68
+    },
+    {
+      "name": "dgzin",
+      "team": "FUR",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 68
+    },
+    {
+      "name": "Mazino",
+      "team": "KRÜ",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 67
+    },
+    {
+      "name": "Sayf",
+      "team": "TL",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 67
+    },
+    {
+      "name": "happywei",
+      "team": "XLG",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 67
+    },
+    {
+      "name": "Dep",
+      "team": "ZETA",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 66
+    },
+    {
+      "name": "Jemkin",
+      "team": "RRQ",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 66
+    },
+    {
+      "name": "TenZ",
+      "team": "SEN",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 66
+    },
+    {
+      "name": "Rarga",
+      "team": "XLG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 64
+    },
+    {
+      "name": "cauanzin",
+      "team": "LOUD",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 64
+    },
+    {
+      "name": "f0rsakeN",
+      "team": "PRX",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 64
+    },
+    {
+      "name": "sushiboys",
+      "team": "X10",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 64
+    },
+    {
+      "name": "Cloud",
+      "team": "GIA",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 63
+    },
+    {
+      "name": "HYUNMIN",
+      "team": "KRÜ",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 63
+    },
+    {
+      "name": "Kai",
+      "team": "TE",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 63
+    },
+    {
+      "name": "stew",
+      "team": "JDG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 63
+    },
+    {
+      "name": "LAMMYSNAX",
+      "team": "FS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 62
+    },
+    {
+      "name": "Munchkin",
+      "team": "T1",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 62
+    },
+    {
+      "name": "SLOWLY",
+      "team": "TYL",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 62
+    },
+    {
+      "name": "iZu",
+      "team": "T1",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 62
+    },
+    {
+      "name": "Autumn",
+      "team": "FPX",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 61
+    },
+    {
+      "name": "Dispenser",
+      "team": "TS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 61
+    },
+    {
+      "name": "Jamppi",
+      "team": "TL",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 61
+    },
+    {
+      "name": "Splash",
+      "team": "TYL",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 61
+    },
+    {
+      "name": "nAts",
+      "team": "TL",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 61
+    },
+    {
+      "name": "Shyy",
+      "team": "KRÜ",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 60
+    },
+    {
+      "name": "Wo0t",
+      "team": "TH",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 60
+    },
+    {
+      "name": "f4ngeer",
+      "team": "AG",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 60
+    },
+    {
+      "name": "marteen",
+      "team": "M8",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 60
+    },
+    {
+      "name": "vo0kashu",
+      "team": "DRG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 60
+    },
+    {
+      "name": "Fisker",
+      "team": "CR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 59
+    },
+    {
+      "name": "H1ber",
+      "team": "FNC",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 59
+    },
+    {
+      "name": "Life",
+      "team": "FPX",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 59
+    },
+    {
+      "name": "MrFaliN",
+      "team": "FUT",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 59
+    },
+    {
+      "name": "Yosemite",
+      "team": "FPX",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 59
+    },
+    {
+      "name": "eeiu",
+      "team": "FUR",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 59
+    },
+    {
+      "name": "mindfreak",
+      "team": "PRX",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 59
+    },
+    {
+      "name": "zhe",
+      "team": "JDG",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 59
+    },
+    {
+      "name": "Dambi",
+      "team": "NS",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 58
+    },
+    {
+      "name": "NagZ",
+      "team": "KRÜ",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 58
+    },
+    {
+      "name": "Nozwerr",
+      "team": "FUR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 58
+    },
+    {
+      "name": "Spring",
+      "team": "WOL",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 58
+    },
+    {
+      "name": "Tvirusluke",
+      "team": "TEC",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 58
+    },
+    {
+      "name": "lysoar",
+      "team": "FPX",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 58
+    },
+    {
+      "name": "Keiko",
+      "team": "NRG",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 57
+    },
+    {
+      "name": "MiniBoo",
+      "team": "TH",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 57
+    },
+    {
+      "name": "Yuicaw",
+      "team": "WOL",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 57
+    },
+    {
+      "name": "crashies",
+      "team": "NV",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 57
+    },
+    {
+      "name": "juicy",
+      "team": "WOL",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 57
+    },
+    {
+      "name": "Bazzi",
+      "team": "CR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 56
+    },
+    {
+      "name": "Nephh",
+      "team": "BLG",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 56
+    },
+    {
+      "name": "SUYGETSU",
+      "team": "FPX",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 56
+    },
+    {
+      "name": "Verno",
+      "team": "MIBR",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 56
+    },
+    {
+      "name": "spike",
+      "team": "LEV",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 56
+    },
+    {
+      "name": "FengF",
+      "team": "TE",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 55
+    },
+    {
+      "name": "Leo",
+      "team": "FNC",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 55
+    },
+    {
+      "name": "MaKo",
+      "team": "DRX",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 55
+    },
+    {
+      "name": "Ninebody",
+      "team": "TYL",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 55
+    },
+    {
+      "name": "Spitfires",
+      "team": "AG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 55
+    },
+    {
+      "name": "UdoTan",
+      "team": "GE",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 55
+    },
+    {
+      "name": "witz",
+      "team": "TS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 55
+    },
+    {
+      "name": "Ezeir",
+      "team": "NOVA",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 54
+    },
+    {
+      "name": "Francis",
+      "team": "NS",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 54
+    },
+    {
+      "name": "K1ra",
+      "team": "AG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 54
+    },
+    {
+      "name": "Rb",
+      "team": "DRX",
+      "event": "东京大师赛",
+      "year": "2023",
+      "score": 54
+    },
+    {
+      "name": "Sato",
+      "team": "LEV",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 54
+    },
+    {
+      "name": "SicK",
+      "team": "SEN",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 54
+    },
+    {
+      "name": "Swerl",
+      "team": "NOVA",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 54
+    },
+    {
+      "name": "Victor",
+      "team": "OPTC",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 54
+    },
+    {
+      "name": "artzin",
+      "team": "MIBR",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 54
+    },
+    {
+      "name": "hoody",
+      "team": "G2",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 54
+    },
+    {
+      "name": "runneR",
+      "team": "VIT",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 54
+    },
+    {
+      "name": "Crws",
+      "team": "XERXIA",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 53
+    },
+    {
+      "name": "DeLb",
+      "team": "TE",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 53
+    },
+    {
+      "name": "Flex1n",
+      "team": "DRG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 53
+    },
+    {
+      "name": "Lakia",
+      "team": "VS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 53
+    },
+    {
+      "name": "Lar0k",
+      "team": "BBL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 53
+    },
+    {
+      "name": "BcJ",
+      "team": "XSET",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 52
+    },
+    {
+      "name": "Doma",
+      "team": "FNC",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 52
+    },
+    {
+      "name": "GuanG",
+      "team": "NOVA",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 52
+    },
+    {
+      "name": "Scales",
+      "team": "TYL",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 52
+    },
+    {
+      "name": "qw1",
+      "team": "FUT",
+      "event": "东京大师赛",
+      "year": "2023",
+      "score": 52
+    },
+    {
+      "name": "AAK",
+      "team": "TYL",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 51
+    },
+    {
+      "name": "Enzo",
+      "team": "FNC",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 51
+    },
+    {
+      "name": "JessieVash",
+      "team": "TS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 51
+    },
+    {
+      "name": "Rushia",
+      "team": "BLG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 51
+    },
+    {
+      "name": "Z1Yan",
+      "team": "JDG",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 51
+    },
+    {
+      "name": "Zest",
+      "team": "DRX",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 51
+    },
+    {
+      "name": "ara",
+      "team": "GX",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 51
+    },
+    {
+      "name": "s0pp",
+      "team": "FUT",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 51
+    },
+    {
+      "name": "xffero",
+      "team": "BME",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 51
+    },
+    {
+      "name": "Erv",
+      "team": "TYL",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 50
+    },
+    {
+      "name": "Green",
+      "team": "NOVA",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 50
+    },
+    {
+      "name": "Marved",
+      "team": "NV",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 50
+    },
+    {
+      "name": "N4RRATE",
+      "team": "SEN",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 50
+    },
+    {
+      "name": "Neon",
+      "team": "LEV",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 50
+    },
+    {
+      "name": "heybay",
+      "team": "TE",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 50
+    },
+    {
+      "name": "Bunt",
+      "team": "AG",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 49
+    },
+    {
+      "name": "Knight",
+      "team": "BLG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 49
+    },
+    {
+      "name": "LuoK1ng",
+      "team": "TE",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 49
+    },
+    {
+      "name": "foxz",
+      "team": "XERXIA",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 49
+    },
+    {
+      "name": "jkuro",
+      "team": "JDG",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 49
+    },
+    {
+      "name": "tex",
+      "team": "LEV",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 49
+    },
+    {
+      "name": "Akeman",
+      "team": "DRG",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 48
+    },
+    {
+      "name": "Jieni7",
+      "team": "EDG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 48
+    },
+    {
+      "name": "Mistic",
+      "team": "FNC",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 48
+    },
+    {
+      "name": "Nivera",
+      "team": "TL",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 48
+    },
+    {
+      "name": "hfmi0dzjc9z7",
+      "team": "TYL",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 48
+    },
+    {
+      "name": "invy",
+      "team": "PRX",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 48
+    },
+    {
+      "name": "trent",
+      "team": "G2",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 48
+    },
+    {
+      "name": "AtaKaptan",
+      "team": "FUT",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 47
+    },
+    {
+      "name": "Khalil",
+      "team": "FUR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 47
+    },
+    {
+      "name": "Monk",
+      "team": "ASE",
+      "event": "东京大师赛",
+      "year": "2023",
+      "score": 47
+    },
+    {
+      "name": "Rossy",
+      "team": "T1",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 47
+    },
+    {
+      "name": "Surf",
+      "team": "XERXIA",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 47
+    },
+    {
+      "name": "TENNN",
+      "team": "ZETA",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 47
+    },
+    {
+      "name": "Viva",
+      "team": "JDG",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 47
+    },
+    {
+      "name": "cb",
+      "team": "NOVA",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 47
+    },
+    {
+      "name": "cortezia",
+      "team": "MIBR",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 47
+    },
+    {
+      "name": "yilai",
+      "team": "BLG",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 47
+    },
+    {
+      "name": "Foxy9",
+      "team": "KRÜ",
+      "event": "东京大师赛",
+      "year": "2023",
+      "score": 46
+    },
+    {
+      "name": "Shao",
+      "team": "FPX",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 46
+    },
+    {
+      "name": "SugarZ3ro",
+      "team": "ZETA",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 46
+    },
+    {
+      "name": "Tacolilla",
+      "team": "LEV",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 46
+    },
+    {
+      "name": "dapr",
+      "team": "SEN",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 46
+    },
+    {
+      "name": "jowa",
+      "team": "WOL",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 46
+    },
+    {
+      "name": "kamo",
+      "team": "TL",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 46
+    },
+    {
+      "name": "xeus",
+      "team": "FUT",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 46
+    },
+    {
+      "name": "xross",
+      "team": "NS",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 46
+    },
+    {
+      "name": "Babyblue",
+      "team": "JDG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 45
+    },
+    {
+      "name": "Biank",
+      "team": "TE",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 45
+    },
+    {
+      "name": "Ivy",
+      "team": "NS",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 45
+    },
+    {
+      "name": "Shr1mp",
+      "team": "AG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 45
+    },
+    {
+      "name": "swagzor",
+      "team": "NOVA",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 45
+    },
+    {
+      "name": "valyn",
+      "team": "G2",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 45
+    },
+    {
+      "name": "BerLIN",
+      "team": "FPX",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 44
+    },
+    {
+      "name": "Kr1stal",
+      "team": "GE",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 44
+    },
+    {
+      "name": "Mixwell",
+      "team": "G2",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 44
+    },
+    {
+      "name": "Xeppaa",
+      "team": "C9",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 44
+    },
+    {
+      "name": "Coco",
+      "team": "TEC",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 43
+    },
+    {
+      "name": "Medusa",
+      "team": "CR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 43
+    },
+    {
+      "name": "Xlele",
+      "team": "TE",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 43
+    },
+    {
+      "name": "babybay",
+      "team": "G2",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 43
+    },
+    {
+      "name": "d4v41",
+      "team": "PRX",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 43
+    },
+    {
+      "name": "sScary",
+      "team": "XERXIA",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 43
+    },
+    {
+      "name": "Abo",
+      "team": "TEC",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 42
+    },
+    {
+      "name": "lucas",
+      "team": "TEC",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 42
+    },
+    {
+      "name": "qRaxs",
+      "team": "FUT",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 42
+    },
+    {
+      "name": "qck",
+      "team": "FUR",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 42
+    },
+    {
+      "name": "stax",
+      "team": "VS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 42
+    },
+    {
+      "name": "AC",
+      "team": "TEC",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 41
+    },
+    {
+      "name": "Dynamite",
+      "team": "TEC",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 41
+    },
+    {
+      "name": "JohnOlsen",
+      "team": "FS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 41
+    },
+    {
+      "name": "Sayonara",
+      "team": "VIT",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 41
+    },
+    {
+      "name": "nizhaoTZH",
+      "team": "DRG",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 41
+    },
+    {
+      "name": "pl1xx",
+      "team": "WOL",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 41
+    },
+    {
+      "name": "MOJJ",
+      "team": "FUT",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 40
+    },
+    {
+      "name": "adverso",
+      "team": "LEV",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 40
+    },
+    {
+      "name": "bang",
+      "team": "100T",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 40
+    },
+    {
+      "name": "benjyfishy",
+      "team": "TH",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 40
+    },
+    {
+      "name": "nukkye",
+      "team": "G2",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 40
+    },
+    {
+      "name": "Koshmaras",
+      "team": "TH",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 39
+    },
+    {
+      "name": "Levius",
+      "team": "BLG",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 39
+    },
+    {
+      "name": "Monyet",
+      "team": "RRQ",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 39
+    },
+    {
+      "name": "Sheydos",
+      "team": "GMB",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 39
+    },
+    {
+      "name": "glacier",
+      "team": "WOL",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 39
+    },
+    {
+      "name": "JonahP",
+      "team": "G2",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 38
+    },
+    {
+      "name": "Kicks",
+      "team": "VIT",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 38
+    },
+    {
+      "name": "PatMen",
+      "team": "PRX",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 38
+    },
+    {
+      "name": "free1ng",
+      "team": "KRÜ",
+      "event": "曼谷大师赛",
+      "year": "2025",
+      "score": 38
+    },
+    {
+      "name": "gtnziN",
+      "team": "VKS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 38
+    },
+    {
+      "name": "westside",
+      "team": "GX",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 38
+    },
+    {
+      "name": "Asuna",
+      "team": "100T",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 37
+    },
+    {
+      "name": "Eren",
+      "team": "TYL",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 37
+    },
+    {
+      "name": "FiNESSE",
+      "team": "NV",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 37
+    },
+    {
+      "name": "YHchen",
+      "team": "JDG",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 37
+    },
+    {
+      "name": "hfmi0dzjc...",
+      "team": "TYL",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 37
+    },
+    {
+      "name": "hiro",
+      "team": "FNC",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 37
+    },
+    {
+      "name": "johnqt",
+      "team": "SEN",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 37
+    },
+    {
+      "name": "loversrock",
+      "team": "BBL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 36
+    },
+    {
+      "name": "mwzera",
+      "team": "KS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 36
+    },
+    {
+      "name": "DH",
+      "team": "T1",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 35
+    },
+    {
+      "name": "ICEKING",
+      "team": "TYL",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 35
+    },
+    {
+      "name": "MarT1n",
+      "team": "TE",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 35
+    },
+    {
+      "name": "Melser",
+      "team": "LEV",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 35
+    },
+    {
+      "name": "ban",
+      "team": "TLN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 35
+    },
+    {
+      "name": "Bai",
+      "team": "AG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 34
+    },
+    {
+      "name": "Magnum",
+      "team": "FNC",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 34
+    },
+    {
+      "name": "Nicc",
+      "team": "DRG",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 34
+    },
+    {
+      "name": "WsLeo",
+      "team": "XLG",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 34
+    },
+    {
+      "name": "Governor",
+      "team": "TLN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 33
+    },
+    {
+      "name": "Haodong",
+      "team": "TEC",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 33
+    },
+    {
+      "name": "Karon",
+      "team": "GEN",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 33
+    },
+    {
+      "name": "fl1pzjder",
+      "team": "BME",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 33
+    },
+    {
+      "name": "paTiTek",
+      "team": "TH",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 33
+    },
+    {
+      "name": "Au1",
+      "team": "AG",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 32
+    },
+    {
+      "name": "Carpe",
+      "team": "T1",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 32
+    },
+    {
+      "name": "Kushy",
+      "team": "RRQ",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 32
+    },
+    {
+      "name": "XII",
+      "team": "FPX",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 32
+    },
+    {
+      "name": "aluba",
+      "team": "WOL",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 32
+    },
+    {
+      "name": "icy",
+      "team": "G2",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 32
+    },
+    {
+      "name": "penny",
+      "team": "TL",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 32
+    },
+    {
+      "name": "soulcas",
+      "team": "TL",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 32
+    },
+    {
+      "name": "xeta",
+      "team": "T1",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 32
+    },
+    {
+      "name": "iamgrq",
+      "team": "AG",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 31
+    },
+    {
+      "name": "Boaster",
+      "team": "FNC",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 30
+    },
+    {
+      "name": "Mitch",
+      "team": "C9",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 30
+    },
+    {
+      "name": "koalanoob",
+      "team": "FUR",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 30
+    },
+    {
+      "name": "Daveeys",
+      "team": "KRÜ",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 29
+    },
+    {
+      "name": "JitboyS",
+      "team": "TLN",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 28
+    },
+    {
+      "name": "Setrod",
+      "team": "FPX",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 28
+    },
+    {
+      "name": "sutecas",
+      "team": "VKS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 28
+    },
+    {
+      "name": "ANGE1",
+      "team": "NAVI",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 27
+    },
+    {
+      "name": "Flickless",
+      "team": "GX",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 27
+    },
+    {
+      "name": "L1NK",
+      "team": "TL",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 27
+    },
+    {
+      "name": "blaZek1ng",
+      "team": "BME",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 27
+    },
+    {
+      "name": "coconut",
+      "team": "XLG",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 27
+    },
+    {
+      "name": "kawaii",
+      "team": "TEC",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 27
+    },
+    {
+      "name": "qiutiaN",
+      "team": "WOL",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 27
+    },
+    {
+      "name": "sociablEE",
+      "team": "FUT",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 27
+    },
+    {
+      "name": "B1ack",
+      "team": "TEC",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 26
+    },
+    {
+      "name": "Crewen",
+      "team": "BBL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 26
+    },
+    {
+      "name": "PROFEK",
+      "team": "VIT",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 26
+    },
+    {
+      "name": "YOU",
+      "team": "XLG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 26
+    },
+    {
+      "name": "Yoyo",
+      "team": "TYL",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 26
+    },
+    {
+      "name": "koldamenta",
+      "team": "GLD",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 26
+    },
+    {
+      "name": "Loita",
+      "team": "BBL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 25
+    },
+    {
+      "name": "SuperBusS",
+      "team": "FS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 25
+    },
+    {
+      "name": "HeiB",
+      "team": "TE",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 24
+    },
+    {
+      "name": "bezn1",
+      "team": "NIP",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 24
+    },
+    {
+      "name": "k1Ng",
+      "team": "VS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 24
+    },
+    {
+      "name": "rhyme",
+      "team": "GIA",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 24
+    },
+    {
+      "name": "ColdFish",
+      "team": "WOL",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 23
+    },
+    {
+      "name": "JoXJo",
+      "team": "NTH",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 23
+    },
+    {
+      "name": "Minny",
+      "team": "M8",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 23
+    },
+    {
+      "name": "Boo",
+      "team": "TH",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 22
+    },
+    {
+      "name": "Jonn",
+      "team": "NIP",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 22
+    },
+    {
+      "name": "Klaus",
+      "team": "KRÜ",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 22
+    },
+    {
+      "name": "blowz",
+      "team": "LEV",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 22
+    },
+    {
+      "name": "delz1k",
+      "team": "KRÜ",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 22
+    },
+    {
+      "name": "wayne",
+      "team": "TL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 22
+    },
+    {
+      "name": "Benkai",
+      "team": "PRX",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 21
+    },
+    {
+      "name": "dephh",
+      "team": "XSET",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 21
+    },
+    {
+      "name": "Ash",
+      "team": "GEN",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 20
+    },
+    {
+      "name": "BeYN",
+      "team": "KRÜ",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 20
+    },
+    {
+      "name": "Ben1Ley",
+      "team": "FPX",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 20
+    },
+    {
+      "name": "alym",
+      "team": "FUR",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 20
+    },
+    {
+      "name": "sword9",
+      "team": "AG",
+      "event": "2024第二赛段",
+      "year": "2024",
+      "score": 20
+    },
+    {
+      "name": "GRUBINHO",
+      "team": "GX",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 19
+    },
+    {
+      "name": "Zellsis",
+      "team": "SEN",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 19
+    },
+    {
+      "name": "famouz",
+      "team": "BME",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 19
+    },
+    {
+      "name": "frz",
+      "team": "VKS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 19
+    },
+    {
+      "name": "kovaQ",
+      "team": "FPX",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 19
+    },
+    {
+      "name": "tuyz",
+      "team": "LOUD",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 19
+    },
+    {
+      "name": "PTC",
+      "team": "FS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 18
+    },
+    {
+      "name": "o0o0o",
+      "team": "NOVA",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 18
+    },
+    {
+      "name": "AYRIN",
+      "team": "XSET",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 17
+    },
+    {
+      "name": "Redgar",
+      "team": "TL",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 17
+    },
+    {
+      "name": "kamyk",
+      "team": "TL",
+      "event": "曼谷大师赛",
+      "year": "2025",
+      "score": 17
+    },
+    {
+      "name": "mta",
+      "team": "KRÜ",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 17
+    },
+    {
+      "name": "BORKUM",
+      "team": "TS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 16
+    },
+    {
+      "name": "shion7",
+      "team": "DRG",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 16
+    },
+    {
+      "name": "xnfri",
+      "team": "NTH",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 16
+    },
+    {
+      "name": "KROSTALY",
+      "team": "FUT",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 15
+    },
+    {
+      "name": "LockM",
+      "team": "TEC",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 15
+    },
+    {
+      "name": "Sylvan",
+      "team": "T1",
+      "event": "曼谷大师赛",
+      "year": "2025",
+      "score": 15
+    },
+    {
+      "name": "neT",
+      "team": "TGRD",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 15
+    },
+    {
+      "name": "Derrek",
+      "team": "100T",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 14
+    },
+    {
+      "name": "FNS",
+      "team": "NRG",
+      "event": "东京大师赛",
+      "year": "2023",
+      "score": 14
+    },
+    {
+      "name": "Hanche",
+      "team": "AG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 14
+    },
+    {
+      "name": "PangH",
+      "team": "NOVA",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 14
+    },
+    {
+      "name": "ceNder",
+      "team": "VIT",
+      "event": "首尔全球冠军赛",
+      "year": "2024",
+      "score": 14
+    },
+    {
+      "name": "murizzz",
+      "team": "KS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 14
+    },
+    {
+      "name": "GLYPH",
+      "team": "M8",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 13
+    },
+    {
+      "name": "dimasick",
+      "team": "TL",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 13
+    },
+    {
+      "name": "neth",
+      "team": "CR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 13
+    },
+    {
+      "name": "sh1n",
+      "team": "KC",
+      "event": "马德里大师赛",
+      "year": "2024",
+      "score": 13
+    },
+    {
+      "name": "xccurate",
+      "team": "T1",
+      "event": "上海大师赛",
+      "year": "2024",
+      "score": 13
+    },
+    {
+      "name": "OBONE",
+      "team": "NOVA",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 12
+    },
+    {
+      "name": "SiuFatBB",
+      "team": "WOL",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 12
+    },
+    {
+      "name": "Youze",
+      "team": "AG",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 12
+    },
+    {
+      "name": "player",
+      "team": "AG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 12
+    },
+    {
+      "name": "purp0",
+      "team": "TL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 12
+    },
+    {
+      "name": "AvovA",
+      "team": "G2",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 11
+    },
+    {
+      "name": "Derialy",
+      "team": "NTH",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 11
+    },
+    {
+      "name": "Lsn",
+      "team": "AG",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 11
+    },
+    {
+      "name": "Serial",
+      "team": "TL",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 11
+    },
+    {
+      "name": "nerve",
+      "team": "FUR",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 11
+    },
+    {
+      "name": "Mazin",
+      "team": "FUR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 10
+    },
+    {
+      "name": "bipo",
+      "team": "M8",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 10
+    },
+    {
+      "name": "xenom",
+      "team": "MIBR",
+      "event": "巴黎全球冠军赛",
+      "year": "2025",
+      "score": 10
+    },
+    {
+      "name": "Qiuye",
+      "team": "TEC",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 9
+    },
+    {
+      "name": "bnj",
+      "team": "NIP",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 9
+    },
+    {
+      "name": "waituu",
+      "team": "TYL",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 9
+    },
+    {
+      "name": "5CM",
+      "team": "TYL",
+      "event": "2025启点赛",
+      "year": "2025",
+      "score": 8
+    },
+    {
+      "name": "YiHao",
+      "team": "JDG",
+      "event": "2024第一赛段",
+      "year": "2024",
+      "score": 8
+    },
+    {
+      "name": "kklin",
+      "team": "JDG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 8
+    },
+    {
+      "name": "stellar",
+      "team": "100T",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 8
+    },
+    {
+      "name": "vanity",
+      "team": "C9",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 8
+    },
+    {
+      "name": "BlackWiz",
+      "team": "NTH",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 7
+    },
+    {
+      "name": "crazyguy",
+      "team": "RRQ",
+      "event": "多伦多大师赛",
+      "year": "2025",
+      "score": 7
+    },
+    {
+      "name": "rin",
+      "team": "BLG",
+      "event": "洛杉矶全球冠军赛",
+      "year": "2023",
+      "score": 7
+    },
+    {
+      "name": "zombs",
+      "team": "SEN",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 7
+    },
+    {
+      "name": "Midi",
+      "team": "TE",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 6
+    },
+    {
+      "name": "SEIDER",
+      "team": "FPX",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 6
+    },
+    {
+      "name": "crow",
+      "team": "ZETA",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 6
+    },
+    {
+      "name": "dingwei",
+      "team": "DRG",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 6
+    },
+    {
+      "name": "xavi8k",
+      "team": "GE",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 6
+    },
+    {
+      "name": "zjc",
+      "team": "EDG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 6
+    },
+    {
+      "name": "JhoW",
+      "team": "KS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 5
+    },
+    {
+      "name": "Rosé",
+      "team": "BBL",
+      "event": "圣地亚哥大师赛",
+      "year": "2026",
+      "score": 5
+    },
+    {
+      "name": "bud",
+      "team": "BLG",
+      "event": "2026启点赛",
+      "year": "2026",
+      "score": 5
+    },
+    {
+      "name": "BerserX",
+      "team": "BME",
+      "event": "伊斯坦布尔全球冠军赛",
+      "year": "2022",
+      "score": 4
+    },
+    {
+      "name": "MrCANI",
+      "team": "JDG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 4
+    },
+    {
+      "name": "killua",
+      "team": "FS",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 4
+    },
+    {
+      "name": "Cangshu",
+      "team": "DRG",
+      "event": "2025第一赛段",
+      "year": "2025",
+      "score": 3
+    },
+    {
+      "name": "ChAlalala",
+      "team": "FS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 3
+    },
+    {
+      "name": "CigaretteS",
+      "team": "PRX",
+      "event": "东京大师赛",
+      "year": "2023",
+      "score": 3
+    },
+    {
+      "name": "Leviathan",
+      "team": "FS",
+      "event": "伦敦大师赛",
+      "year": "2026",
+      "score": 2
+    },
+    {
+      "name": "Meddo",
+      "team": "G2",
+      "event": "雷克雅未克大师赛",
+      "year": "2022",
+      "score": 2
+    },
+    {
+      "name": "Russ",
+      "team": "GLD",
+      "event": "哥本哈根大师赛",
+      "year": "2022",
+      "score": 2
+    },
+    {
+      "name": "v1xen",
+      "team": "KS",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 2
+    },
+    {
+      "name": "B3Ar",
+      "team": "BLG",
+      "event": "2024启点赛",
+      "year": "2024",
+      "score": 1
+    },
+    {
+      "name": "Septem7",
+      "team": "AG",
+      "event": "2026第一赛段",
+      "year": "2026",
+      "score": 1
+    },
+    {
+      "name": "XiYiJi",
+      "team": "AG",
+      "event": "2025第二赛段",
+      "year": "2025",
+      "score": 1
+    },
+    {
+      "name": "ade",
+      "team": "CR",
+      "event": "柏林全球冠军赛",
+      "year": "2021",
+      "score": 1
+    },
+    {
+      "name": "tomaszy",
+      "team": "KC",
+      "event": "马德里大师赛",
+      "year": "2024",
+      "score": 1
+    }
+  ]
+};

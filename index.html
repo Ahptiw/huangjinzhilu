@@ -112,21 +112,16 @@
           <span class="card-state">已选择</span>
         </button>
 
-        <!-- 卡 2：圆梦模式（禁用） -->
-        <button class="mode-card disabled" style="--i:1" type="button" disabled aria-disabled="true">
+        <!-- 卡 2：逐梦模式 -->
+        <button class="mode-card" data-mode="agent" data-name="逐梦模式" style="--i:1" type="button">
           <span class="mode-icon">
-            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
-              <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M24 5v38M5 24h38" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M24 24l13-13M24 24 37 37M24 24 11 37M24 24 11 11" stroke="currentColor" stroke-width="2"/>
-              <circle cx="24" cy="24" r="3.5" fill="currentColor"/>
-            </svg>
+            <img src="two.jpg" alt="逐梦模式" />
           </span>
           <span class="mode-info">
             <span class="card-tag">DREAM</span>
-            <span class="card-title">圆梦模式</span>
+            <span class="card-title">逐梦模式</span>
           </span>
-          <span class="card-state">敬请期待</span>
+          <span class="card-state">可体验</span>
         </button>
 
         <!-- 卡 3：经典模式（禁用） -->
@@ -217,15 +212,15 @@
       <div class="modal-body" id="modal-rules">
         <div class="summon-rule">
           <span class="rule-num">1</span>
-          <p>总计 <span class="rule-em">5 次召唤</span>：时空裂隙将随机降临一支「<span class="rule-em">年份 × 战队</span>」，从该战队当年名单锁定一名选手入队，点击即可完成锁定。</p>
+          <p>共计 <span class="rule-em">5 次时空召唤</span>：时空裂隙随机降临一支「<span class="rule-em">年份 × 战队</span>」，可从该战队当年阵容锁定一名选手入队，点击即可完成签约锁定。</p>
         </div>
         <div class="summon-rule">
           <span class="rule-num">2</span>
-          <p>全程可使用 <span class="rule-em">1 次同年换队</span>（当前年份重新抽取其他战队）与 <span class="rule-em">1 次同队换年</span>（将该战队回溯至其他年份）；同一名选手无法重复签约。</p>
+          <p>全程拥有 <span class="rule-em">1 次同年换队</span>（同一年份重新抽取其他战队）、<span class="rule-em">1 次同队换年</span>（将这支战队回溯至别的年份）；禁止重复签约同一名选手。</p>
         </div>
         <div class="summon-rule">
           <span class="rule-num">3</span>
-          <p id="rule-three">5 次召唤完成初始阵容，逐层挑战<span class="rule-em">九层冠军 Boss</span>。获胜后可招降选手、觉醒选手或保留原阵继续闯关；前七层战败，可触发「<span class="rule-em">地狱归来</span>」，强化状态重新挑战当前 Boss。</p>
+          <p id="rule-three">5 次召唤完成初始阵容，逐层挑战<span class="rule-em">九层冠军 Boss</span>。获胜后可招降选手、觉醒选手或保留原阵继续闯关；前七层战败，可触发「<span class="rule-em">地狱归来</span>」试炼——答对一道数据问答即可全队强化重战当前 Boss，答错则第二条命作废。</p>
         </div>
         <button class="modal-confirm" type="button" data-confirm>明白了</button>
       </div>
@@ -238,7 +233,7 @@
     <div class="summon-screen" role="dialog" aria-modal="true" aria-labelledby="summon-title">
 
       <!-- 顶部：标题 + 轮次 -->
-      <p class="summon-eyebrow">GOLDEN ROAD · ASCENSION</p>
+      <p class="summon-eyebrow" id="summon-eyebrow">GOLDEN ROAD · ASCENSION</p>
       <div class="summon-head-row">
         <h3 class="summon-title" id="summon-title">正在召唤</h3>
         <span class="summon-round" id="summon-round">第1/5次召唤</span>
@@ -293,6 +288,19 @@
     </div>
   </div>
 
+  <!-- ============ 逐梦模式：选主角弹层 ============ -->
+  <div class="summon-overlay" id="dream-overlay" aria-hidden="true">
+    <div class="dream-screen" role="dialog" aria-modal="true" aria-labelledby="dream-title">
+      <p class="summon-eyebrow">DREAM MODE • ONE LAST CROWN</p>
+      <h3 class="summon-title" id="dream-title">这一次，为他圆梦</h3>
+      <p class="boss-sub" style="text-align:center;">从九位无冠传奇中选出一人，再替他找齐四位队友。</p>
+      <ul class="dream-grid" id="dream-grid"></ul>
+      <button class="summon-cta" id="dream-reroll" type="button">刷新候选</button>
+      <p class="boss-note">刷新优先展示本轮未出现选手；全部候选耗尽后，才会重复出现。</p>
+      <button class="summon-exit" id="dream-exit" type="button">〈 退出本局</button>
+    </div>
+  </div>
+
   <!-- ============ 成神试炼：九层 Boss 连战弹层 ============ -->
   <div class="summon-overlay" id="boss-overlay" aria-hidden="true">
     <div class="boss-screen" role="dialog" aria-modal="true" aria-labelledby="boss-title">
@@ -304,6 +312,7 @@
   <!-- 选手数据：仅存于这两个 JSON 文件（script 标签加载，file:// 双击也能用） -->
   <script src="players.json"></script>
   <script src="champions.json"></script>
+  <script src="nochampions.json"></script>
   <script src="script.js"></script>
 </body>
 </html>

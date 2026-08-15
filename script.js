@@ -17,7 +17,7 @@
 
   var CTA_PREFIX = {
     ascension: '开始成神试炼',
-    agent: '开始圆梦模式',
+    agent: '开始逐梦模式',
     classic: '开始经典模式',
     ranked: '开始大核模式'
   };
@@ -25,7 +25,7 @@
   /* 规则提示条文字（随模式切换） */
   var RULES_BAR = {
     ascension: { title: '九冠王者 巅峰连战', desc: '集结强者，让阵容所向披靡' },
-    agent: { title: '选定一位无冠军赛冠军传奇', desc: '为他重组阵容,亲手补上最后一冠' },
+    agent: { title: '选定一位无冠冠军传奇', desc: '这次，我亲手为他补上最后一冠' },
     classic: { title: '五次召唤凑齐传奇五人组', desc: '六大赛事连战,看看你能带走几冠' },
     ranked: { title: '围绕王牌打完整个赛季', desc: '赢下宿敌,冲击属于你的六冠传奇' }
   };
@@ -48,8 +48,14 @@
   }
 
   function selectCard(card) {
-    cards.forEach(function (c) { c.classList.remove('selected'); });
+    cards.forEach(function (c) {
+      c.classList.remove('selected');
+      var st = c.querySelector('.card-state');
+      if (st) st.textContent = '可体验';
+    });
     card.classList.add('selected');
+    var cardState = card.querySelector('.card-state');
+    if (cardState) cardState.textContent = '已选择';
 
     var mode = card.getAttribute('data-mode');
     var nextText = CTA_PREFIX[mode] || CTA_PREFIX.ascension;
@@ -84,9 +90,9 @@
 
   var RULE_THREE = {
     /* 成神试炼 */
-    ascension: '5 次召唤完成初始阵容，逐层挑战<span class="rule-em">九层冠军 Boss</span>。获胜后可招降选手、觉醒选手或保留原阵继续闯关；前七层战败，可触发「<span class="rule-em">地狱归来</span>」，强化状态重新挑战当前 Boss。',
-    /* 特工征召（圆梦模式） */
-    agent: '先从<span class="rule-em">九位候选人</span>中选定一名职业生涯无S冠的<span class="rule-em">圆梦主角</span>，再为他召唤四名队友。只要未能夺得<span class="rule-em">S赛冠军</span>，就能保留主角直接<span class="rule-em">重选四名队友</span>，继续冲冠。',
+    ascension: '5 次召唤完成初始阵容，逐层挑战<span class="rule-em">九层冠军 Boss</span>。获胜后可招降选手、觉醒选手或保留原阵继续闯关；前七层战败，可触发「<span class="rule-em">地狱归来</span>」试炼——答对一道数据问答即可全队强化重战当前 Boss，答错则第二条命作废。',
+    /* 特工征召（逐梦模式） */
+    agent: '先在九位候选人里挑选一名从未拿下<span class="rule-em">冠军赛冠军</span>的<span class="rule-em">逐梦主角</span>，再召唤四名队友。冲击<span class="rule-em">冠军赛</span>失败后，可保留主角不变，直接重新挑选四名队友，再度向冠军发起挑战。',
     /* 经典模式 */
     classic: '五人满编后<span class="rule-em">直接结算</span>启点赛、大师赛、第一赛段、大师赛、第二赛段与全球冠军赛；没有核心任命、宿敌战和赛中决策，保留<span class="rule-em">1.0的纯阵容幻想体验</span>。',
     /* 排位冲分（大核模式） */
@@ -139,14 +145,20 @@
     }
   });
 
-  /* ---------- 3. 主按钮反馈 / 进入成神召唤流程 ---------- */
+  /* ---------- 3. 主按钮反馈 / 进入召唤流程 ---------- */
   ctaBtn.addEventListener('click', function () {
     var selected = document.querySelector('.mode-card.selected');
     var mode = selected ? selected.getAttribute('data-mode') : 'ascension';
 
     if (mode === 'ascension') {
       // 成神试炼：打开召唤流程
-      openFlow();
+      openFlow('ascension');
+      return;
+    }
+
+    if (mode === 'agent') {
+      // 逐梦模式：先选主角
+      openDreamPick();
       return;
     }
 
@@ -156,8 +168,59 @@
     ctaBtn.classList.add('launch');
 
     var modeName = selected ? selected.getAttribute('data-name') : '成神试炼';
+    showToast(modeName + ' 玩法开发中，敬请期待');
     console.log('[GOLDEN ROAD] 出征:', modeName);
   });
+
+  /* ---------- 逐梦模式：选主角 ---------- */
+  function openDreamPick() {
+    if (!DREAM_POOL.length) {
+      showToast('逐梦候选数据未加载');
+      return;
+    }
+    flow.mode = 'dream';
+    flow.hero = null;
+    dreamSeen = [];
+    renderDreamGrid();
+    dreamOverlay.classList.add('open');
+    dreamOverlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function renderDreamGrid() {
+    var fresh = DREAM_POOL.filter(function (p) { return dreamSeen.indexOf(p.name) === -1; });
+    var src = fresh.length >= 9 ? fresh : (dreamSeen = [], DREAM_POOL);
+    var picks = shuffle(src).slice(0, 9);
+    picks.forEach(function (p) {
+      if (dreamSeen.indexOf(p.name) === -1) dreamSeen.push(p.name);
+    });
+    dreamGrid.innerHTML = picks.map(function (p, i) {
+      return '<li style="--i:' + i + '">' +
+        '<button class="dream-card" type="button" data-name="' + p.name + '">' +
+          '<span class="dream-name">' + p.name + '</span>' +
+          '<span class="dream-meta">' + p.team + ' · ' + (p.event || p.year) + '</span>' +
+          '<span class="dream-score">' + p.score + '</span>' +
+        '</button></li>';
+    }).join('');
+  }
+
+  function pickDreamHero(name) {
+    var hero = DREAM_POOL.filter(function (p) { return p.name === name; })[0];
+    if (!hero) return;
+    flow.hero = {
+      name: hero.name,
+      score: hero.score,
+      team: hero.team,
+      year: hero.year,
+      event: hero.event || hero.year,
+      rank: 1 // 主角占队内名次 1
+    };
+    flow.dreamAttempts = 1; // 首次冲冠
+    dreamOverlay.classList.remove('open');
+    dreamOverlay.setAttribute('aria-hidden', 'true');
+    showToast('已选定逐梦主角:' + hero.name);
+    openFlow('dream');
+  }
 
   /* 出征闪光动画（由 JS 触发一次） */
   ctaBtn.addEventListener('animationend', function () {
@@ -166,6 +229,7 @@
 
   /* ---------- 4. 成神试炼：召唤流程（5 次召唤） ---------- */
   var summonOverlay = document.getElementById('summon-overlay');
+  var summonEyebrow = document.getElementById('summon-eyebrow');
   var summonTitle = document.getElementById('summon-title');
   var summonRound = document.getElementById('summon-round');
   var riftResult = document.getElementById('rift-result');
@@ -179,9 +243,19 @@
   var summonExit = document.getElementById('summon-exit');
   var roleSlots = Array.prototype.slice.call(document.querySelectorAll('.role-slot'));
 
+  /* 逐梦模式弹层 */
+  var dreamOverlay = document.getElementById('dream-overlay');
+  var dreamGrid = document.getElementById('dream-grid');
+  var dreamReroll = document.getElementById('dream-reroll');
+  var dreamExit = document.getElementById('dream-exit');
+
   /* 战队池：仅从 players.json 加载，脚本内不内置任何选手数据 */
   var TEAM_POOL = [];
   var TEAMS_BY_YEAR = {}; // 按赛事年份分组索引，供「同年换队」使用
+
+  /* 逐梦模式候选（从未拿下冠军赛冠军的选手） */
+  var DREAM_POOL = [];
+  var dreamSeen = []; // 本轮已出现过的候选名字
 
   /* 冠军数据（来自 champions.json） */
   var CHAMPION_TEAMS = [];
@@ -256,6 +330,20 @@
       console.warn('[GOLDEN ROAD] players.json 缺失或格式错误');
     }
 
+    /* 逐梦候选:从未拿下冠军赛冠军的选手 */
+    if (window.GOLDEN_ROAD_NO_CHAMPIONS && Array.isArray(window.GOLDEN_ROAD_NO_CHAMPIONS.players)) {
+      DREAM_POOL = window.GOLDEN_ROAD_NO_CHAMPIONS.players.map(function (p) {
+        return {
+          name: p.name,
+          score: Number(p.score) || 0,
+          team: p.team || '',
+          event: p.event || '',
+          year: p.year || ''
+        };
+      });
+      console.log('[GOLDEN ROAD] 已加载逐梦候选:', DREAM_POOL.length, '位无冠选手');
+    }
+
     var championsData = window.GOLDEN_ROAD_CHAMPIONS;
     if (championsData) {
       CHAMPION_TEAMS = Array.isArray(championsData.championTeams) ? championsData.championTeams : [];
@@ -293,7 +381,10 @@
     usedRanks: [],     // 已用过的队内名次（1-5 各限一次）
     lastOrder: [],     // 上一轮名单展示顺序（保证每轮排序不同）
     rerollYear: 1,
-    rerollTeam: 1
+    rerollTeam: 1,
+    totalRounds: 5,    // 成神试炼 5 次 / 逐梦模式 4 次
+    mode: 'ascension', // ascension | dream
+    hero: null         // 逐梦模式主角
   };
 
   function teamKey(t) { return t.year + '|' + (t.event || '') + '|' + t.team; }
@@ -328,6 +419,7 @@
   }
 
   function isNameLocked(name) {
+    if (flow.hero && flow.hero.name === name) return true;
     return flow.locked.some(function (p) { return p.name === name; });
   }
 
@@ -403,12 +495,17 @@
     rerollTeamBtn.disabled = !(inLock && flow.rerollTeam > 0);
   }
 
-  /* 五个槽位：清空 → 按顺序填入已锁定选手 */
+  /* 五个槽位：逐梦模式第 1 席为主角，其余为已锁定队友 */
   function renderRoleSlots() {
     roleSlots.forEach(function (slot, i) {
       var hexText = slot.querySelector('.role-hex-text');
       var status = slot.querySelector('.role-status');
-      var player = flow.locked[i] || null;
+      var player = null;
+      if (flow.hero && i === 0) {
+        player = flow.hero;
+      } else {
+        player = flow.locked[flow.hero ? i - 1 : i] || null;
+      }
       if (player) {
         slot.classList.add('locked');
         hexText.textContent = player.name;
@@ -447,18 +544,19 @@
 
   /* 阶段渲染 */
   function renderPhase() {
+    var isDream = flow.mode === 'dream';
     if (flow.phase === 'summon') {
       var noData = TEAM_POOL.length === 0;
-      summonTitle.textContent = '正在召唤';
-      summonRound.textContent = '第' + flow.round + '/' + TOTAL_ROUNDS + '次召唤';
+      summonTitle.textContent = isDream ? '正在召唤队友' : '正在召唤';
+      summonRound.textContent = '第' + flow.round + '/' + flow.totalRounds + '次召唤';
       riftResult.textContent = noData ? '数据缺失' : '?? • ???';
       riftHint.textContent = noData ? '未加载到 players.json，请检查数据文件是否完整' : '点击下方按钮，召唤一支战队';
       summonCta.textContent = '召唤';
       summonCta.disabled = noData;
       rosterPanel.hidden = true;
     } else if (flow.phase === 'lock') {
-      summonTitle.textContent = '请锁定选手';
-      summonRound.textContent = '第' + flow.round + '/' + TOTAL_ROUNDS + '次召唤';
+      summonTitle.textContent = isDream ? '请锁定队友' : '请锁定选手';
+      summonRound.textContent = '第' + flow.round + '/' + flow.totalRounds + '次召唤';
       riftResult.textContent = evLabel(flow.current) + ' • ' + flow.current.team;
       riftHint.textContent = '只能锁定队内第 1-5 名，且名次不可重复';
       summonCta.textContent = '点击锁定';
@@ -466,24 +564,29 @@
       rosterPanel.hidden = false;
       renderRoster();
     } else if (flow.phase === 'done') {
-      summonTitle.textContent = '召唤完成';
-      summonRound.textContent = '5/5 次召唤完成';
-      riftResult.textContent = '成神阵容已就绪';
-      riftHint.textContent = '点击下方按钮，开始九层冠军 Boss 连战';
-      summonCta.textContent = '开始征程';
+      summonTitle.textContent = isDream ? '逐梦阵容已就绪' : '召唤完成';
+      summonRound.textContent = flow.totalRounds + '/' + flow.totalRounds + ' 次召唤完成';
+      riftResult.textContent = isDream ? '主角与四位队友并肩出征' : '成神阵容已就绪';
+      riftHint.textContent = isDream ? '点击下方按钮，开始冲击冠军赛' : '点击下方按钮，开始九层冠军 Boss 连战';
+      summonCta.textContent = isDream ? '开始冲击' : '开始征程';
       summonCta.disabled = false;
       rosterPanel.hidden = true;
     }
     renderRerollBtns();
   }
 
-  function openFlow() {
+  function openFlow(mode) {
+    var isDream = mode === 'dream';
+    flow.mode = isDream ? 'dream' : 'ascension';
+    flow.totalRounds = isDream ? 4 : 5;
+    summonEyebrow.textContent = isDream ? 'GOLDEN ROAD · DREAM' : 'GOLDEN ROAD · ASCENSION';
+    if (!isDream) flow.hero = null;
     flow.round = 1;
     flow.phase = 'summon';
     flow.current = null;
     flow.drawnKeys = [];
     flow.locked = [];
-    flow.usedRanks = [];
+    flow.usedRanks = isDream && flow.hero ? [flow.hero.rank] : [];
     flow.lastOrder = [];
     flow.rerollYear = 1;
     flow.rerollTeam = 1;
@@ -525,7 +628,7 @@
     renderRoleSlots();
 
     flow.round++;
-    flow.phase = flow.round > TOTAL_ROUNDS ? 'done' : 'summon';
+    flow.phase = flow.round > flow.totalRounds ? 'done' : 'summon';
     renderPhase();
   }
 
@@ -537,8 +640,13 @@
       renderPhase();
     } else if (flow.phase === 'done') {
       closeFlow();
-      console.log('[GOLDEN ROAD] 成神阵容:', flow.locked.map(function (p) { return p.name; }).join(' / '));
-      openBossFlow();
+      if (flow.mode === 'dream') {
+        /* 逐梦模式:进入六站征程判定 */
+        openDreamJourney();
+      } else {
+        console.log('[GOLDEN ROAD] 阵容:', flow.locked.map(function (p) { return p.name; }).join(' / '));
+        openBossFlow();
+      }
     }
   });
 
@@ -553,6 +661,23 @@
   rerollTeamBtn.addEventListener('click', rerollSameTeam);
   summonExit.addEventListener('click', closeFlow);
 
+  /* 逐梦弹层事件 */
+  dreamGrid.addEventListener('click', function (e) {
+    var card = e.target.closest ? e.target.closest('.dream-card') : null;
+    if (card) pickDreamHero(card.getAttribute('data-name'));
+  });
+
+  dreamReroll.addEventListener('click', function () {
+    renderDreamGrid();
+    showToast('已换一批候选');
+  });
+
+  dreamExit.addEventListener('click', function () {
+    dreamOverlay.classList.remove('open');
+    dreamOverlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  });
+
   /* ---------- 5. 九层 Boss 连战 ---------- */
   var bossOverlay = document.getElementById('boss-overlay');
   var bossBody = document.getElementById('boss-body');
@@ -564,7 +689,8 @@
     clears: 0,       // 已击破层数
     marks: 0,        // 道路刻印（延续打法次数）
     result: null,    // 本层战果 {win, myScore, bossScore}
-    history: []      // 每层战果 [{floor, title, team, event, win, myScore, bossScore}]
+    history: [],     // 每层战果 [{floor, title, team, event, win, myScore, bossScore}]
+    reviveQuiz: null // 复活试炼题目 {label, correct, options}
   };
 
   function sumScore(team) {
@@ -803,16 +929,21 @@
   /* ---------- 结局：失败 / 成神 ---------- */
   function renderBossDefeat() {
     var r = bossState.result;
+    var isDream = flow.mode === 'dream';
+    var retryBtn = isDream
+      ? '<button class="summon-cta" type="button" data-action="dream-retry" style="margin-top:12px;">保留主角 · 重新挑选四名队友</button>'
+      : '';
     bossBody.innerHTML =
-      '<p class="boss-eyebrow" style="text-align:center;">JOURNEY ENDS</p>' +
+      '<p class="boss-eyebrow" style="text-align:center;">' + (isDream ? 'DREAM BROKEN' : 'JOURNEY ENDS') + '</p>' +
       '<div class="score-reveal" style="margin-top:26px;">' +
         '<div class="score-big lose">' + r.myScore + ':' + r.bossScore + '</div>' +
-        '<div class="score-verdict" style="color:var(--text-gray);">第' + bossState.floor + '层 • 征程中断</div>' +
+        '<div class="score-verdict" style="color:var(--text-gray);">第' + bossState.floor + '层 • ' + (isDream ? '冲击失败' : '征程中断') + '</div>' +
       '</div>' +
-      '<p class="fight-flavor">王座仍立，本局就此结束。重整阵容，再来一次成神之旅。</p>' +
+      '<p class="fight-flavor">' + (isDream ? '冠军仍远，主角的梦还没有结束。保留他，换一批队友，再度发起挑战。' : '王座仍立，本局就此结束。重整阵容，再来一次成神之旅。') + '</p>' +
       journeyHistoryHtml() +
-      '<button class="summon-cta" type="button" data-action="exit">退出本局</button>' +
-      '<p class="boss-note">九层王座等你再战</p>';
+      retryBtn +
+      '<button class="summon-cta" type="button" data-action="exit" style="margin-top:12px;">退出本局</button>' +
+      '<p class="boss-note">' + (isDream ? '未竟的冠军梦，等你续写' : '九层王座等你再战') + '</p>';
   }
 
   function renderBossVictory() {
@@ -832,11 +963,273 @@
       '<p class="boss-note">金光大道 • 未完待续</p>';
   }
 
+  /* ---------- 复活试炼：数据问答 ---------- */
+  function makeReviveQuiz() {
+    /* 按赛事分组收集全部选手 */
+    var byEvent = {};
+    TEAM_POOL.forEach(function (t) {
+      var label = t.event || t.year;
+      byEvent[label] = byEvent[label] || [];
+      t.players.forEach(function (p) {
+        byEvent[label].push({ name: p.name, team: t.team, score: p.score });
+      });
+    });
+    var labels = Object.keys(byEvent).filter(function (l) { return byEvent[l].length >= 4; });
+    if (!labels.length) return null;
+    var label = labels[Math.floor(Math.random() * labels.length)];
+    var pool = byEvent[label].slice().sort(function (a, b) { return b.score - a.score; });
+    /* 正确答案:分数最高者(保证唯一) */
+    var correct = pool[0];
+    var options = [correct];
+    var rest = pool.slice(1);
+    shuffle(rest);
+    for (var i = 0; i < rest.length && options.length < 4; i++) {
+      var dup = options.some(function (o) { return o.score === rest[i].score; });
+      if (!dup) options.push(rest[i]);
+    }
+    if (options.length < 4) return null;
+    shuffle(options);
+    return { label: label, correct: correct, options: options };
+  }
+
+  function renderReviveQuiz() {
+    var q = bossState.reviveQuiz;
+    if (!q) {
+      bossState.lifeUsed = true;
+      renderBossDefeat();
+      return;
+    }
+    bossBody.innerHTML =
+      '<p class="boss-eyebrow" style="text-align:center;">REVIVE TRIAL</p>' +
+      '<h3 class="boss-title" style="text-align:center;">复活试炼 • 数据问答</h3>' +
+      '<p class="boss-sub" style="text-align:center;">答对即可触发地狱归来；答错第二条命作废</p>' +
+      '<div class="boss-panel" style="margin-top:20px;">' +
+        '<p style="text-align:center;font-size:15px;letter-spacing:1px;">在一次「' + q.label + '」比赛中,以下四位选手谁的数据更好?</p>' +
+      '</div>' +
+      '<ul class="picker-list">' + q.options.map(function (o, i) {
+        return '<li style="--i:' + i + '">' +
+          '<button class="picker-item" type="button" data-action="revive-answer" data-name="' + o.name + '">' +
+            '<span class="picker-name">' + o.name + '</span>' +
+            '<span class="mini-from">' + o.team + '</span>' +
+          '</button></li>';
+      }).join('') + '</ul>' +
+      '<p class="boss-note">分数不会展示 • 凭你对选手的了解作答</p>' +
+      exitBtnHtml();
+  }
+
+  function renderReviveFail() {
+    var q = bossState.reviveQuiz;
+    var correct = q.correct;
+    var r = bossState.result;
+    bossBody.innerHTML =
+      '<p class="boss-eyebrow" style="text-align:center;">REVIVE FAILED</p>' +
+      '<h3 class="boss-title" style="text-align:center;">回答错误 • 第二条命失效</h3>' +
+      '<p class="boss-sub" style="text-align:center;">正确答案是 <strong style="color:var(--brand);">' + correct.name + ' (' + correct.team + ')</strong></p>' +
+      '<div class="score-reveal" style="margin-top:20px;">' +
+        '<div class="score-big lose">' + r.myScore + ':' + r.bossScore + '</div>' +
+        '<div class="score-verdict lose">王座未破</div>' +
+      '</div>' +
+      '<button class="summon-cta" type="button" data-action="give-up">本局结束</button>' +
+      '<p class="boss-note">第二条命已用，征程止步于此</p>';
+  }
+
+  /* ---------- 逐梦征程:六站判定 ---------- */
+  var dreamJourney = []; // [{event, champTeam, champScore, win}]
+
+  function dreamMembers() {
+    return flow.hero ? [flow.hero].concat(flow.locked) : flow.locked;
+  }
+
+  /* 六站:前四站固定,后两站随机一个大师赛 + 一个全球冠军赛 */
+  function buildDreamJourney() {
+    var fixed = ['2026启点赛', '圣地亚哥大师赛', '2026第一赛段', '伦敦大师赛'];
+    var stages = fixed.map(function (ev) {
+      return CHAMPION_TEAMS.filter(function (t) { return t.event === ev; })[0] || null;
+    });
+    var masters = CHAMPION_TEAMS.filter(function (t) {
+      return /大师赛/.test(t.event) && fixed.indexOf(t.event) === -1;
+    });
+    var worlds = CHAMPION_TEAMS.filter(function (t) {
+      return /全球冠军赛/.test(t.event) && t.year !== '2026';
+    });
+    if (masters.length) stages.push(randPick(masters));
+    if (worlds.length) stages.push(randPick(worlds));
+
+    var myTotal = sumScore(dreamMembers());
+    return stages.map(function (t) {
+      var cs = t ? sumScore(t.players) : 0;
+      return {
+        event: t ? t.event : '未知赛事',
+        champTeam: t ? t.team : '-',
+        champScore: cs,
+        win: t ? myTotal > cs : false
+      };
+    });
+  }
+
+  function dreamStageRows(withProbe) {
+    var myTotal = sumScore(dreamMembers());
+    return dreamJourney.map(function (s, i) {
+      var probe = withProbe
+        ? '<span class="ds-probe"><span class="ds-dot"></span>激战中…</span>'
+        : '';
+      return '<li class="dream-stage' + (withProbe ? ' pending' : (s.win ? ' win' : ' lose')) + '" style="--i:' + i + '">' +
+        '<span class="ds-num">' + (i + 1) + '</span>' +
+        '<span class="ds-info">' +
+          '<span class="ds-event">' + s.event + '</span>' +
+          '<span class="ds-champ">冠军 ' + s.champTeam + ' · ' + s.champScore + ' 分</span>' +
+        '</span>' +
+        '<span class="ds-score">' + myTotal + ' : ' + s.champScore + '</span>' +
+        '<span class="ds-tag">' + (s.win ? '夺冠' : '未夺冠') + '</span>' +
+        probe +
+      '</li>';
+    }).join('');
+  }
+
+  var dreamTimer = null;
+
+  /* 逐站揭晓:每站判定 3 秒后显示结果,全部揭晓后自动进入结局 */
+  function revealDreamStages() {
+    var items = bossBody.querySelectorAll('.dream-stage.pending');
+    var i = 0;
+    function next() {
+      if (i >= items.length) {
+        /* 全部揭晓:直接进入对应结局(夺冠→圆梦,未夺冠→梦还没有结束) */
+        if (dreamJourney.length) {
+          if (dreamJourney[dreamJourney.length - 1].win) {
+            renderDreamSuccess();
+          } else {
+            renderDreamFail();
+          }
+        }
+        dreamTimer = null;
+        return;
+      }
+      dreamTimer = window.setTimeout(function () {
+        var el = items[i];
+        el.classList.remove('pending');
+        el.classList.add(dreamJourney[i] && dreamJourney[i].win ? 'win' : 'lose');
+        el.classList.add('revealed');
+        i++;
+        next();
+      }, 3000);
+    }
+    next();
+  }
+
+  function openDreamJourney() {
+    dreamJourney = buildDreamJourney();
+    renderDreamJourney();
+    bossOverlay.classList.add('open');
+    bossOverlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function renderDreamJourney() {
+    var hero = flow.hero;
+    var myTotal = sumScore(dreamMembers());
+    bossBody.innerHTML =
+      '<p class="boss-eyebrow" style="text-align:center;">THE GOLDEN ROAD</p>' +
+      '<h3 class="boss-title" style="text-align:center;">征程开始</h3>' +
+      '<p class="boss-sub" style="text-align:center;">圆梦模式 · 四位队友已经就位，陪 ' + hero.name + ' 再走一次六站征程</p>' +
+      '<div class="boss-panel" style="margin-top:20px;">' +
+        '<div class="boss-panel-head"><h4>阵容总分 ' + myTotal + '</h4><span class="panel-tag">主角 ' + hero.name + ' · ' + hero.score + ' 分</span></div>' +
+        miniListHtml(dreamMembers(), false) +
+      '</div>' +
+      '<ul class="dream-stage-list">' + dreamStageRows(true) + '</ul>' +
+      exitBtnHtml();
+    revealDreamStages();
+  }
+
+  /* 战报五卡:仅主角头顶标注「夙愿」,其余四人不标位置 */
+  function reportHeroesHtml() {
+    var members = dreamMembers();
+    var heroName = flow.hero ? flow.hero.name : '';
+    return '<div class="report-heroes">' + members.map(function (p, i) {
+      var isLeader = i === 0 && p.name === heroName;
+      var role = isLeader
+        ? '<span class="hc-role role-lead">夙愿</span>'
+        : '<span class="hc-role hc-role-empty"></span>';
+      return '<div class="hero-card' + (isLeader ? ' leader' : '') + '">' +
+        role +
+        '<span class="hc-name">' + p.name + '</span>' +
+        '<span class="hc-from">' + p.team + ' · ' + (p.event || p.year) + '</span>' +
+        '<span class="hc-score">' + p.score + '</span>' +
+      '</div>';
+    }).join('') + '</div>';
+  }
+
+  function renderDreamSuccess() {
+    var hero = flow.hero;
+    var myTotal = sumScore(dreamMembers());
+    var last = dreamJourney[dreamJourney.length - 1];
+    var wins = dreamJourney.filter(function (s) { return s.win; }).length;
+    bossBody.innerHTML =
+      '<p class="boss-eyebrow" style="text-align:center;">CROWN COMPLETE</p>' +
+      '<h3 class="dream-fail-title">今朝圆梦</h3>' +
+      '<p class="dream-fail-sub">THE DREAM FULFILLED</p>' +
+      '<div class="score-reveal" style="margin-top:16px;">' +
+        '<div class="score-big">' + myTotal + ':' + last.champScore + '</div>' +
+        '<div class="score-verdict">' + last.event + ' • 夺冠</div>' +
+      '</div>' +
+      reportHeroesHtml() +
+      '<p class="report-announce"><b>' + hero.name + '，今朝圆梦加冕！</b><br>最后一冠，由你亲手为他补上。</p>' +
+      '<p class="dream-fail-sub">第' + (flow.dreamAttempts || 1) + '次冲冠 · 六站 ' + wins + ' 冠 ' + (dreamJourney.length - wins) + ' 负</p>' +
+      '<div class="fail-actions">' +
+        '<button class="summon-cta gold" type="button" data-action="dream-again">再来一次</button>' +
+        '<button class="summon-cta" type="button" data-action="exit">切换模式 · 返回主页</button>' +
+      '</div>' +
+      '<p class="boss-note">逐梦之路，圆满收官</p>';
+  }
+
+  function renderDreamFail() {
+    var hero = flow.hero;
+    var myTotal = sumScore(dreamMembers());
+    var last = dreamJourney[dreamJourney.length - 1];
+    var attempts = flow.dreamAttempts || 1;
+    bossBody.innerHTML =
+      '<div class="crown-badge">♛</div>' +
+      '<p class="boss-eyebrow" style="text-align:center;margin-top:14px;">DREAM CONTINUES</p>' +
+      '<h3 class="dream-fail-title">梦想仍未落幕</h3>' +
+      '<p class="dream-fail-sub">' + hero.name + ' • 第' + attempts + '次冲冠</p>' +
+      '<div class="score-reveal" style="margin-top:16px;">' +
+        '<div class="score-big lose">' + myTotal + ':' + last.champScore + '</div>' +
+        '<div class="score-verdict lose">' + last.event + ' • 未夺冠</div>' +
+      '</div>' +
+      '<p class="fight-flavor">这套阵容未能助 ' + hero.name + ' 捧起全球总决赛奖杯。主角将继续留队，你可为他重新征召四名队友。</p>' +
+      '<div class="fail-actions">' +
+        '<button class="summon-cta gold" type="button" data-action="dream-retry">携他再战 · 重选四名队友</button>' +
+        '<button class="summon-cta" type="button" data-action="dream-report">接受结局，生成战报</button>' +
+      '</div>' +
+      exitBtnHtml() +
+      '<p class="boss-note">失败只是中场，不是终场</p>';
+  }
+
+  function renderDreamReport() {
+    var hero = flow.hero;
+    var wins = dreamJourney.filter(function (s) { return s.win; }).length;
+    bossBody.innerHTML =
+      '<p class="boss-eyebrow" style="text-align:center;">MATCH REPORT</p>' +
+      '<h3 class="dream-fail-title">' + hero.name + '，桂冠依旧缺席。</h3>' +
+      reportHeroesHtml() +
+      '<p class="report-announce">队伍止步于终点之前，逐梦之路远未落幕。</p>' +
+      '<p class="dream-fail-sub">第 ' + (flow.dreamAttempts || 1) + ' 次冲冠・六战 ' + wins + ' 冠 ' + (dreamJourney.length - wins) + ' 负</p>' +
+      '<div class="fail-actions">' +
+        '<button class="summon-cta gold" type="button" data-action="dream-again">再度出征</button>' +
+        '<button class="summon-cta" type="button" data-action="exit">切换模式・返回主页</button>' +
+      '</div>' +
+      '<p class="boss-note">咫尺望冠，终待荣光</p>';
+  }
+
   /* ---------- 事件 ---------- */
   function openBossFlow() {
     bossState.floor = 1;
     buildBosses(); // 每次开局重新随机抽取 9 位 Boss
-    bossState.myTeam = flow.locked.map(function (p) {
+    /* 逐梦模式:主角 + 四位队友;成神试炼:五位选手 */
+    var members = (flow.mode === 'dream' && flow.hero)
+      ? [flow.hero].concat(flow.locked)
+      : flow.locked;
+    bossState.myTeam = members.map(function (p) {
       return { name: p.name, score: p.score, team: p.team, year: p.year, event: p.event, rank: p.rank };
     });
     bossState.lifeUsed = false;
@@ -844,6 +1237,7 @@
     bossState.marks = 0;
     bossState.result = null;
     bossState.history = [];
+    bossState.reviveQuiz = null;
     renderBossFloor();
     bossOverlay.classList.add('open');
     bossOverlay.setAttribute('aria-hidden', 'false');
@@ -851,6 +1245,7 @@
   }
 
   function closeBossFlow() {
+    if (dreamTimer) { window.clearTimeout(dreamTimer); dreamTimer = null; }
     bossOverlay.classList.remove('open');
     bossOverlay.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
@@ -978,16 +1373,67 @@
         advanceFloor();
         break;
 
-      case 'second-life':
-        bossState.lifeUsed = true;
-        /* 地狱归来：全队每人分数 +3 后重战本层 */
-        bossState.myTeam.forEach(function (p) { p.score += 3; });
-        showToast('地狱归来 · 全队分数 +3');
-        startFight();
+      case 'second-life': {
+        /* 复活试炼:先答题,答对才复活 */
+        var quiz = makeReviveQuiz();
+        if (quiz) {
+          bossState.reviveQuiz = quiz;
+          renderReviveQuiz();
+        } else {
+          /* 数据不足时兜底:直接复活 */
+          bossState.lifeUsed = true;
+          bossState.myTeam.forEach(function (p) { p.score += 3; });
+          showToast('地狱归来 · 全队分数 +3');
+          startFight();
+        }
         break;
+      }
+
+      case 'revive-answer': {
+        var quiz2 = bossState.reviveQuiz;
+        if (!quiz2) break;
+        /* 无论对错,第二条命都消耗 */
+        bossState.lifeUsed = true;
+        var picked = quiz2.options.filter(function (o) { return o.name === name; })[0];
+        if (picked && picked.score === quiz2.correct.score) {
+          bossState.myTeam.forEach(function (p) { p.score += 3; });
+          showToast('答题正确!地狱归来 · 全队分数 +3');
+          startFight();
+        } else {
+          showToast('回答错误，第二条命失效');
+          renderReviveFail();
+        }
+        break;
+      }
 
       case 'give-up':
         renderBossDefeat();
+        break;
+
+      case 'dream-retry':
+        /* 逐梦模式:保留主角,重新挑选四名队友 */
+        closeBossFlow();
+        flow.dreamAttempts = (flow.dreamAttempts || 1) + 1;
+        showToast('主角不变,重新挑选四名队友');
+        openFlow('dream');
+        break;
+
+      case 'dream-result':
+        if (dreamJourney.length && dreamJourney[dreamJourney.length - 1].win) {
+          renderDreamSuccess();
+        } else {
+          renderDreamFail();
+        }
+        break;
+
+      case 'dream-report':
+        renderDreamReport();
+        break;
+
+      case 'dream-again':
+        /* 战报页「再来一次」:全新开始,重新选主角 */
+        closeBossFlow();
+        openDreamPick();
         break;
 
       case 'exit':
@@ -999,6 +1445,16 @@
   /* 调试钩子：控制台可读写 Boss 连战状态（正常玩法不依赖） */
   window.__GR_DEBUG__ = {
     bossState: bossState,
+    flow: flow,
+    openFlow: openFlow,
+    dreamJourney: function () { return dreamJourney; },
+    setDreamJourney: function (stages) { dreamJourney = stages; },
+    openDreamJourney: openDreamJourney,
+    renderDreamJourney: renderDreamJourney,
+    renderDreamSuccess: renderDreamSuccess,
+    renderDreamFail: renderDreamFail,
+    renderDreamReport: renderDreamReport,
+    buildDreamJourney: buildDreamJourney,
     bosses: function () { return BOSSES; },
     bossPool: function () { return BOSS_POOL; },
     buildBosses: buildBosses,
